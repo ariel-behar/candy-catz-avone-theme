@@ -1,0 +1,143 @@
+{{ 'nav-mobile.css' | asset_url | stylesheet_tag }}
+{{ 'nav-banners.css' | asset_url | stylesheet_tag }}
+{{ 'nav-banner.css' | asset_url | stylesheet_tag }}
+<script src="{{ 'nav-mobile.js' | asset_url }}" defer="defer"></script>
+
+{%- assign _section  = section.settings -%}
+{%- assign _blocks = section.blocks -%}
+{%- assign mobile_menu = linklists[_section.mobile_menu] -%}
+
+{%- if mobile_menu != blank -%}
+  <div class="nav-mobile js-nav-mobile large-up--hide" role="navigation">
+    <div class="nav-mobile__inner">
+      <ul class="nav-mobile__links">
+        {%- for link in mobile_menu.links -%}
+          <li class="nav-mobile__parent-link{% if forloop.first %} is-active{% endif %} js-parent-link">
+            <a href="{{- link.url -}}">{{- link.title -}}</a>
+
+            {%- if link.levels > 0 -%}
+              <div class="nav-mobile__lvl-2">
+                <ul class="nav-mobile__links-lvl-2">
+                  {%- for child_link in link.links -%}
+                    <li class="nav-mobile__child-link{% if child_link.levels > 0 %} js-child-link{% endif %}">
+                      <a href="{{- child_link.url -}}">
+                        {{- child_link.title -}}
+
+                        {%- if child_link.levels > 0 -%}
+                          <i class="ad ad-angle-right-r" aria-hidden="true"></i>
+                        {%- endif -%}
+                      </a>
+
+                      {%- if child_link.levels > 0 -%}
+                        <div class="nav-mobile__lvl-3">
+                          <h2>
+                            <span class="nav-mobile__back js-back-btn">
+                              <i class="ad ad-angle-left-r" aria-hidden="true"></i>
+                            </span>
+
+                            <span>
+                              {{- child_link.title -}}
+                            </span>
+                          </h2>
+
+                          <ul class="nav-mobile__links-lvl-3">
+                            {%- for grandchild_link in child_link.links -%}
+                              <li class="nav-mobile__grandchild-link">
+                                <a href="{{- grandchild_link.url -}}">{{- grandchild_link.title -}}</a>
+                              </li>
+                            {%- endfor -%}
+                          </ul>
+                        </div>
+                      {%- endif -%}
+                    </li>
+                  {%- endfor -%}
+                </ul>
+
+                {%- if _blocks.size > 0 -%}
+                  {%- assign link_handle = link.title | handleize -%}
+
+                  <div class="nav-mobile__blocks">
+                    <div class="nav-banners">
+                      <div class="nav-banners__inner">
+                        {%- for block in _blocks -%}
+                          {%- assign _block = block.settings -%}
+                          {%- assign target_link_handle = _block.link_handle | handleize -%}
+
+                          {% unless target_link_handle == link_handle %}
+                            {%- continue -%}
+                          {% endunless %}
+                          <{%if _block.url != blank%}a href="{{- _block.url -}}"{% else %}div{% endif %} class="nav-banner">
+                            {%- if _block.image != blank -%}
+                              <div class="nav-banner__image">
+                                <img src="{{- _block.image | img_url: '480x' -}}" alt="{{- _block.image.alt -}}">
+                              </div>
+                            {%- endif -%}
+
+                            {%- if _block.text != blank -%}
+                              <p class="nav-banner__text">
+                                {{- _block.text -}}
+                              </p>
+                            {%- endif -%}
+                          </{%if _block.url != blank%}a{% else %}div{% endif %}>
+                        {%- endfor -%}
+                      </div>
+                    </div>
+                  </div>
+                {%- endif -%}
+              </div>
+            {%- endif -%}
+          </li>
+        {%- endfor -%}
+      </ul>
+    </div>
+  </div>
+
+  <div class="nav-mobile-close js-nav-mobile-close large-up--hide">
+    <span>&#10006;</span>
+  </div>
+{%- endif -%}
+
+
+{% schema %}
+  {
+    "name": "Mobile Navigation",
+    "settings": [
+      {
+        "type": "link_list",
+        "id": "mobile_menu",
+        "label": "Menu",
+        "info": "Mobile"
+      }
+    ],
+    "blocks": [
+      {
+        "type": "banner",
+        "name": "Banner",
+        "settings": [
+          {
+            "type": "text",
+            "id": "link_handle",
+            "label": "Menu link",
+            "info": "Type the exact name of the menu link where you want the banner to appear. Example: 'women'"
+          },
+          {
+            "type": "image_picker",
+            "id": "image",
+            "label": "Image"
+          },
+          {
+            "type": "text",
+            "id": "text",
+            "label": "Text"
+          },
+          {
+            "type": "url",
+            "id": "url",
+            "label": "URL",
+            "info": "Optional"
+          }
+        ]
+      }
+    ]
+  }
+{% endschema %}
