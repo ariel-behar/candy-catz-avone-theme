@@ -1,6 +1,8 @@
 {% capture bsscommerce_login_require_template %}{% include 'bsscommerce_login_require' %}{% endcapture %}{% unless bsscommerce_login_require_template contains "Liquid error" %}{{ bsscommerce_login_require_template }}{% endunless %}<!doctype html>
 <html class="no-js" lang="{{ shop.locale }}" {% if settings.rtl %}dir="rtl"{% endif %}>
-<head>{{ 'tiny.content.min.css' | asset_url | stylesheet_tag }}
+<head>
+	{{ 'tiny.content.min.css' | asset_url | stylesheet_tag }}
+	
 {% include 'kiwiSizing' %}
   {%- capture metaTags -%}
     <meta charset="utf-8">
@@ -26,6 +28,7 @@
   	{% else %}
   		<link rel="preload" as="style" href="{{ 'theme.css' | asset_url }}">
   	{% endif %}
+	{{ 'application.css' | asset_url | stylesheet_tag }}
 
   	<link rel="preload" href="{{ 'jquery.min.js' | asset_url }}" as="script">
   	<link rel="preload" href="{{ 'vendor.min.js' | asset_url }}" as="script">
@@ -90,6 +93,7 @@
 
 
 	{{ shop.metafields.loox["global_html_head"] }}
+	
 <!-- Global site tag (gtag.js) - Google Analytics -->
 
   {% include 'analyzify-gtm-body' %}
