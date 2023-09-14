@@ -2,27 +2,29 @@
 /* Mobile nav menu selector */ #shopify-section-nav-mobile .nav-mobile a[href="/collections/all-halloween"] {
     color: #FF9800;
     font-weight: bold;
+}
+
+/* Main nav menu selector */ 
+#siteNav > li:nth-child(2) > a {
     animation: pulse 2s infinite ease-in-out;
 }
 
-
-
-@keyframes pulse {
-    0% {
-        transform: scale(1);
-    }
-    50% {
-        transform: scale(1.05);
-    }
-    100% {
-        transform: scale(1);
-    }
+/* Mobile nav menu selector */
+#shopify-section-nav-mobile .nav-mobile a[href="/collections/all-halloween"] {
+    animation: pulse2 1.5s infinite ease-in-out;
 }
 
-/* #siteNav > li:nth-child(2) > a:hover {
-    animation-iteration-count:unset;
-    color: #FF9800;
-} */ 
+@keyframes pulse {
+    0% { transform: scale(1); }
+    50% {transform: scale(1.05); }
+    100% { transform: scale(1); }
+}
+
+@keyframes pulse2 {
+    0% { transform: scale(1); }
+    50% {transform: scale(1.02); }
+    100% { transform: scale(1); }
+}
 
 .megamenu1-list-item {
     display: flex;
