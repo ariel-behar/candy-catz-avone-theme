@@ -23,55 +23,127 @@
     <li class="lvl1 parent megamenu{% if block.settings.custom_size %} ctsize{% endif %}" {{ block.shopify_attributes }}>{{linkLevel1}}
       <div class="megamenu"{% if block.settings.custom_size %}style="width:{{block.settings.mm_size}}px;"{% endif %}>
         <div class="megamenu-wrapper style1{% if block.settings.imgcall == "right" %} flex{% endif %}{% if block.settings.custom_size %} {{block.settings.mm_align}}{% else %} mmfull{% endif %}">
-          {%- capture imgColumns -%}
-          {%- capture my_variable -%}{{block.settings.megamenu1_image}} {{block.settings.megamenu2_image}} {{block.settings.megamenu3_image}} {{block.settings.megamenu4_image}}{%- endcapture -%}
-          {%- assign products_array = my_variable | split: ' ' -%}
-          {%- case block.settings.mmimgcolumns -%}
-            {% when 1 %}{%- assign imgcolumns = 'one-whole' -%}
-            {% when 2 %}{%- assign imgcolumns = 'one-half' -%}
-            {% when 3 %}{%- assign imgcolumns = 'one-third' -%}
-            {% when 4 %}{%- assign imgcolumns = 'one-quarter' -%}
-          {%- endcase -%}
-          {%- if products_array.size > 0 -%}
-              {%- if block.settings.megamenu1_image != blank -%}
-                <li class="grid__item {{ imgcolumns }} imageCol text-center">
-                    <a href="{{ block.settings.imageurl }}">
-                      <img class="autoHt lazyload" src="{{'spacer.png' | asset_img_url: 'master' }}" data-src="{{ block.settings.megamenu1_image | img_url: 'master' }}" width="{{ block.settings.megamenu1_image.width }}" height="{{ block.settings.megamenu1_image.height }}" alt="{{block.settings.megamenu1_image.alt}}">
-                      {% if block.settings.imageTtl1 != blank %}<span class="ttl">{{block.settings.imageTtl1}}</span>{% endif %}
-                    </a>
-                </li>
-              {%- endif -%}
-              {%- if block.settings.megamenu2_image != blank -%}
-                <li class="grid__item {{ imgcolumns }} imageCol text-center">
-                    <a href="{{ block.settings.Image2url }}">
-                      <img class="autoHt lazyload" src="{{'spacer.png' | asset_img_url: 'master' }}" data-src="{{ block.settings.megamenu2_image | img_url: 'master' }}" width="{{ block.settings.megamenu2_image.width }}" height="{{ block.settings.megamenu2_image.height }}" alt="{{block.settings.megamenu2_image.alt}}">
-                      {% if block.settings.imageTtl2 != blank %}<span class="ttl">{{block.settings.imageTtl2}}</span>{% endif %}
-                    </a>
-                </li>
-              {%- endif -%}
-              {%- if block.settings.megamenu3_image != blank -%}
-                <li class="grid__item {{ imgcolumns }} imageCol text-center">
-                    <a href="{{ block.settings.Image3url }}">
-                      <img class="autoHt lazyload" src="{{'spacer.png' | asset_img_url: 'master' }}" data-src="{{ block.settings.megamenu3_image | img_url: 'master' }}" width="{{ block.settings.megamenu3_image.width }}" height="{{ block.settings.megamenu3_image.height }}" alt="{{block.settings.megamenu3_image.alt}}">
-                      {% if block.settings.imageTtl3 != blank %}<span class="ttl">{{block.settings.imageTtl3}}</span>{% endif %}
-                    </a>
-                </li>
-              {%- endif -%}
-              {%- if block.settings.megamenu4_image != blank -%}
-                <li class="grid__item {{ imgcolumns }} imageCol text-center">
-                    <a href="{{ block.settings.Image4url }}">
-                      <img class="autoHt lazyload" src="{{'spacer.png' | asset_img_url: 'master' }}" data-src="{{ block.settings.megamenu4_image | img_url: 'master' }}" width="{{ block.settings.megamenu4_image.width }}" height="{{ block.settings.megamenu4_image.height }}" alt="{{block.settings.megamenu4_image.alt}}">
-                      {% if block.settings.imageTtl4 != blank %}<span class="ttl">{{block.settings.imageTtl4}}</span>{% endif %}
-                    </a>
-                </li>
-              {%- endif -%}
-          {%- endif -%}
-        {%- endcapture -%}
+			{%- capture imgColumns -%}
+			{%- capture my_variable -%}{{block.settings.megamenu1_image}} {{block.settings.megamenu2_image}} {{block.settings.megamenu3_image}} {{block.settings.megamenu4_image}}{%- endcapture -%}
+			{%- assign products_array = my_variable | split: ' ' -%}
+			{%- case block.settings.mmimgcolumns -%}
+			  {% when 1 %}{%- assign imgcolumns = 'one-whole' -%}
+			  {% when 2 %}{%- assign imgcolumns = 'one-half' -%}
+			  {% when 3 %}{%- assign imgcolumns = 'one-third' -%}
+			  {% when 4 %}{%- assign imgcolumns = 'one-quarter' -%}
+			{%- endcase -%}
+			{%- if products_array.size > 0 -%}
+				{%- if block.settings.megamenu1_image != blank -%}
+				  <li class="grid__item {{ imgcolumns }} imageCol text-center">
+					  <a href="{{ block.settings.imageurl }}">
+						<img class="autoHt lazyload" src="{{'spacer.png' | asset_img_url: 'master' }}" data-src="{{ block.settings.megamenu1_image | img_url: 'master' }}" width="{{ block.settings.megamenu1_image.width }}" height="{{ block.settings.megamenu1_image.height }}" alt="{{block.settings.megamenu1_image.alt}}">
+						{% if block.settings.imageTtl1 != blank %}<span class="ttl">{{block.settings.imageTtl1}}</span>{% endif %}
+					  </a>
+				  </li>
+				{%- endif -%}
+				{%- if block.settings.megamenu2_image != blank -%}
+				  <li class="grid__item {{ imgcolumns }} imageCol text-center">
+					  <a href="{{ block.settings.Image2url }}">
+						<img class="autoHt lazyload" src="{{'spacer.png' | asset_img_url: 'master' }}" data-src="{{ block.settings.megamenu2_image | img_url: 'master' }}" width="{{ block.settings.megamenu2_image.width }}" height="{{ block.settings.megamenu2_image.height }}" alt="{{block.settings.megamenu2_image.alt}}">
+						{% if block.settings.imageTtl2 != blank %}<span class="ttl">{{block.settings.imageTtl2}}</span>{% endif %}
+					  </a>
+				  </li>
+				{%- endif -%}
+				{%- if block.settings.megamenu3_image != blank -%}
+				  <li class="grid__item {{ imgcolumns }} imageCol text-center">
+					  <a href="{{ block.settings.Image3url }}">
+						<img class="autoHt lazyload" src="{{'spacer.png' | asset_img_url: 'master' }}" data-src="{{ block.settings.megamenu3_image | img_url: 'master' }}" width="{{ block.settings.megamenu3_image.width }}" height="{{ block.settings.megamenu3_image.height }}" alt="{{block.settings.megamenu3_image.alt}}">
+						{% if block.settings.imageTtl3 != blank %}<span class="ttl">{{block.settings.imageTtl3}}</span>{% endif %}
+					  </a>
+				  </li>
+				{%- endif -%}
+				{%- if block.settings.megamenu4_image != blank -%}
+				  <li class="grid__item {{ imgcolumns }} imageCol text-center">
+					  <a href="{{ block.settings.Image4url }}">
+						<img class="autoHt lazyload" src="{{'spacer.png' | asset_img_url: 'master' }}" data-src="{{ block.settings.megamenu4_image | img_url: 'master' }}" width="{{ block.settings.megamenu4_image.width }}" height="{{ block.settings.megamenu4_image.height }}" alt="{{block.settings.megamenu4_image.alt}}">
+						{% if block.settings.imageTtl4 != blank %}<span class="ttl">{{block.settings.imageTtl4}}</span>{% endif %}
+					  </a>
+				  </li>
+				{%- endif -%}
+			{%- endif -%}
+		  {%- endcapture -%}
         {% if block.settings.megamenu1_image != blank or block.settings.megamenu2_image != blank or block.settings.megamenu3_image != blank or block.settings.megamenu4_image != blank %}
-        <ul class="grid{% if block.settings.imgcall == "right" %} flex-item{%- endif -%}">{% for link in linklists[block.settings.mm_linklist].links %}{% include 'mm-links' %}{% endfor %}</ul>
-          <ul class="grid" {% if block.settings.imgcall == "right" %}style="width:{{block.settings.columnWidth}}%;margin-left:15px;"{%- endif -%}>{{imgColumns}}</ul>
+			<ul class="grid{% if block.settings.imgcall == "right" %} flex-item{%- endif -%}">
+				{% for link in linklists[block.settings.mm_linklist].links %}
+					{%- case block.settings.mmcolumns -%}
+					{% when 1 %}{%- assign column = 'large-up--one-whole' -%}
+					{% when 2 %}{%- assign column = 'large-up--one-half' -%}
+					{% when 3 %}{%- assign column = 'large-up--one-third' -%}
+					{% when 4 %}{%- assign column = 'large-up--one-quarter' -%}
+					{% when 5 %}{%- assign column = 'large-up--one-fifth' -%}
+					{% when 6 %}{%- assign column = 'large-up--one-sixth' -%}
+					{%- endcase -%}
+					<li class="megamenu1-list-item grid__item lvl-1 {{ column }}{% if link.active or link.child_active %} active{% endif %}">
+					  {%- assign label1 = link.title |  split: '[label' | last | split: ']' | first | prepend: "nm_label" -%}
+						{%- if block.settings.megamenu1_image != blank and forloop.index == 1 -%}
+							<div class="megamenu1-image-container">
+								<a href="{{ block.settings.imageurl }}">
+									<img class="lazyload" src="{{'spacer.png' | asset_img_url: 'master' }}" data-src="{{ block.settings.megamenu1_image | img_url: 'master' }}" width="{{ block.settings.megamenu1_image.width }}" height="{{ block.settings.megamenu1_image.height }}" alt="{{block.settings.megamenu1_image.alt}}">
+									{% if block.settings.imageTtl1 != blank %}<span class="ttl">{{block.settings.imageTtl1}}</span>{% endif %}
+								</a>
+							</div>
+						{%- endif -%}
+						{%- if block.settings.megamenu2_image != blank and forloop.index == 2 -%}
+							<div class="megamenu1-image-container">
+								<a href="{{ block.settings.Image2url }}">
+									<img class="halloween-mm_image lazyload" src="{{'spacer.png' | asset_img_url: 'master' }}" data-src="{{ block.settings.megamenu2_image | img_url: 'master' }}" width="{{ block.settings.megamenu2_image.width }}" height="{{ block.settings.megamenu2_image.height }}" alt="{{block.settings.megamenu2_image.alt}}">
+									{% if block.settings.imageTtl2 != blank %}<span class="ttl">{{block.settings.imageTtl2}}</span>{% endif %}
+								</a>
+							</div>
+						{%- endif -%}
+						{%- if block.settings.megamenu3_image != blank and forloop.index == 3-%}
+							<div class="megamenu1-image-container">
+								<a href="{{ block.settings.Image3url }}">
+									<img class="halloween-mm_image lazyload" src="{{'spacer.png' | asset_img_url: 'master' }}" data-src="{{ block.settings.megamenu3_image | img_url: 'master' }}" width="{{ block.settings.megamenu3_image.width }}" height="{{ block.settings.megamenu3_image.height }}" alt="{{block.settings.megamenu3_image.alt}}">
+									{% if block.settings.imageTtl3 != blank %}<span class="ttl">{{block.settings.imageTtl3}}</span>{% endif %}
+								</a>
+							</div>
+						{%- endif -%}
+						{%- if block.settings.megamenu4_image != blank and forloop.index == 4 -%}
+							<div class="megamenu1-image-container">
+								<a href="{{ block.settings.Image4url }}">
+									<img class="halloween-mm_image lazyload" src="{{'spacer.png' | asset_img_url: 'master' }}" data-src="{{ block.settings.megamenu4_image | img_url: 'master' }}" width="{{ block.settings.megamenu4_image.width }}" height="{{ block.settings.megamenu4_image.height }}" alt="{{block.settings.megamenu4_image.alt}}">
+									{% if block.settings.imageTtl4 != blank %}<span class="ttl">{{block.settings.imageTtl4}}</span>{% endif %}
+								</a>
+							</div>
+					{%- endif -%}
+					
+					<div>
+						<a href="{{ link.url }}" class="site-nav lvl-1">{{ link.title | split: '[label' | first }}{% if link.title contains '[label' %}<span class="lbl {{label1}}">{{ section.settings[label1] }}</span>{% endif %}</a>
+						{%- if link.links != blank -%}
+						<ul class="subLinks">
+							{%- for childlink in link.links -%}
+							<li class="lvl-2{% if childlink.active or childlink.child_active %} active{% endif %}">
+							{%- assign label2 = childlink.title |  split: '[label' | last  | split: ']' | first | prepend: "nm_label" -%}
+							<a href="{{ childlink.url }}" class="site-nav lvl-2">{{ childlink.title | split: '[label' | first }}{% if childlink.title contains '[label' %}<span class="lbl {{label2}}">{{ section.settings[label2] }}</span>{% endif %}</a>
+							{%- if childlink.links != blank -%}
+							<ul class="subLinks">
+								{%- for lvl3link in childlink.links -%}
+								<li class="lvl-3 {% if lvl3link.active %}active{% endif %}">
+								{%- assign label3 = lvl3link.title |  split: '[label' | last  | split: ']' | first | prepend: "nm_label" -%}
+								<a href="{{ lvl3link.url }}" class="site-nav lvl-3">{{ lvl3link.title | split: '[label' | first }}{% if lvl3link.title contains '[label' %}<span class="lbl {{label3}}">{{ section.settings[label3] }}</span>{% endif %}</a>
+								</li>
+								{%- endfor -%}
+							</ul>
+							{%- endif -%}
+							</li>
+							{%- endfor -%}
+						</ul>
+					</div>
+					{%- endif -%}
+					</li>
+				{% endfor %}
+			</ul>
+			
+
+			{% comment %} <ul class="grid" {% if block.settings.imgcall == "right" %}style="width:{{block.settings.columnWidth}}%;margin-left:15px;"{%- endif -%}>{{imgColumns}}</ul> {% endcomment %}
         {%- else -%}
-        <ul class="grid flex-item mmWrapper">{% for link in linklists[block.settings.mm_linklist].links %}{% include 'mm-links' %}{% endfor %}</ul>
+        	<ul class="grid flex-item mmWrapper">{% for link in linklists[block.settings.mm_linklist].links %}{% include 'mm-links' %}{% endfor %}</ul>
         {%- endif -%}
         </div>
       </div>
