@@ -2754,48 +2754,18 @@
       "nav-mobile": {
         "type": "nav-mobile",
         "blocks": {
-          "85036600-3c7c-423a-9780-dc22536f5b1e": {
+          "74cb68fe-f1f3-4e1d-9fb3-b130a373ae9b": {
             "type": "banner",
             "settings": {
-              "link_handle": "",
-              "image": "shopify:\/\/shop_images\/7_11e90b16-e6cd-4d9e-962c-6573d5ed8a11.png",
-              "text": "Lorem ipsum",
-              "url": "#"
-            }
-          },
-          "98856d7e-5550-4fae-828d-52bb625ecb63": {
-            "type": "banner",
-            "settings": {
-              "link_handle": "",
-              "image": "shopify:\/\/shop_images\/Best_women_s.png",
-              "text": "Lorem ipsum",
-              "url": ""
-            }
-          },
-          "7e4d1db5-5abc-4947-8362-d4fe189a0b39": {
-            "type": "banner",
-            "settings": {
-              "link_handle": "men",
-              "image": "shopify:\/\/shop_images\/Best_men_s.png",
-              "text": "Best men's",
-              "url": "#"
-            }
-          },
-          "028d33ab-502c-4944-9fa8-8f6c6aad592c": {
-            "type": "banner",
-            "settings": {
-              "link_handle": "",
-              "image": "shopify:\/\/shop_images\/il_fullxfull.4959477373_rlz2.jpg",
-              "text": "Lorem123",
+              "link_handle": "halloween",
+              "image": "shopify:\/\/shop_images\/il_fullxfull.4203131372_odwj_624e69ee-d41f-4c19-8ffe-5ffbb86bb078.jpg",
+              "text": "",
               "url": ""
             }
           }
         },
         "block_order": [
-          "85036600-3c7c-423a-9780-dc22536f5b1e",
-          "98856d7e-5550-4fae-828d-52bb625ecb63",
-          "7e4d1db5-5abc-4947-8362-d4fe189a0b39",
-          "028d33ab-502c-4944-9fa8-8f6c6aad592c"
+          "74cb68fe-f1f3-4e1d-9fb3-b130a373ae9b"
         ],
         "settings": {
           "mobile_menu": "halloween-mobile-nav"
