@@ -21,6 +21,13 @@
                   {%- for child_link in link.links -%}
                     <li class="nav-mobile__child-link{% if child_link.levels > 0 %} js-child-link{% endif %}">
                       <a href="{{- child_link.url -}}">
+                        {% if _blocks.size > 0 %}
+                          {{ _blocks }}
+                          {% comment %} {%- for block in _blocks -%}
+                            
+                          {%endfor%} {% endcomment %}
+                        {% endif %}
+
                         {{- child_link.title -}}
 
                         {%- if child_link.levels > 0 -%}
@@ -52,7 +59,7 @@
                     </li>
                   {%- endfor -%}
                 </ul>
-
+{% comment %} 
                 {%- if _blocks.size > 0 -%}
                   {%- assign link_handle = link.title | handleize -%}
 
@@ -83,7 +90,7 @@
                       </div>
                     </div>
                   </div>
-                {%- endif -%}
+                {%- endif -%} {% endcomment %}
               </div>
             {%- endif -%}
           </li>
@@ -112,23 +119,20 @@
     "blocks": [
       {
         "type": "banner",
-        "name": "Banner",
+        "name": "Halloween Banner",
+        "limit": 1,
         "settings": [
           {
             "type": "text",
             "id": "link_handle",
             "label": "Menu link",
-            "info": "Type the exact name of the menu link where you want the banner to appear. Example: 'women'"
+            "default": "halloween",
+            "info": "Type the exact name of the menu link where you want the banner to appear instead of a link. Example: 'women'"
           },
           {
             "type": "image_picker",
             "id": "image",
             "label": "Image"
-          },
-          {
-            "type": "text",
-            "id": "text",
-            "label": "Text"
           },
           {
             "type": "url",
