@@ -1,9 +1,9 @@
-{{ 'nav-mobile.css' | asset_url | stylesheet_tag }}
-{{ 'nav-banners.css' | asset_url | stylesheet_tag }}
-{{ 'nav-banner.css' | asset_url | stylesheet_tag }}
-<script src="{{ 'nav-mobile.js' | asset_url }}" defer="defer"></script>
+{{ "nav-mobile.css" | asset_url | stylesheet_tag }}
+{{ "nav-banners.css" | asset_url | stylesheet_tag }}
+{{ "nav-banner.css" | asset_url | stylesheet_tag }}
+<script defer="defer" src="{{ 'nav-mobile.js' | asset_url }}"></script>
 
-{%- assign _section  = section.settings -%}
+{%- assign _section = section.settings -%}
 {%- assign _blocks = section.blocks -%}
 {%- assign mobile_menu = linklists[_section.mobile_menu] -%}
 
@@ -18,20 +18,31 @@
             {%- if link.levels > 0 -%}
               <div class="nav-mobile__lvl-2">
                 <ul class="nav-mobile__links-lvl-2">
+
                   {%- for child_link in link.links -%}
                     <li class="nav-mobile__child-link{% if child_link.levels > 0 %} js-child-link{% endif %}">
                       <a href="{{- child_link.url -}}">
+                        {% assign has_banner = false %}
+
                         {% if _blocks.size > 0 %}
-                          {{ _blocks }}
-                          {% comment %} {%- for block in _blocks -%}
-                            
-                          {%endfor%} {% endcomment %}
+                          {%- for block in _blocks -%}
+                            {% assign block_link_handle = block.settings.link_handle | upcase %}
+                            {% assign child_link_title = child_link.title | upcase %}
+
+                            {% if block_link_handle == child_link_title %}
+                              <img alt="{{- block.image.alt -}}" src="{{- block.settings.image | img_url: '480x' -}}">
+                              {% assign has_banner = true %}
+                            {% endif %}
+                          {% endfor %}
                         {% endif %}
 
-                        {{- child_link.title -}}
+                        {% unless has_banner %}
+                          {{- child_link.title -}}
+                        {% endunless %}
+
 
                         {%- if child_link.levels > 0 -%}
-                          <i class="ad ad-angle-right-r" aria-hidden="true"></i>
+                          <i aria-hidden="true" class="ad ad-angle-right-r"></i>
                         {%- endif -%}
                       </a>
 
@@ -39,7 +50,7 @@
                         <div class="nav-mobile__lvl-3">
                           <h2>
                             <span class="nav-mobile__back js-back-btn">
-                              <i class="ad ad-angle-left-r" aria-hidden="true"></i>
+                              <i aria-hidden="true" class="ad ad-angle-left-r"></i>
                             </span>
 
                             <span>
@@ -59,37 +70,38 @@
                     </li>
                   {%- endfor -%}
                 </ul>
-{% comment %} 
+
+                {% comment %} 
                 {%- if _blocks.size > 0 -%}
-                  {%- assign link_handle = link.title | handleize -%}
+                {%- assign link_handle = link.title | handleize -%}
 
-                  <div class="nav-mobile__blocks">
-                    <div class="nav-banners">
-                      <div class="nav-banners__inner">
-                        {%- for block in _blocks -%}
-                          {%- assign _block = block.settings -%}
-                          {%- assign target_link_handle = _block.link_handle | handleize -%}
+                <div class="nav-mobile__blocks">
+                <div class="nav-banners">
+                <div class="nav-banners__inner">
+                {%- for block in _blocks -%}
+                {%- assign _block = block.settings -%}
+                {%- assign target_link_handle = _block.link_handle | handleize -%}
 
-                          {% unless target_link_handle == link_handle %}
-                            {%- continue -%}
-                          {% endunless %}
-                          <{%if _block.url != blank%}a href="{{- _block.url -}}"{% else %}div{% endif %} class="nav-banner">
-                            {%- if _block.image != blank -%}
-                              <div class="nav-banner__image">
-                                <img src="{{- _block.image | img_url: '480x' -}}" alt="{{- _block.image.alt -}}">
-                              </div>
-                            {%- endif -%}
+                {% unless target_link_handle == link_handle %}
+                {%- continue -%}
+                {% endunless %}
+                <{%if _block.url != blank%}a href="{{- _block.url -}}"{% else %}div{% endif %} class="nav-banner">
+                {%- if _block.image != blank -%}
+                <div class="nav-banner__image">
+                <img src="{{- _block.image | img_url: '480x' -}}" alt="{{- _block.image.alt -}}">
+                </div>
+                {%- endif -%}
 
-                            {%- if _block.text != blank -%}
-                              <p class="nav-banner__text">
-                                {{- _block.text -}}
-                              </p>
-                            {%- endif -%}
-                          </{%if _block.url != blank%}a{% else %}div{% endif %}>
-                        {%- endfor -%}
-                      </div>
-                    </div>
-                  </div>
+                {%- if _block.text != blank -%}
+                <p class="nav-banner__text">
+                {{- _block.text -}}
+                </p>
+                {%- endif -%}
+                </{%if _block.url != blank%}a{% else %}div{% endif %}>
+                {%- endfor -%}
+                </div>
+                </div>
+                </div>
                 {%- endif -%} {% endcomment %}
               </div>
             {%- endif -%}
@@ -120,7 +132,6 @@
       {
         "type": "banner",
         "name": "Halloween Banner",
-        "limit": 1,
         "settings": [
           {
             "type": "text",
@@ -128,13 +139,11 @@
             "label": "Menu link",
             "default": "halloween",
             "info": "Type the exact name of the menu link where you want the banner to appear instead of a link. Example: 'women'"
-          },
-          {
+          }, {
             "type": "image_picker",
             "id": "image",
             "label": "Image"
-          },
-          {
+          }, {
             "type": "url",
             "id": "url",
             "label": "URL",
