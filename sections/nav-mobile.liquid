@@ -19,6 +19,12 @@
               <div class="nav-mobile__lvl-2">
                 <ul class="nav-mobile__links-lvl-2">
 
+                  {% for block in _blocks %}
+                    {% if block.settings.banner-postion-level == 'top' %}
+                      <img alt="{{- block.image.alt -}}" src="{{- block.settings.image | img_url: '480x' -}}">
+                    {% endif %}
+                  {% endfor %}
+
                   {%- for child_link in link.links -%}
                     <li class="nav-mobile__child-link{% if child_link.levels > 0 %} js-child-link{% endif %}">
                       <a href="{{- child_link.url -}}">
@@ -49,13 +55,14 @@
 
                                   {% if _blocks.size > 0 %}
                                     {%- for block in _blocks -%}
+                                      {% if block.settings.banner-postion-level == 'second-level' %}
+                                        {% assign block_link_handle = block.settings.link_handle | upcase %}
+                                        {% assign grandchild_link_title = grandchild_link.title | upcase %}
+                                        {% if block_link_handle == grandchild_link_title %}
 
-                                      {% assign block_link_handle = block.settings.link_handle | upcase %}
-                                      {% assign grandchild_link_title = grandchild_link.title | upcase %}
-                                      {% if block_link_handle == grandchild_link_title %}
-
-                                        <img alt="{{- block.image.alt -}}" src="{{- block.settings.image | img_url: '480x' -}}">
-                                        {% assign has_banner = true %}
+                                          <img alt="{{- block.image.alt -}}" src="{{- block.settings.image | img_url: '480x' -}}">
+                                          {% assign has_banner = true %}
+                                        {% endif %}
                                       {% endif %}
                                     {% endfor %}
                                   {% endif %}
@@ -72,6 +79,12 @@
                     </li>
                   {%- endfor -%}
                 </ul>
+
+                {% for block in _blocks %}
+                  {% if block.settings.banner-postion-level == 'bottom' %}
+                    <img alt="{{- block.image.alt -}}" src="{{- block.settings.image | img_url: '480x' -}}">
+                  {% endif %}
+                {% endfor %}
 
                 {% comment %} 
                 {%- if _blocks.size > 0 -%}
@@ -150,6 +163,23 @@
             "id": "url",
             "label": "URL",
             "info": "Optional"
+          }, {
+            "type": "select",
+            "id": "banner-postion-level",
+            "label": "Banner position (top level) or Second level links",
+            "default": "bottom",
+            "options": [
+              {
+                "label": "Bottom (default)",
+                "value": "bottom"
+              }, {
+                "label": "Top",
+                "value": "top"
+              }, {
+                "label": "Second level links",
+                "value": "second-level"
+              }
+            ]
           }
         ]
       }
