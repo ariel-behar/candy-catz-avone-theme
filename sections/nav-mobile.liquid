@@ -49,10 +49,11 @@
 
                                   {% if _blocks.size > 0 %}
                                     {%- for block in _blocks -%}
+
                                       {% assign block_link_handle = block.settings.link_handle | upcase %}
                                       {% assign grandchild_link_title = grandchild_link.title | upcase %}
+                                      {% if block_link_handle == grandchild_link_title %}
 
-                                      {% if block_link_handle == grandchild_link %}
                                         <img alt="{{- block.image.alt -}}" src="{{- block.settings.image | img_url: '480x' -}}">
                                         {% assign has_banner = true %}
                                       {% endif %}
