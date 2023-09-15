@@ -13,7 +13,7 @@
       <ul class="nav-mobile__links">
         {%- for link in mobile_menu.links -%}
           <li class="nav-mobile__parent-link{% if forloop.first %} is-active{% endif %} js-parent-link">
-            <a href="{{- link.url -}}">{{- link.title -}}</a>
+            <a href="{{- link.url -}}" data-link-title="{{ child_link.title }}">{{- link.title -}}</a>
 
             {%- if link.levels > 0 -%}
               <div class="nav-mobile__lvl-2">
@@ -22,24 +22,7 @@
                   {%- for child_link in link.links -%}
                     <li class="nav-mobile__child-link{% if child_link.levels > 0 %} js-child-link{% endif %}">
                       <a href="{{- child_link.url -}}">
-                        {% assign has_banner = false %}
-
-                        {% if _blocks.size > 0 %}
-                          {%- for block in _blocks -%}
-                            {% assign block_link_handle = block.settings.link_handle | upcase %}
-                            {% assign child_link_title = child_link.title | upcase %}
-
-                            {% if block_link_handle == child_link_title %}
-                              <img alt="{{- block.image.alt -}}" src="{{- block.settings.image | img_url: '480x' -}}">
-                              {% assign has_banner = true %}
-                            {% endif %}
-                          {% endfor %}
-                        {% endif %}
-
-                        {% unless has_banner %}
-                          {{- child_link.title -}}
-                        {% endunless %}
-
+                        {{- child_link.title -}}
 
                         {%- if child_link.levels > 0 -%}
                           <i aria-hidden="true" class="ad ad-angle-right-r"></i>
@@ -61,7 +44,25 @@
                           <ul class="nav-mobile__links-lvl-3">
                             {%- for grandchild_link in child_link.links -%}
                               <li class="nav-mobile__grandchild-link">
-                                <a href="{{- grandchild_link.url -}}">{{- grandchild_link.title -}}</a>
+                                <a href="{{- grandchild_link.url -}}" data-link-title="{{ grandchild_link.title }}">
+                                  {% assign has_banner = false %}
+
+                                  {% if _blocks.size > 0 %}
+                                    {%- for block in _blocks -%}
+                                      {% assign block_link_handle = block.settings.link_handle | upcase %}
+                                      {% assign grandchild_link_title = grandchild_link.title | upcase %}
+
+                                      {% if block_link_handle == grandchild_link %}
+                                        <img alt="{{- block.image.alt -}}" src="{{- block.settings.image | img_url: '480x' -}}">
+                                        {% assign has_banner = true %}
+                                      {% endif %}
+                                    {% endfor %}
+                                  {% endif %}
+
+                                  {% unless has_banner %}
+                                    {{- grandchild_link.title -}}
+                                  {% endunless %}
+                                </a>
                               </li>
                             {%- endfor -%}
                           </ul>
