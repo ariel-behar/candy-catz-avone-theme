@@ -5,13 +5,23 @@
 
 /* Main nav menu selector */ #siteNav > li:nth-child(2) > a {
     font-weight: bold;
-    animation: pulse 2s infinite ease-in-out;
+    animation: blink 2.5s infinite linear;
+    border-radius: 22%;
 }
 
-@keyframes pulse {
-    0% { transform: scale(1); }
-    50% {transform: scale(1.05); }
-    100% { transform: scale(1); }
+@keyframes blink {
+    0% {
+        color: #fece89;
+        box-shadow: 0 0 12px #fece89;
+    }
+    50% {
+        color: #ff9800;
+        box-shadow: 0px 0px 42px #ff9800;
+    }
+    100% {
+        color: #fece89;
+        box-shadow: 0 0 12px #fece89;
+    }
 }
 
 .megamenu1-list-item {
@@ -23,6 +33,6 @@
 }
 
 .megamenu1-image-container img {
-    max-height: 300px;
+    max-height: 525px;
     width: auto;
 }
