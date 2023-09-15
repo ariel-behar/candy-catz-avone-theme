@@ -27,7 +27,7 @@
 
                   {%- for child_link in link.links -%}
                     <li class="nav-mobile__child-link{% if child_link.levels > 0 %} js-child-link{% endif %}">
-                      <a href="{{- child_link.url -}}">
+                      <a href="{{- child_link.url -}}" data-link-title="{{ child_link.title }}">
                         {{- child_link.title -}}
 
                         {%- if child_link.levels > 0 -%}
