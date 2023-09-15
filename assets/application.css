@@ -1,12 +1,18 @@
 /* Main nav menu selector */ #siteNav > li:nth-child(2) > a,
-/* Mobile nav menu selector */ #shopify-section-nav-mobile .nav-mobile a[href="/collections/all-halloween"] {
+/* Mobile nav menu selector */ #shopify-section-nav-mobile .nav-mobile li.nav-mobile__child-link a[data-link-title="halloween"i], 
+#shopify-section-nav-mobile .nav-mobile li.nav-mobile__grandchild-link a[data-link-title="halloween"i] {
     color: #FF9800;
+}
+
+#siteNav > li:nth-child(2) {
+    animation: blinkInset 2.5s infinite linear;
+    border-radius: 50%;
 }
 
 /* Main nav menu selector */ #siteNav > li:nth-child(2) > a {
     font-weight: bold;
     animation: blink 2.5s infinite linear;
-    border-radius: 22%;
+    border-radius: 50%;
 }
 
 @keyframes blink {
@@ -16,11 +22,26 @@
     }
     50% {
         color: #ff9800;
-        box-shadow: 0px 0px 42px #ff9800;
+        box-shadow: 0px 0px 62px #ff9800;
     }
     100% {
         color: #fece89;
         box-shadow: 0 0 12px #fece89;
+    }
+}
+
+@keyframes blinkInset {
+    0% {
+        color: #fece89;
+        box-shadow: inset 0 0 12px #fece89;
+    }
+    50% {
+        color: #ff9800;
+        box-shadow: inset 0px 0px 42px #ff9800;
+    }
+    100% {
+        color: #fece89;
+        box-shadow: inset 0 0 12px #fece89;
     }
 }
 
