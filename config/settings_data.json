@@ -2708,9 +2708,9 @@
           "40694e75-4e5c-4716-ba4a-47a01e8a0a9b": {
             "type": "image",
             "settings": {
-              "image": "shopify:\/\/shop_images\/CC_Banner_Main_Obsidia.png",
-              "mb_image": "shopify:\/\/shop_images\/CC_Banner_MainMobile_Obsidia.png",
-              "link": "shopify:\/\/collections\/obsidia",
+              "image": "shopify:\/\/shop_images\/CC_Banner_Main_Halloween.png",
+              "mb_image": "shopify:\/\/shop_images\/CC_Banner_MainMobile_Halloween.png",
+              "link": "shopify:\/\/collections\/all-halloween",
               "newTab": false
             }
           },
@@ -2759,7 +2759,8 @@
             "settings": {
               "link_handle": "halloween",
               "image": "shopify:\/\/shop_images\/example-banner-340x110.png",
-              "url": ""
+              "url": "",
+              "banner-postion-level": "bottom"
             }
           }
         },
