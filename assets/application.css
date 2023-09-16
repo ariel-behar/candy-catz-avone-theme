@@ -4,15 +4,24 @@
     color: #FF9800;
 }
 
-#siteNav > li:nth-child(2) {
-    animation: blinkInset 2.5s infinite linear;
-    border-radius: 50%;
+#siteNav > li:nth-child(2) > a:first-child{
+    animation: blink 2s infinite linear;
+}
+
+#siteNav > li:nth-child(2) > a:first-child:hover{
+    animation: none;
 }
 
 /* Main nav menu selector */ #siteNav > li:nth-child(2) > a {
     font-weight: bold;
     animation: blink 2.5s infinite linear;
     border-radius: 50%;
+}
+
+@keyframes blink {
+    50% {
+        opacity: 0.5;
+    }
 }
 
 @keyframes blink {
