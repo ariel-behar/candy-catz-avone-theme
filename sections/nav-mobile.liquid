@@ -23,7 +23,13 @@
                     {% if block.settings.banner-postion-level == 'top' %}
                       {% assign candyman-or-candywoman = block.settings.candyman-or-candywoman | upcase %}
                       {% if link.title == candyman-or-candywoman %}
-                        <img alt="{{- block.image.alt -}}" src="{{- block.settings.image | img_url: '480x' -}}">
+                        {% if block.settings.url != blank %}
+                          <a href="{{ block.settings.url }}">
+                            <img alt="{{- block.image.alt -}}" src="{{- block.settings.image | img_url: '480x' -}}">
+                          </a>
+                        {% else %}
+                          <img alt="{{- block.image.alt -}}" src="{{- block.settings.image | img_url: '480x' -}}">
+                        {% endif %}
                       {% endif %}
                     {% endif %}
                   {% endfor %}
@@ -87,7 +93,13 @@
                   {% if block.settings.banner-postion-level == 'bottom' %}
                     {% assign candyman-or-candywoman = block.settings.candyman-or-candywoman | upcase %}
                     {% if link.title == candyman-or-candywoman %}
-                      <img alt="{{- block.image.alt -}}" src="{{- block.settings.image | img_url: '480x' -}}">
+                      {% if block.settings.url != blank %}
+                        <a href="{{ block.settings.url }}">
+                          <img alt="{{- block.image.alt -}}" src="{{- block.settings.image | img_url: '480x' -}}">
+                        </a>
+                      {% else %}
+                        <img alt="{{- block.image.alt -}}" src="{{- block.settings.image | img_url: '480x' -}}">
+                      {% endif %}
                     {% endif %}
                   {% endif %}
                 {% endfor %}
