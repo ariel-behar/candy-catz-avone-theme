@@ -912,10 +912,10 @@
               "imgcall": "right",
               "columnWidth": 50,
               "mmimgcolumns": 2,
-              "megamenu1_image": "shopify:\/\/shop_images\/example-banner-525x814_candywoman.png",
+              "megamenu1_image": "shopify:\/\/shop_images\/CC_banner_womens_525x814px.png",
               "imageTtl1": "",
               "imageurl": "shopify:\/\/collections\/shop-all",
-              "megamenu2_image": "shopify:\/\/shop_images\/example-banner-525x814_candyman.png",
+              "megamenu2_image": "shopify:\/\/shop_images\/CC_banner_mens_525x814px.png",
               "imageTtl2": "",
               "Image2url": "shopify:\/\/collections\/shop-all",
               "imageTtl3": "",
@@ -2757,8 +2757,8 @@
           "74cb68fe-f1f3-4e1d-9fb3-b130a373ae9b": {
             "type": "banner",
             "settings": {
-              "link_handle": "halloween",
-              "image": "shopify:\/\/shop_images\/example-banner-340x110.png",
+              "link_handle": "",
+              "image": "shopify:\/\/shop_images\/CC_banner_womensV2_340x100px.png",
               "url": "",
               "banner-postion-level": "bottom"
             }
