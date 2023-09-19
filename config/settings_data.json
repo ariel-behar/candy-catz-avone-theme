@@ -2757,8 +2757,8 @@
           "74cb68fe-f1f3-4e1d-9fb3-b130a373ae9b": {
             "type": "banner",
             "settings": {
-              "link_handle": "halloween",
-              "image": "shopify:\/\/shop_images\/example-banner-340x110.png",
+              "link_handle": "",
+              "image": "shopify:\/\/shop_images\/CC_banner_womensV2_340x100px.png",
               "url": "",
               "banner-postion-level": "bottom"
             }
