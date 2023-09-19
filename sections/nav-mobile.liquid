@@ -154,15 +154,32 @@
             "label": "Menu link",
             "default": "halloween",
             "info": "Type the exact name of the menu link where you want the banner to appear instead of a link. Example: 'women'"
-          }, {
+          },
+          {
             "type": "image_picker",
             "id": "image",
             "label": "Image"
-          }, {
+          },
+          {
             "type": "url",
             "id": "url",
             "label": "URL",
             "info": "Optional"
+          },
+          {
+            "type": "select",
+            "id": "candyman-or-candywoman",
+            "label": "To which category - Candyman or Candywoman is the banner related?",
+            "default": "candywoman",
+            "options": [
+              {
+                "label": "Candywoman (default)",
+                "value": "candywoman"
+              }, {
+                "label": "Candyman",
+                "value": "candyman"
+              }
+            ]
           }, {
             "type": "select",
             "id": "banner-postion-level",
