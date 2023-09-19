@@ -21,7 +21,10 @@
 
                   {% for block in _blocks %}
                     {% if block.settings.banner-postion-level == 'top' %}
-                      <img alt="{{- block.image.alt -}}" src="{{- block.settings.image | img_url: '480x' -}}">
+                      {% assign candyman-or-candywoman = block.settings.candyman-or-candywoman | upcase %}
+                      {% if link.title == candyman-or-candywoman %}
+                        <img alt="{{- block.image.alt -}}" src="{{- block.settings.image | img_url: '480x' -}}">
+                      {% endif %}
                     {% endif %}
                   {% endfor %}
 
@@ -82,7 +85,10 @@
 
                 {% for block in _blocks %}
                   {% if block.settings.banner-postion-level == 'bottom' %}
-                    <img alt="{{- block.image.alt -}}" src="{{- block.settings.image | img_url: '480x' -}}">
+                    {% assign candyman-or-candywoman = block.settings.candyman-or-candywoman | upcase %}
+                    {% if link.title == candyman-or-candywoman %}
+                      <img alt="{{- block.image.alt -}}" src="{{- block.settings.image | img_url: '480x' -}}">
+                    {% endif %}
                   {% endif %}
                 {% endfor %}
 
