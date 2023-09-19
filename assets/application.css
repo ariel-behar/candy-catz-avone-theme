@@ -1,3 +1,18 @@
+#siteNav, #shopify-section-nav-mobile  {
+    font-family: roc-grotesk-condensed,sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+#header {
+    position: fixed!important;
+    width: 100%;
+}
+
+main#PageContainer {
+    padding-top: 60px;
+}
+
 /* Main nav menu selector */ #siteNav > li:nth-child(2) > a,
 /* Mobile nav menu selector */ #shopify-section-nav-mobile .nav-mobile li.nav-mobile__child-link a[data-link-title="halloween"i], 
 #shopify-section-nav-mobile .nav-mobile li.nav-mobile__grandchild-link a[data-link-title="halloween"i] {
