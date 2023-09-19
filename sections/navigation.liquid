@@ -83,7 +83,7 @@
 						{%- if block.settings.megamenu1_image != blank and forloop.index == 1 -%}
 							<div class="megamenu1-image-container">
 								<a href="{{ block.settings.imageurl }}">
-									<img class="lazyload" src="{{'spacer.png' | asset_img_url: 'master' }}" data-src="{{ block.settings.megamenu1_image | img_url: 'master' }}" width="{{ block.settings.megamenu1_image.width }}" height="{{ block.settings.megamenu1_image.height }}" alt="{{block.settings.megamenu1_image.alt}}">
+									<img class="halloween-mm_image lazyload" src="{{'spacer.png' | asset_img_url: 'master' }}" data-src="{{ block.settings.megamenu1_image | img_url: 'master' }}" width="{{ block.settings.megamenu1_image.width }}" height="{{ block.settings.megamenu1_image.height }}" alt="{{block.settings.megamenu1_image.alt}}">
 									{% if block.settings.imageTtl1 != blank %}<span class="ttl">{{block.settings.imageTtl1}}</span>{% endif %}
 								</a>
 							</div>
