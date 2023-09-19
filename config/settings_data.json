@@ -2760,12 +2760,24 @@
               "link_handle": "",
               "image": "shopify:\/\/shop_images\/CC_banner_womensV2_340x100px.png",
               "url": "",
+              "candyman-or-candywoman": "candywoman",
+              "banner-postion-level": "bottom"
+            }
+          },
+          "d5bcab0c-1046-422f-8f32-2dde389290fc": {
+            "type": "banner",
+            "settings": {
+              "link_handle": "",
+              "image": "shopify:\/\/shop_images\/CC_banner_mensV2_340x100px.png",
+              "url": "shopify:\/\/collections\/male-costumes",
+              "candyman-or-candywoman": "candyman",
               "banner-postion-level": "bottom"
             }
           }
         },
         "block_order": [
-          "74cb68fe-f1f3-4e1d-9fb3-b130a373ae9b"
+          "74cb68fe-f1f3-4e1d-9fb3-b130a373ae9b",
+          "d5bcab0c-1046-422f-8f32-2dde389290fc"
         ],
         "settings": {
           "mobile_menu": "halloween-mobile-nav"
