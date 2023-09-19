@@ -2,6 +2,7 @@
 <html class="no-js" lang="{{ shop.locale }}" {% if settings.rtl %}dir="rtl"{% endif %}>
 <head>
 	{{ 'tiny.content.min.css' | asset_url | stylesheet_tag }}
+	{{ "roc-grotesk-font.css" | asset_url | stylesheet_tag }}
 	
 {% include 'kiwiSizing' %}
   {%- capture metaTags -%}
