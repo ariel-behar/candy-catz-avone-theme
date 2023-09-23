@@ -1,6 +1,6 @@
 {% capture siteFooter %}
   <footer class="site-footer{% if section.settings.snow_effect %} falling-snow{% endif %}{% if section.settings.snow_style == "style2" %} style2{% else %} style1{% endif %}" role="contentinfo">
-
+    {% comment %} comment test {% endcomment %}
     {% if section.blocks.size != 0 %}
       <div class="{% unless section.settings.section_width %}page-width{% else %} footer-fw{% endunless %}">
         <div class="container">
