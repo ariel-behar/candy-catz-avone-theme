@@ -1,3 +1,14 @@
+/* Product template */
+#shopify-section-product-template {
+    font-family: roc-grotesk-condensed,sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+#shopify-section-product-template .product-single__title{
+    text-transform: uppercase;
+}
+
+
 /* Home Page */
 /* Slider */
 .product-slider-section .product-slider .grid-view-item__title, .product-slider-section .product-slider .product-price__price {
