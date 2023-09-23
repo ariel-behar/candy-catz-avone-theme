@@ -179,27 +179,29 @@
                       {% include 'ratings' %}
                   </a></div>
           	{%- endif -%}
-			{%- if settings.spr_availability -%}
-				<div class="product-stock">{{ 'products.product.availability' | t }}
-                  	{%- liquid
-                        assign classNm = 'instock'
-                        assign stickLbl = 'products.product.available' | t
-                        if current_variant.inventory_management == "shopify"
-                            if current_variant.available and current_variant.inventory_quantity < 1
-                                assign classNm = 'preorder'
-                                assign stickLbl = 'products.product.pre_order' | t
-                            elsif current_variant.available
-                            	assign classNm = 'instock'
-                        		assign stickLbl = 'products.product.available' | t
-                            else
-                                assign classNm = 'outstock'
-                                assign stickLbl = 'products.product.unavailable' | t
-                            endif
-                        endif
-                    -%}
-					<span class="stockLbl {{classNm}}" data-in="{{ 'products.product.available' | t }}" data-out="{{ 'products.product.unavailable' | t }}" data-pre="{{ 'products.product.pre_order' | t }}">{{stickLbl}}</span>
-				</div>
-			{%- endif -%}
+			{% if section.settings.show_in_stock %}
+				{%- if settings.spr_availability -%}
+					<div class="product-stock">{{ 'products.product.availability' | t }}
+						{%- liquid
+							assign classNm = 'instock'
+							assign stickLbl = 'products.product.available' | t
+							if current_variant.inventory_management == "shopify"
+								if current_variant.available and current_variant.inventory_quantity < 1
+									assign classNm = 'preorder'
+									assign stickLbl = 'products.product.pre_order' | t
+								elsif current_variant.available
+									assign classNm = 'instock'
+									assign stickLbl = 'products.product.available' | t
+								else
+									assign classNm = 'outstock'
+									assign stickLbl = 'products.product.unavailable' | t
+								endif
+							endif
+						-%}
+						<span class="stockLbl {{classNm}}" data-in="{{ 'products.product.available' | t }}" data-out="{{ 'products.product.unavailable' | t }}" data-pre="{{ 'products.product.pre_order' | t }}">{{stickLbl}}</span>
+					</div>
+				{%- endif -%}
+			{% endif %}
 			{%- if settings.spr_sku and current_variant.sku != blank -%}<div class="product-sku">{{ 'products.product.sku' | t }} <span class="variant-sku">{{ current_variant.sku }}</span></div>{%- endif -%}
 		</div>
 	{%- endif -%}
@@ -579,6 +581,12 @@
     "default": true,
 	"info":"[set different tabs for each product](https://www.adornthemes.com/knowledge-base/how-to-set-meta-fields-to-display-different-data-for-products/)"
 
+  },
+  {
+    "type": "checkbox",
+    "id": "show_in_stock",
+    "label": "Show In Stock?",
+    "default": false
   },
   {
     "type": "paragraph",       
