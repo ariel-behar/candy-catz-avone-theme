@@ -2,16 +2,16 @@
 	{%- if settings.social_facebook_link != blank -%}
 		<li><a class="social-icons__link" href="{{ settings.social_facebook_link | escape }}" title="{{ 'layout.footer.social_platform' | t: name: shop.name, platform: 'Facebook' }}" target="_blank"><i class="ad ad-facebook-f" aria-hidden="true"></i><span{% unless hideLbl %} class="icon__fallback-text"{% endunless %}>Facebook</span> </a> </li>
 	{%- endif -%}
-  	{%- if settings.social_twitter_link != blank -%}
-		<li><a class="social-icons__link" href="{{ settings.social_twitter_link | escape }}" title="{{ 'layout.footer.social_platform' | t: name: shop.name, platform: 'Twitter' }}" target="_blank"><i class="ad ad-twitter" aria-hidden="true"></i><span{% unless hideLbl %} class="icon__fallback-text"{% endunless %}>Twitter</span> </a> </li>
-	{%- endif -%}	
-	{%- if settings.social_pinterest_link != blank -%}
-		<li><a class="social-icons__link" href="{{ settings.social_pinterest_link | escape }}" title="{{ 'layout.footer.social_platform' | t: name: shop.name, platform: 'Pinterest' }}" target="_blank"><i class="ad ad-pinterest-p" aria-hidden="true"></i><span{% unless hideLbl %} class="icon__fallback-text"{% endunless %}>Pinterest</span> </a> </li>
-	{%- endif -%}
 	{%- if settings.social_instagram_link != blank -%}
 		<li><a class="social-icons__link" href="{{ settings.social_instagram_link | escape }}" title="{{ 'layout.footer.social_platform' | t: name: shop.name, platform: 'Instagram' }}" target="_blank"><i class="ad ad-instagram" aria-hidden="true"></i><span{% unless hideLbl %} class="icon__fallback-text"{% endunless %}>Instagram</span> </a> </li>
 	{%- endif -%}
- 	 {%- if settings.social_linkedin_link != blank -%}
+	{%- if settings.social_pinterest_link != blank -%}
+		<li><a class="social-icons__link" href="{{ settings.social_pinterest_link | escape }}" title="{{ 'layout.footer.social_platform' | t: name: shop.name, platform: 'Pinterest' }}" target="_blank"><i class="ad ad-pinterest-p" aria-hidden="true"></i><span{% unless hideLbl %} class="icon__fallback-text"{% endunless %}>Pinterest</span> </a> </li>
+	{%- endif -%}
+  	{%- if settings.social_twitter_link != blank -%}
+		<li><a class="social-icons__link" href="{{ settings.social_twitter_link | escape }}" title="{{ 'layout.footer.social_platform' | t: name: shop.name, platform: 'Twitter' }}" target="_blank"><i class="ad ad-twitter" aria-hidden="true"></i><span{% unless hideLbl %} class="icon__fallback-text"{% endunless %}>Twitter</span> </a> </li>
+	{%- endif -%}	
+ 	{%- if settings.social_linkedin_link != blank -%}
 		<li><a class="social-icons__link" href="{{ settings.social_linkedin_link | escape }}" title="{{ 'layout.footer.social_platform' | t: name: shop.name, platform: 'Linkedin' }}" target="_blank"><i class="ad ad-linkedin-in" aria-hidden="true"></i><span{% unless hideLbl %} class="icon__fallback-text"{% endunless %}>Linkedin</span> </a> </li>
 	{%- endif -%}
 	{%- if settings.social_tumblr_link != blank -%}
