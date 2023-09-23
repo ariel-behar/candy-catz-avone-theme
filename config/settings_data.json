@@ -2803,7 +2803,7 @@
       "a2ae7134-afdd-4247-9727-d0f9ec62a042": {
         "type": "product-slider",
         "settings": {
-          "title": "Our Collection",
+          "title": "HALLOWEEN",
           "subtitle": "Describe your products, collection etc...",
           "collection": "all-halloween",
           "secondary_image": true,
@@ -2811,6 +2811,7 @@
           "prlist_btn_show": false,
           "btn_mobiles": false,
           "show_view_all": "SHOP HALLOWEEN NOW",
+          "show_view_all_margin_top": "15px",
           "show_color_swatch": true,
           "color_type": "color",
           "vr_bg_position": "50% 0",
@@ -2819,7 +2820,7 @@
           "top-offeset": "none",
           "section_cov": true,
           "sec_bg_clr": "#102129",
-          "prbox_style": "style2",
+          "prbox_style": "style1",
           "grid": 4,
           "tablet-grid": 3,
           "mobile-grid": 2,
