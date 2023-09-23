@@ -476,11 +476,11 @@
             "settings": {
               "title": "",
               "logo": "shopify:\/\/shop_images\/LogoWebPage.jpg",
-              "logo-width": 150,
+              "logo-width": 130,
               "custom-text": "",
               "show_socials": true,
-              "socials_ttl": "",
-              "txt_align": false,
+              "socials_ttl": "Follow us on:",
+              "txt_align": true,
               "width": "50%"
             }
           },
