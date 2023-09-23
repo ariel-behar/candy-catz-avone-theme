@@ -335,7 +335,7 @@
     "store_ft3": "",
     "feature_txt": "#111",
     "Prod_name_font_size": 24,
-    "prod_title_transform": "none",
+    "prod_title_transform": "uppercase",
     "prod_font_weight": "600",
     "Prod_price_font_size": 24,
     "prod_price_font_weight": "600",
