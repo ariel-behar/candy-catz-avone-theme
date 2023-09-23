@@ -470,6 +470,19 @@
       "footer": {
         "type": "footer",
         "blocks": {
+          "2c985453-629e-48ee-bf14-0378824c2026": {
+            "type": "custom",
+            "settings": {
+              "title": "",
+              "logo": "shopify:\/\/shop_images\/LogoWebPage.jpg",
+              "logo-width": 150,
+              "custom-text": "",
+              "show_socials": true,
+              "socials_ttl": "",
+              "txt_align": false,
+              "width": "50%"
+            }
+          },
           "1561980984471": {
             "type": "menu",
             "disabled": true,
@@ -484,7 +497,7 @@
             "settings": {
               "title": "<b>Info<\/b>",
               "menulinks": "info-footer",
-              "width": "20%"
+              "width": "25%"
             }
           },
           "59c90ceb-b69b-4c95-a64d-5b2985f4b79f": {
@@ -500,7 +513,7 @@
             "settings": {
               "title": "<b>About <\/b>",
               "menulinks": "footer",
-              "width": "50%"
+              "width": "25%"
             }
           },
           "1543494586357": {
@@ -517,6 +530,7 @@
           }
         },
         "block_order": [
+          "2c985453-629e-48ee-bf14-0378824c2026",
           "1561980984471",
           "1559218222806",
           "59c90ceb-b69b-4c95-a64d-5b2985f4b79f",
@@ -529,7 +543,7 @@
           "snow_style": "style1",
           "copyright_text": "© 2021 Candy Catz. All Rights Reserved.",
           "show_designby": false,
-          "show_payment": true,
+          "show_payment": false,
           "payment_img_width": ""
         }
       },
