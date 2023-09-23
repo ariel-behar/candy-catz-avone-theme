@@ -1,11 +1,11 @@
 {% capture productslider %}
 <div class="content-indent {{ section.settings.top-offeset}}">
   {% if section.settings.section_cov %}<div class="section-cover" style="background-color:{{section.settings.sec_bg_clr}};">{% endif%}
-  <div class="page-width" id="{{ section.id }}" data-section-id="{{ section.id }}" data-section-type="carousel">
+  <div class="page-width product-slider-section" id="{{ section.id }}" data-section-id="{{ section.id }}" data-section-type="carousel">
     {%- if section.settings.title != blank  or section.settings.subtitle != blank -%}
     <div class="sec-ttl {{ settings.title_align}} wow fadeIn">
-      <h3 class="h3">{{ section.settings.title }}</h3>     
-      {%- if section.settings.subtitle != blank -%}<span>{{section.settings.subtitle}}</span>{%- endif -%}
+      <h3 class="h3 product-slider-title">{{ section.settings.title }}</h3>     
+      {%- if section.settings.subtitle != blank -%}<span class="product-slider-subtitle">{{section.settings.subtitle}}</span>{%- endif -%}
     </div>
     {%- endif -%}
 
@@ -44,7 +44,7 @@
     {% endcase %}
 
     {% if section.settings.collection != blank %}
-    <div id="productSlider-{{ section.id }}" class="grid grid-products carousel" data-slick='{"slidesToShow": {{ section.settings.grid }},"slidesToScroll": 1, "autoplay":{{ section.settings.autoplay }}, "autoplaySpeed":{{section.settings.autoplay_speed | times: 1000}}, {%- if settings.rtl -%}"rtl": true,{%- endif -%} "infinite": true, "responsive":[{"breakpoint": 1024,"settings":{"slidesToShow": {{ section.settings.tablet-grid }} }},{"breakpoint": 767,"settings":{"slidesToShow":{{ section.settings.mobile-grid }} }} ]}'>
+    <div id="productSlider-{{ section.id }}" class="grid grid-products carousel product-slider" data-slick='{"slidesToShow": {{ section.settings.grid }},"slidesToScroll": 1, "autoplay":{{ section.settings.autoplay }}, "autoplaySpeed":{{section.settings.autoplay_speed | times: 1000}}, {%- if settings.rtl -%}"rtl": true,{%- endif -%} "infinite": true, "responsive":[{"breakpoint": 1024,"settings":{"slidesToShow": {{ section.settings.tablet-grid }} }},{"breakpoint": 767,"settings":{"slidesToShow":{{ section.settings.mobile-grid }} }} ]}'>
       {%- assign collection = collections[section.settings.collection] -%}
       {% for product in collection.products limit: section.settings.rows %}
       <div class="grid__item item {{grid_mb}} {{grid_tb}} {{grid_ds}}">{% include 'product-card-grid', sizes: image_size %}</div>
@@ -65,7 +65,17 @@
     {% else %}
     <p class="text-center">Please select a collection to display the products</p>
     {% endif %}
-   {% if section.settings.show_view_all != blank %}<div class="text-center"><a href="{{ collection.url }}" class="btn">{{ section.settings.show_view_all}}</a></div>{% endif %}
+   {% if section.settings.show_view_all != blank %}
+   <div class="text-center">
+      <a 
+        href="{{ collection.url }}" 
+        class="btn btn-lg"
+        style="margin-top: {{ section.settings.show_view_all_margin_top }};"
+        >
+          {{ section.settings.show_view_all}}
+        </a>
+    </div>
+  {% endif %}
   </div>
   {% if section.settings.section_cov %}</div> {% endif%}
 </div>
@@ -119,13 +129,33 @@
         "label": "Hide Buttons on Mobile?",
         "default": false
       },
- 	{
+ 	    {
 	 
         "type": "text",
         "id": "show_view_all",
         "label": "Button Text",
-		"info":"display button below products to visit collection page"
-		
+    		"info":"display button below products to visit collection page"
+      },
+      {
+        "type": "select",
+        "id": "show_view_all_margin_top",
+        "label": "Button Text - Top Margin",
+        "info":"Button top margin from slider",
+        "default": "0",
+        "options": [
+          {
+            "value": "0",
+            "label": "0px"
+          },
+          {
+            "value": "15px",
+            "label": "15px"
+          },
+          {
+            "value": "30px",
+            "label": "30px"
+          }
+        ]
       },
       {
         "type": "header",
