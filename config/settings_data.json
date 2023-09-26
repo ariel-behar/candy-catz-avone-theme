@@ -545,6 +545,8 @@
           "snow_effect": false,
           "snow_style": "style1",
           "copyright_text": "© 2021 Candy Catz. All Rights Reserved.",
+          "show_current_year": true,
+          "show_copyright_symbol": true,
           "show_designby": false,
           "show_payment": false,
           "payment_img_width": ""
@@ -2803,14 +2805,14 @@
       "a2ae7134-afdd-4247-9727-d0f9ec62a042": {
         "type": "product-slider",
         "settings": {
-          "title": "HALLOWEEN",
-          "subtitle": "Describe your products, collection etc...",
+          "title": "",
+          "subtitle": "",
           "collection": "all-halloween",
           "secondary_image": true,
           "show_vendor": false,
           "prlist_btn_show": false,
           "btn_mobiles": false,
-          "show_view_all": "SHOP NOW",
+          "show_view_all": "",
           "show_view_all_margin_top": "15px",
           "show_color_swatch": true,
           "color_type": "color",
