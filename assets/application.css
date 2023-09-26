@@ -14,7 +14,7 @@ menu, nav, output, ruby, section, summary,
 time, mark, audio, video {
     font-family: roc-grotesk-condensed,sans-serif;
     font-weight: 400;
-    font-style: normal;
+    font-style: normal; 
 }
 
 /* Product template */
