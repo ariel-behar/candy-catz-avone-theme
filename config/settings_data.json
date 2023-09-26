@@ -2825,7 +2825,7 @@
           "top-offeset": "none",
           "section_cov": true,
           "sec_bg_clr": "#ffffff",
-          "prbox_style": "style2",
+          "prbox_style": "style3",
           "grid": 5,
           "tablet-grid": 3,
           "mobile-grid": 2,
