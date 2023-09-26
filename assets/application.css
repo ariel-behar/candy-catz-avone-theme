@@ -23,18 +23,9 @@ time, mark, audio, video {
 
 /* Home Page */
 /* Slider */
-.product-slider-section .product-slider .grid-view-item__title, .product-slider-section .product-slider .product-price__price {
+/* .product-slider-section .product-slider .grid-view-item__title, .product-slider-section .product-slider .product-price__price {
     color: white;
-  }
-
-
-@media only screen and (min-width: 767px) {
-    .product-slider-section .sec-ttl .product-slider-title {
-        font-size: 45px;
-        max-width: 1000px;
-    }
-}
-
+  } */
 
 /* General */
 .container {
@@ -76,7 +67,7 @@ time, mark, audio, video {
 }
 
 main#PageContainer {
-    padding-top: 60px;
+    padding-top: 54px;
 }
 
 /* Main nav menu selector */ #siteNav > li:nth-child(2) > a,
