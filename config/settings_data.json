@@ -2823,7 +2823,7 @@
           "section_cov": true,
           "sec_bg_clr": "#ffffff",
           "prbox_style": "style2",
-          "grid": 4,
+          "grid": 5,
           "tablet-grid": 3,
           "mobile-grid": 2,
           "rows": "20",
