@@ -156,6 +156,7 @@
     "text_bg_opacity": 0.7,
     "cl_bnr_title": 20,
     "cl_bnr_des": 13,
+    "sidebar_title": 25,
     "sidebar_ttls": "#000000",
     "sidebar_links": "#000000",
     "sidebar_links_hv": "#8dc337",
