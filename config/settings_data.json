@@ -119,7 +119,7 @@
     "display_overlay_mb": true,
     "slide_overlay_clr": "#ffffff",
     "slide_caption_opacity": 0.6,
-    "sec_spacing": 50,
+    "sec_spacing": 20,
     "sec_spacing_small": 20,
     "title_align": "text-center",
     "section_heading_1_size": 18,
