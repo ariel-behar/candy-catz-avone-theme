@@ -47,12 +47,8 @@
                                     {{ blockTtl }}
 
                                     {% if block.settings.logo %}
-                                        <p class="footer-logo"><img
-                                                class="autoHt lazyload"
-                                                data-src="{{ block.settings.logo | img_url: 'master' }}"
-                                                width="{{block.settings.logo-width}}"
-                                                height="{{ block.settings.logo-width | divided_by: block.settings.logo.aspect_ratio }}"
-                                                alt="{{ block.settings.logo.alt | default: shop.name }}"></p>
+                                        <p class="footer-logo">
+                                            <img class="autoHt lazyload" data-src="{{ block.settings.logo | img_url: 'master' }}" width="{{block.settings.logo-width}}" height="{{ block.settings.logo-width | divided_by: block.settings.logo.aspect_ratio }}" alt="{{ block.settings.logo.alt | default: shop.name }}"></p>
                                     {% endif %}
 
                                     <div class="text custom-text">{{ block.settings.custom-text }}</div>
@@ -83,12 +79,7 @@
                                     {{ blockTtl }}
 
                                     {% if block.settings.logo != blank %}
-                                        <p><img
-                                                class="autoHt lazyload"
-                                                data-src="{{ block.settings.logo | img_url: 'master' }}"
-                                                width="{{block.settings.logo-width}}"
-                                                height="{{ block.settings.logo-width | divided_by: block.settings.logo.aspect_ratio }}"
-                                                alt="{{ block.settings.logo.alt | default: shop.name }}"></p>
+                                        <p><img class="autoHt lazyload" data-src="{{ block.settings.logo | img_url: 'master' }}" width="{{block.settings.logo-width}}" height="{{ block.settings.logo-width | divided_by: block.settings.logo.aspect_ratio }}" alt="{{ block.settings.logo.alt | default: shop.name }}"></p>
                                     {% endif %}
 
                                     <ul class="addressFooter">
@@ -238,12 +229,7 @@
                             <div class="paymentCall{% if section.settings.copyright_text != blank %} text-right small--text-center{% endif %}">
                                 {%- if section.settings.payment_img != blank -%}
                                     <p class="footer-img">
-                                        <img
-                                            class="autoHt lazyload"
-                                            data-src="{{ section.settings.payment_img | img_url: 'master' }}"
-                                            alt="{{ section.settings.payment_img.alt }}"
-                                            width="{{section.settings.payment_img_width}}"
-                                            height="{{ section.settings.payment_img | divided_by: section.settings.payment_img.aspect_ratio }}" /></p>
+                                        <img class="autoHt lazyload" data-src="{{ section.settings.payment_img | img_url: 'master' }}" alt="{{ section.settings.payment_img.alt }}" width="{{section.settings.payment_img_width}}" height="{{ section.settings.payment_img | divided_by: section.settings.payment_img.aspect_ratio }}" /></p>
                                 {%- else -%}
                                     {% for type in shop.enabled_payment_types %}
                                         {{ type | payment_type_svg_tag: class: 'payment-list__item' }}{% endfor %}
@@ -261,7 +247,7 @@
 <script>
     const date = new Date();
 
-    document.getElementById("current-year").innerHTML = `${
+    document.getElementById("current-year").innerHTML = `${;
         date.getFullYear()
     } `;
 </script>
