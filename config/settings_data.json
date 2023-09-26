@@ -2831,6 +2831,24 @@
           "autoplay": true,
           "autoplay_speed": 5
         }
+      },
+      "5498e5b2-962e-42ae-a393-78270db04d80": {
+        "type": "instagram",
+        "settings": {
+          "instagram_title": "Avone On Instagram",
+          "instagram_des": "Phasellus lorem malesuada ligula pulvinar commodo auctom.",
+          "section_width": true,
+          "top-offeset": "default",
+          "act": "IGQWROVXNlUEVlZA1NKTFRvZAVgyRGk4OWVEVFZAJYy13ZAjZAaQ0V0aUNHV2d4MWJpNDNidlBlMHJsck5jS0kzNlNrWlIzSTZAjZAXo3STUxSmJ3c3E4SDhxNzIza1hqeTFvMEdzVDRiTHJGTWhXbEtPOHYtcHgyVzUtOEUZD",
+          "instastyle": "carousel",
+          "grid_space": true,
+          "limit": 7,
+          "grid": 6,
+          "tablet-grid": 5,
+          "mobile-grid": 3,
+          "instagram_button_text": "View Gallery",
+          "instagram_button_link": ""
+        }
       }
     },
     "content_for_index": [
@@ -2840,7 +2858,8 @@
       "162954047516b006d4",
       "163065425019e6986e",
       "163065510357a0858b",
-      "1631971367f47c1aab"
+      "1631971367f47c1aab",
+      "5498e5b2-962e-42ae-a393-78270db04d80"
     ],
     "blocks": {
       "855628211100114053": {
