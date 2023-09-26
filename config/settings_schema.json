@@ -2813,7 +2813,7 @@
         "type": "range",
         "id": "pr_title_size",
         "min": 11,
-        "max": 18,
+        "max": 25,
         "step": 1,
         "label": "Font size",
         "unit": "px",
