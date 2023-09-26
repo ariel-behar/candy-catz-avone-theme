@@ -254,6 +254,7 @@
     "primg_ratio": "130",
     "primg_size": "cover",
     "prbox_style": "style2",
+    "pr_title_size": 18,
     "color_price_text": "#222222",
     "color_sale_text": "#000000",
     "prbox_bdr": "rgba(0,0,0,0)",
