@@ -212,7 +212,7 @@
                                 {% endif %}
 
                                 {% if section.settings.show_current_year %}
-                                    <span id="current-year"></span>
+                                    <span>{{ "now" | date: '%Y' }}&nbsp;</span>
                                 {% endif %}
 
                                 {{ section.settings.copyright_text }}
@@ -243,14 +243,6 @@
     </footer>
 {% endcapture %}
 {{ siteFooter | strip_newlines | remove: "  " | remove: "	" }}
-
-<script>
-    const date = new Date();
-
-    document.getElementById("current-year").innerHTML = `${;
-        date.getFullYear()
-    } `;
-</script>
 
 {% schema %}
     {
