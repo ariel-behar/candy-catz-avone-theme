@@ -2862,7 +2862,7 @@
           "0dfd134b-9505-483e-9360-d30cc89c09a2": {
             "type": "html",
             "settings": {
-              "code": "",
+              "code": "<div id=\"insta-feed\">\n<\/div>",
               "width": "50%"
             }
           }
