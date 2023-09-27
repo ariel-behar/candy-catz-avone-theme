@@ -284,7 +284,7 @@
     "pr_label3": "Popular",
     "pr_label3_cl": "#81d53d",
     "product_fullwidth": false,
-    "product_latyout": "style5",
+    "product_latyout": "style1",
     "sticky_cart": true,
     "enable_zoom": true,
     "enable_lightbox": true,
@@ -2836,12 +2836,31 @@
           "autoplay": true,
           "autoplay_speed": 5
         }
+      },
+      "0c4394a5-419b-415a-8718-b489057c1af9": {
+        "type": "instagram",
+        "settings": {
+          "instagram_title": "Avone On Instagram",
+          "instagram_des": "Phasellus lorem malesuada ligula pulvinar commodo auctom.",
+          "section_width": true,
+          "top-offeset": "default",
+          "act": "IGQWROVXNlUEVlZA1NKTFRvZAVgyRGk4OWVEVFZAJYy13ZAjZAaQ0V0aUNHV2d4MWJpNDNidlBlMHJsck5jS0kzNlNrWlIzSTZAjZAXo3STUxSmJ3c3E4SDhxNzIza1hqeTFvMEdzVDRiTHJGTWhXbEtPOHYtcHgyVzUtOEUZD",
+          "instastyle": "carousel",
+          "grid_space": true,
+          "limit": 7,
+          "grid": 6,
+          "tablet-grid": 5,
+          "mobile-grid": 3,
+          "instagram_button_text": "View Gallery",
+          "instagram_button_link": ""
+        }
       }
     },
     "content_for_index": [
       "16449333440967ef4a",
       "a2ae7134-afdd-4247-9727-d0f9ec62a042",
       "1642762893f9920420",
+      "0c4394a5-419b-415a-8718-b489057c1af9",
       "162954047516b006d4",
       "163065425019e6986e",
       "163065510357a0858b",
