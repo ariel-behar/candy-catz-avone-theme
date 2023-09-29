@@ -3,7 +3,11 @@
 <div id="instagram-custom-section">
     <div style="padding: {{ settings.padding_titles }}; display: flex; flex-direction: {{ settings.flex_direction }}; justify-content: {{ settings.justify_content }}; align-items: {{ settings.align_items }} ">
         <h2 class="{{ settings.title_font_size_style }}">{{ settings.title }}</h2>
-        <h3 class="{{ settings.instagram_url_font_size_style }}">{{ settings.instagram_url }}</h3>
+        <h3 class="{{ settings.instagram_url_font_size_style }}">
+            <a href="https://www.instagram.com/{{ settings.instagram_url }}/">
+                @{{ settings.instagram_url }}
+            </a>
+        </h3>
     </div>
     <div id="insta-feed"></div>
 
@@ -38,9 +42,17 @@
                     {
                         "value": "h4",
                         "label": "h4"
+                    },
+                    {
+                        "value": "h5",
+                        "label": "h5"
+                    },
+                    {
+                        "value": "h6",
+                        "label": "h6"
                     }
                 ],
-                "default": "h2"
+                "default": "h1"
             },
             {
                 "type": "text",
@@ -52,6 +64,14 @@
                 "label": "Instagram URL Font Size Style",
                 "id": "instagram_url_font_size_style",
                 "options": [
+                    {
+                        "value": "h1",
+                        "label": "h1"
+                    },
+                    {
+                        "value": "h2",
+                        "label": "h2"
+                    },
                     {
                         "value": "h3",
                         "label": "h3"
@@ -69,7 +89,7 @@
                         "label": "h6"
                     }
                 ],
-                "default": "h4"
+                "default": "h3"
             },
             {
                 "type": "select",
