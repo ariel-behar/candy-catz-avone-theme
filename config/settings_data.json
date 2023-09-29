@@ -2837,25 +2837,6 @@
           "autoplay_speed": 5
         }
       },
-      "0c4394a5-419b-415a-8718-b489057c1af9": {
-        "type": "instagram",
-        "disabled": true,
-        "settings": {
-          "instagram_title": "Avone On Instagram",
-          "instagram_des": "Phasellus lorem malesuada ligula pulvinar commodo auctom.",
-          "section_width": true,
-          "top-offeset": "default",
-          "act": "IGQWROVXNlUEVlZA1NKTFRvZAVgyRGk4OWVEVFZAJYy13ZAjZAaQ0V0aUNHV2d4MWJpNDNidlBlMHJsck5jS0kzNlNrWlIzSTZAjZAXo3STUxSmJ3c3E4SDhxNzIza1hqeTFvMEdzVDRiTHJGTWhXbEtPOHYtcHgyVzUtOEUZD",
-          "instastyle": "carousel",
-          "grid_space": true,
-          "limit": 7,
-          "grid": 6,
-          "tablet-grid": 5,
-          "mobile-grid": 3,
-          "instagram_button_text": "View Gallery",
-          "instagram_button_link": ""
-        }
-      },
       "bd363930-95cd-4313-8ebd-19b4c307b8a0": {
         "type": "custom-content",
         "blocks": {
@@ -2863,7 +2844,7 @@
             "type": "html",
             "settings": {
               "code": "<div id=\"insta-feed\">\n<\/div>",
-              "width": "50%"
+              "width": "100%"
             }
           }
         },
@@ -2871,9 +2852,9 @@
           "0dfd134b-9505-483e-9360-d30cc89c09a2"
         ],
         "settings": {
-          "title": "Custom content",
-          "subtitle": "Describe your products, collection, content etc...",
-          "top-offeset": "default",
+          "title": "Join our Instagram Coven",
+          "subtitle": "@candycatz.wear",
+          "top-offeset": "small",
           "section_width": false,
           "hide_mobile": false,
           "pad-desk": 55,
@@ -2891,7 +2872,6 @@
       "16449333440967ef4a",
       "a2ae7134-afdd-4247-9727-d0f9ec62a042",
       "1642762893f9920420",
-      "0c4394a5-419b-415a-8718-b489057c1af9",
       "bd363930-95cd-4313-8ebd-19b4c307b8a0",
       "162954047516b006d4",
       "163065425019e6986e",
