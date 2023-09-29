@@ -2837,42 +2837,25 @@
           "autoplay_speed": 5
         }
       },
-      "bd363930-95cd-4313-8ebd-19b4c307b8a0": {
-        "type": "custom-content",
-        "blocks": {
-          "0dfd134b-9505-483e-9360-d30cc89c09a2": {
-            "type": "html",
-            "settings": {
-              "code": "<div id=\"insta-feed\">\n<\/div>",
-              "width": "100%"
-            }
-          }
-        },
-        "block_order": [
-          "0dfd134b-9505-483e-9360-d30cc89c09a2"
-        ],
+      "680a65dc-582e-44b4-956b-35124890c371": {
+        "type": "insta-feed",
         "settings": {
           "title": "Join our Instagram Coven",
-          "subtitle": "@candycatz.wear",
-          "top-offeset": "small",
-          "section_width": false,
-          "hide_mobile": false,
-          "pad-desk": 55,
-          "pad-ipad": 15,
-          "pad-mbl": 10,
-          "prbox_style": "style1",
-          "section_cov": false,
-          "sec_bg_clr": "#fafafa",
-          "btn-size-desk": "btn-sm",
-          "btn-size-mob": "mob-btn-sm"
+          "title_font_size_style": "h1",
+          "instagram_url": "@candycatz.wear",
+          "instagram_url_font_size_style": "h3",
+          "padding_titles": "30px",
+          "flex_direction": "row",
+          "justify_content": "space-between",
+          "align_items": "center"
         }
       }
     },
     "content_for_index": [
       "16449333440967ef4a",
       "a2ae7134-afdd-4247-9727-d0f9ec62a042",
+      "680a65dc-582e-44b4-956b-35124890c371",
       "1642762893f9920420",
-      "bd363930-95cd-4313-8ebd-19b4c307b8a0",
       "162954047516b006d4",
       "163065425019e6986e",
       "163065510357a0858b",
