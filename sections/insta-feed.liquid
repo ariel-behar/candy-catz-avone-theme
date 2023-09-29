@@ -1,0 +1,28 @@
+{% assign settings = section.settings %}
+
+<div id="instagram-custom-section">
+    <div>
+        <h2>{{ settings.title }}</h2>
+        <h3>{{ settings.instagram_url }}</h3>
+    </div>
+    <div id="insta-feed"></div>
+
+</div>
+
+{% schema %}
+    {
+        "name": "Insta Feed",
+        "settings": [
+            {
+                "type": "text",
+                "label": "Section Heading",
+                "id": "title"
+            }
+        ],
+        "presets": [
+            {
+                "name": "Insta Feed"
+            }
+        ]
+    }
+{% endschema %}
