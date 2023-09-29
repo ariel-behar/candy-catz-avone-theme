@@ -2840,9 +2840,9 @@
       "680a65dc-582e-44b4-956b-35124890c371": {
         "type": "insta-feed",
         "settings": {
-          "title": "Join our Instagram Coven",
+          "title": "@candycatz.wear",
           "title_font_size_style": "h1",
-          "instagram_url": "@candycatz.wear",
+          "instagram_url": "Join our Instagram Coven",
           "instagram_url_font_size_style": "h3",
           "padding_titles": "30px",
           "flex_direction": "row",
