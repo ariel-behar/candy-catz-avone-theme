@@ -1,9 +1,9 @@
 {% assign settings = section.settings %}
 
 <div id="instagram-custom-section">
-    <div>
-        <h2>{{ settings.title }}</h2>
-        <h3>{{ settings.instagram_url }}</h3>
+    <div style="padding: {{ settings.padding_titles }}; display: flex; flex-direction: {{ settings.flex_direction }}; justify-content: {{ settings.justify_content }}; align-items: {{ settings.align_items }} ">
+        <h2 class="{{ settings.title_font_size_style }}">{{ settings.title }}</h2>
+        <h3 class="{{ settings.instagram_url_font_size_style }}">{{ settings.instagram_url }}</h3>
     </div>
     <div id="insta-feed"></div>
 
@@ -15,8 +15,146 @@
         "settings": [
             {
                 "type": "text",
-                "label": "Section Heading",
+                "label": "Title",
                 "id": "title"
+            },
+            {
+                "type": "select",
+                "label": "Title Font Size Style",
+                "id": "title_font_size_style",
+                "options": [
+                    {
+                        "value": "h1",
+                        "label": "h1"
+                    },
+                    {
+                        "value": "h2",
+                        "label": "h2"
+                    },
+                    {
+                        "value": "h3",
+                        "label": "h3"
+                    },
+                    {
+                        "value": "h4",
+                        "label": "h4"
+                    }
+                ],
+                "default": "h2"
+            },
+            {
+                "type": "text",
+                "label": "Instagram URL",
+                "id": "instagram_url"
+            },
+            {
+                "type": "select",
+                "label": "Instagram URL Font Size Style",
+                "id": "instagram_url_font_size_style",
+                "options": [
+                    {
+                        "value": "h3",
+                        "label": "h3"
+                    },
+                    {
+                        "value": "h4",
+                        "label": "h4"
+                    },
+                    {
+                        "value": "h5",
+                        "label": "h5"
+                    },
+                    {
+                        "value": "h6",
+                        "label": "h6"
+                    }
+                ],
+                "default": "h4"
+            },
+            {
+                "type": "select",
+                "label": "Padding Titles",
+                "id": "padding_titles",
+                "options": [
+                    {
+                        "value": "20px",
+                        "label": "20px"
+                    },
+                    {
+                        "value": "30px",
+                        "label": "30px"
+                    },
+                    {
+                        "value": "40px",
+                        "label": "40px"
+                    }
+                ],
+                "default": "30px"
+            },
+            {
+                "type": "select",
+                "label": "Display Direction - Row / Column",
+                "id": "flex_direction",
+                "options": [
+                    {
+                        "value": "column",
+                        "label": "Column"
+                    },
+                    {
+                        "value": "row",
+                        "label": "Row"
+                    }
+
+                ],
+                "default": "row"
+            },
+            {
+                "type": "select",
+                "label": "Justify Content",
+                "id": "justify_content",
+                "options": [
+                    {
+                        "value": "start",
+                        "label": "Start"
+                    },
+                    {
+                        "value": "center",
+                        "label": "Center"
+                    },
+                    {
+                        "value": "space-between",
+                        "label": "Space Between"
+                    },
+                    {
+                        "value": "space-around",
+                        "label": "Space Around"
+                    },
+                    {
+                        "value": "end",
+                        "label": "End"
+                    }
+                ],
+                "default": "center"
+            },
+            {
+                "type": "select",
+                "label": "Align Items",
+                "id": "align_items",
+                "options": [
+                    {
+                        "value": "start",
+                        "label": "Start"
+                    },
+                    {
+                        "value": "center",
+                        "label": "Center"
+                    },
+                    {
+                        "value": "end",
+                        "label": "End"
+                    }
+                ],
+                "default": "center"
             }
         ],
         "presets": [
