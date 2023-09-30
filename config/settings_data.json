@@ -2846,7 +2846,7 @@
           "title_font_size_style": "h1",
           "instagram_url": "candycatz.wear",
           "instagram_url_font_size_style": "h2",
-          "section_top_margin": "10px",
+          "section_top_margin": "40px",
           "flex_direction": "row",
           "justify_content": "space-around",
           "align_items": "end"
