@@ -1,7 +1,7 @@
 {% assign settings = section.settings %}
 
 <div id="instagram-custom-section">
-    <div style="padding: {{ settings.padding_titles }}; display: flex; flex-direction: {{ settings.flex_direction }}; justify-content: {{ settings.justify_content }}; align-items: {{ settings.align_items }} ">
+    <div style="padding: 10px; margin-top: {{ settings.section_top_margin }}; display: flex; flex-direction: {{ settings.flex_direction }}; justify-content: {{ settings.justify_content }}; align-items: {{ settings.align_items }} ">
         <h2 class="{{ settings.title_font_size_style }}">{{ settings.title }}</h2>
         <h3 class="{{ settings.instagram_url_font_size_style }}">
             <a href="https://www.instagram.com/{{ settings.instagram_url }}/">
@@ -93,9 +93,13 @@
             },
             {
                 "type": "select",
-                "label": "Padding Titles",
-                "id": "padding_titles",
+                "label": "Section Top Margin",
+                "id": "section_top_margin",
                 "options": [
+                    {
+                        "value": "10px",
+                        "label": "10px"
+                    },
                     {
                         "value": "20px",
                         "label": "20px"
@@ -109,7 +113,7 @@
                         "label": "40px"
                     }
                 ],
-                "default": "30px"
+                "default": "10px"
             },
             {
                 "type": "select",
