@@ -2845,7 +2845,7 @@
           "title": "JOIN OUR INSTAGRAM COVEN",
           "title_font_size_style": "h1",
           "instagram_url": "candycatz.wear",
-          "instagram_url_font_size_style": "h4",
+          "instagram_url_font_size_style": "h2",
           "section_top_margin": "10px",
           "flex_direction": "row",
           "justify_content": "space-around",
