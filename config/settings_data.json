@@ -2637,6 +2637,8 @@
       "1631971367f47c1aab": {
         "type": "loox-all-reviews",
         "settings": {
+          "title": "RAVE REVIEWS AND WICKED WORDS",
+          "title_font_size_style": "h1",
           "only_photos": false,
           "hide_thumbnails": true,
           "product_handle": "",
@@ -2840,11 +2842,11 @@
       "680a65dc-582e-44b4-956b-35124890c371": {
         "type": "insta-feed",
         "settings": {
-          "title": "Join our Instagram Coven",
+          "title": "JOIN OUR INSTAGRAM COVEN",
           "title_font_size_style": "h1",
           "instagram_url": "candycatz.wear",
-          "instagram_url_font_size_style": "h4",
-          "section_top_margin": "10px",
+          "instagram_url_font_size_style": "h2",
+          "section_top_margin": "40px",
           "flex_direction": "row",
           "justify_content": "space-around",
           "align_items": "end"
