@@ -1,3 +1,7 @@
+<h3 class="{{ section.settings.title_font_size_style }}" style="text-align: center; margin: 40px 0 0 0;">
+	{{ section.settings.title}}
+</h3>
+
 <div
 	id="looxReviews"
 	data-limit="{{section.settings.data-limit}}"
@@ -7,13 +11,49 @@
 	{% if section.settings.hide_thumbnails %}data-product-thumbnails="false"{% endif %}
 	style="margin:0 auto;max-width:{{section.settings.maxwidth}}px;"
 >
-	<h3 class="h2">Rave reviews and wicked words</h3>
 </div>
 {% schema %}
 {
 	"name": "Loox Widget - All Reviews",
 	"class": "index-section",
 	"settings": [
+		{
+			"type": "text",
+			"id": "title",
+			"label": "Title"
+		},
+		{
+			"type": "select",
+			"label": "Title Font Size Style",
+			"id": "title_font_size_style",
+			"options": [
+				{
+					"value": "h1",
+					"label": "h1"
+				},
+				{
+					"value": "h2",
+					"label": "h2"
+				},
+				{
+					"value": "h3",
+					"label": "h3"
+				},
+				{
+					"value": "h4",
+					"label": "h4"
+				},
+				{
+					"value": "h5",
+					"label": "h5"
+				},
+				{
+					"value": "h6",
+					"label": "h6"
+				}
+			],
+			"default": "h1"
+            },
 		{
 			"id": "only_photos",
 			"type": "checkbox",
