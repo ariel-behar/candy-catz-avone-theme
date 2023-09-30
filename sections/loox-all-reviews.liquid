@@ -1,13 +1,14 @@
 <div
 	id="looxReviews"
 	data-limit="{{section.settings.data-limit}}"
-	<h3 class="h2">Rave reviews and wicked words</h3>
 	{% if section.settings.aggregated %}data-loox-aggregate{% endif %}
 	{% if section.settings.only_photos %}data-mode="img"{% endif %}
 	{% if section.settings.product_handle %}data-product-id="{{ all_products[section.settings.product_handle].id }}"{% endif %}
 	{% if section.settings.hide_thumbnails %}data-product-thumbnails="false"{% endif %}
 	style="margin:0 auto;max-width:{{section.settings.maxwidth}}px;"
-></div>
+>
+	<h3 class="h2">Rave reviews and wicked words</h3>
+</div>
 {% schema %}
 {
 	"name": "Loox Widget - All Reviews",
