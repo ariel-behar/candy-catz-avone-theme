@@ -1170,9 +1170,9 @@ theme.Product = (function() {
         }
     });
 
-    $('.product-tabs li:first-child').addClass("active");
-    $('.tab-container h3:first-child').addClass("active");
-	$('.tab-container h3:first-child + .tab-content').show();
+  //   $('.product-tabs li:first-child').addClass("active");
+  //   $('.tab-container h3:first-child').addClass("active");
+	// $('.tab-container h3:first-child + .tab-content').show();
     
     $(".reviewLink, .moredetail a").on('click', function(e){
       e.preventDefault();
