@@ -2712,9 +2712,9 @@
           "b027b04e-9126-4f5e-8e40-010e70f0298c"
         ],
         "settings": {
-          "title": "-",
+          "title": "",
           "subtitle": "",
-          "top-offeset": "none",
+          "top-offeset": "small",
           "section_width": true,
           "hide_mobile": false,
           "pad-desk": 20,
