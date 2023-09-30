@@ -2849,6 +2849,36 @@
           "justify_content": "space-around",
           "align_items": "end"
         }
+      },
+      "e07ec09b-063d-4761-beaf-7b3976de7509": {
+        "type": "custom-content",
+        "blocks": {
+          "b4bcf2a1-2505-47d9-985e-9efa85954581": {
+            "type": "html",
+            "settings": {
+              "code": "",
+              "width": "50%"
+            }
+          }
+        },
+        "block_order": [
+          "b4bcf2a1-2505-47d9-985e-9efa85954581"
+        ],
+        "settings": {
+          "title": "RAVE REVIEWS AND WICKED WORDS",
+          "subtitle": "",
+          "top-offeset": "default",
+          "section_width": false,
+          "hide_mobile": false,
+          "pad-desk": 55,
+          "pad-ipad": 15,
+          "pad-mbl": 10,
+          "prbox_style": "style1",
+          "section_cov": false,
+          "sec_bg_clr": "#fafafa",
+          "btn-size-desk": "btn-sm",
+          "btn-size-mob": "mob-btn-sm"
+        }
       }
     },
     "content_for_index": [
@@ -2859,6 +2889,7 @@
       "162954047516b006d4",
       "163065425019e6986e",
       "163065510357a0858b",
+      "e07ec09b-063d-4761-beaf-7b3976de7509",
       "1631971367f47c1aab"
     ],
     "blocks": {
