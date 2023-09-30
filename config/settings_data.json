@@ -2843,11 +2843,11 @@
           "title": "Join our Instagram Coven",
           "title_font_size_style": "h1",
           "instagram_url": "candycatz.wear",
-          "instagram_url_font_size_style": "h3",
-          "padding_titles": "40px",
+          "instagram_url_font_size_style": "h4",
+          "section_top_margin": "10px",
           "flex_direction": "row",
           "justify_content": "space-around",
-          "align_items": "center"
+          "align_items": "end"
         }
       }
     },
