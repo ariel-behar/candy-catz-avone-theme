@@ -121,9 +121,9 @@
                 </button>
             {%- endif -%}
 
-            <div class="product-btn">
+            {% comment %} <div class="product-btn"> {% endcomment %}
                 {% comment %}*** product video *** {% endcomment %}
-                {%- assign meta = product.metafields.meta -%}
+                {% comment %} {%- assign meta = product.metafields.meta -%}
                 {%- assign key = 'video' -%}
                 {%- if meta.video != blank -%}
                     <a href="{{meta.video}}" class="btn popup-video">
@@ -149,7 +149,7 @@
                         <span class="tooltip-label">{{ 'products.product.360_view' | t }}</span>
                     </a>
                 {%- endif -%}
-            </div>
+            </div> {% endcomment %}
             {% if settings.pr_lbl %}
                 <span class="product-labels {{ settings.select_label_style }}">
                     {%- if settings.sale_lbl and product.compare_at_price > product.price -%}
