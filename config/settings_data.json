@@ -1222,7 +1222,7 @@
       "recently-viewed": {
         "type": "recently-viewed",
         "settings": {
-          "show_recently_products": true,
+          "show_recently_products": false,
           "recently_autoplay": true,
           "autoplay_speed": "3000",
           "recently_title": "Recently Viewed Products",
