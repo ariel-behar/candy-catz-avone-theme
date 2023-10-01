@@ -596,7 +596,6 @@
           },
           "1551070946133": {
             "type": "sizechart",
-            "disabled": true,
             "settings": {
               "title": "Size Chart"
             }
