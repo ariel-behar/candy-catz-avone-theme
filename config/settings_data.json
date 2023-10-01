@@ -596,6 +596,7 @@
           },
           "1551070946133": {
             "type": "sizechart",
+            "disabled": true,
             "settings": {
               "title": "Size Chart"
             }
@@ -1221,10 +1222,10 @@
       "recently-viewed": {
         "type": "recently-viewed",
         "settings": {
-          "show_recently_products": true,
+          "show_recently_products": false,
           "recently_autoplay": true,
           "autoplay_speed": "3000",
-          "recently_title": "Recently Viewed Products",
+          "recently_title": "RECENTLY VIEWED PRODUCTS",
           "recently_sub_title": "",
           "grid": 4,
           "tablet-grid": 3,
@@ -2503,7 +2504,7 @@
           "show_product_recommendations": true,
           "recommanded_products_autoplay": false,
           "autoplay_speed": "3000",
-          "recommanded_title": "Recommended Products",
+          "recommanded_title": "RECOMMENDED PRODUCTS",
           "recommanded_sub_title": "",
           "grid": 4,
           "tablet-grid": 3,
