@@ -2671,8 +2671,8 @@
           "b027b04e-9126-4f5e-8e40-010e70f0298c": {
             "type": "image",
             "settings": {
-              "image": "shopify:\/\/shop_images\/Blitz_Pride.png",
-              "imgurl": "shopify:\/\/collections\/blitz",
+              "image": "shopify:\/\/shop_images\/Witch.png",
+              "imgurl": "https:\/\/candycatz.com\/collections\/witches",
               "width": "50%",
               "alignment": "center"
             }
