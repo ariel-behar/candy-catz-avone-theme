@@ -2644,8 +2644,8 @@
           "fac33d23-fac1-403c-aaad-85facbb413d5": {
             "type": "image",
             "settings": {
-              "image": "shopify:\/\/shop_images\/Best_Woman_s.png",
-              "imgurl": "shopify:\/\/collections\/best-womens",
+              "image": "shopify:\/\/shop_images\/UV_Reflective.png",
+              "imgurl": "https:\/\/candycatz.com\/collections\/uv-bodysuits",
               "width": "50%",
               "alignment": "center"
             }
