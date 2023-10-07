@@ -16,6 +16,12 @@
   display: none;
 }
 
+.swatch-element .swatchInput:checked + .swatchLbl {
+    color: white; 
+    background-color: black;
+}
+
+
 
 
 /* General */
