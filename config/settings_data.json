@@ -49,7 +49,7 @@
     "agevari_popup_bg": "",
     "agevari_popup_bg_clr": "#111111",
     "body_font": "oswald_n4",
-    "type_base_size": 16,
+    "type_base_size": 13,
     "header_font": "oswald_n4",
     "heading_weight": "normal",
     "type_header_base_size_lh": 1,
@@ -261,7 +261,7 @@
     "color_sale_text": "#000000",
     "prbox_bdr": "rgba(0,0,0,0)",
     "prbox_vendor": "#777777",
-    "acti_swatch_bdr_clr": "#e55151",
+    "acti_swatch_bdr_clr": "#000000",
     "grid_btn_style": "round_crn",
     "prbox_btnbg": "#363232",
     "prbox_btn_ico": "#ffffff",
@@ -353,7 +353,7 @@
     "checkout_btn_bg": "#ad1cea",
     "checkout_btn_text": "#ffffff",
     "tab_align": "left",
-    "prTab_ft": 24,
+    "prTab_ft": 15,
     "pr_tabs_bg": "#eeeeee",
     "pr_tabs_txt": "#000",
     "pr_tabs_bg_act": "#ffffff",
@@ -585,25 +585,25 @@
           "1551070915808": {
             "type": "descriptions",
             "settings": {
-              "title": "Product Details"
+              "title": "PRODUCT DETAILS"
             }
           },
           "1551070927092": {
             "type": "review",
             "settings": {
-              "title": "Reviews"
+              "title": "REVIEWS"
             }
           },
           "1551070946133": {
             "type": "sizechart",
             "settings": {
-              "title": "Size Chart"
+              "title": "SIZE CHART"
             }
           },
           "1551070955235": {
             "type": "custom",
             "settings": {
-              "title": "Shipping",
+              "title": "SHIPPING",
               "content": "<div style=\"text-align: left;\">We send orders on weekdays from Monday to Friday except on public holidays. <\/div>\n<br>\n<div style=\"text-align: left;\"><\/div>\n<div style=\"text-align: left;\">Most of our products are made to order and processing time is 5-7 business days.<\/div>\n<br>\n<div style=\"text-align: left;\"><\/div>\n<div style=\"text-align: left;\"><\/div>\n<div style=\"text-align: left;\">\n<strong>Standard Shipping ($9.99)<\/strong>:<\/div>\n<div style=\"text-align: left;\">\n<ul>\n<li>US - 7-10 business days<\/li>\n<li>Europe - 7 <span>business days<\/span>\n<\/li>\n<li>Rest of the World - 10 <span>business days<\/span>\n<\/li>\n<\/ul>\n<\/div>\n<div style=\"text-align: left;\">\n<strong>Express Shipping with DHL ($14.99)<\/strong>:<\/div>\n<div style=\"text-align: left;\">\n<ul>\n<li>US - 2-3 business days<\/li>\n<li>Europe - 1-2 <span>business days<\/span>\n<\/li>\n<li>Rest of the World - 2-5 <span>business days<\/span>\n<\/li>\n<\/ul>\n<\/div>\n<div style=\"text-align: left;\">Once when the package leaves our building it remains in the care of the shipping carrier and we are not responsible for delays, mistakes or any kind of damage or lost packages.<\/div>\n<div style=\"text-align: left;\"><\/div>\n<br>\n<div style=\"text-align: left;\">Opt in to live tracking information via text message from your shipping confirmation email.<\/div>\n<div style=\"text-align: left;\"><\/div>\n<br>\n<div style=\"text-align: left;\">Buyers are responsible for local duties, taxes and advancement fees at delivery in the countries where applicable (e.g. Canada).<\/div>"
             }
           },
