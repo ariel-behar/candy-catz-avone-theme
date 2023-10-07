@@ -261,7 +261,7 @@
     "color_sale_text": "#000000",
     "prbox_bdr": "rgba(0,0,0,0)",
     "prbox_vendor": "#777777",
-    "acti_swatch_bdr_clr": "#e55151",
+    "acti_swatch_bdr_clr": "#000000",
     "grid_btn_style": "round_crn",
     "prbox_btnbg": "#363232",
     "prbox_btn_ico": "#ffffff",
