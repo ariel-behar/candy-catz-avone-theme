@@ -487,7 +487,7 @@
               "logo-width": 130,
               "custom-text": "",
               "show_socials": true,
-              "socials_ttl": "Follow us on:",
+              "socials_ttl": "FOLLOW US ON:",
               "txt_align": true,
               "width": "50%"
             }
@@ -504,7 +504,7 @@
           "1559218222806": {
             "type": "menu",
             "settings": {
-              "title": "<b>Info<\/b>",
+              "title": "<b>INFO<\/b>",
               "menulinks": "info-footer",
               "width": "25%"
             }
@@ -520,7 +520,7 @@
           "3e6789c1-7f35-402b-bf6c-ef30ea63a955": {
             "type": "menu",
             "settings": {
-              "title": "<b>About <\/b>",
+              "title": "<b>ABOUT<\/b>",
               "menulinks": "footer",
               "width": "25%"
             }
