@@ -2653,7 +2653,7 @@
           "b7edf9b5-f720-4145-bac3-a7af06a79ad6": {
             "type": "image",
             "settings": {
-              "image": "shopify:\/\/shop_images\/Cyber_1.png",
+              "image": "shopify:\/\/shop_images\/Cyber_1_5f66923f-aac9-45b8-accd-e3edbb5095e6.png",
               "imgurl": "shopify:\/\/collections\/cyber",
               "width": "50%",
               "alignment": "center"
@@ -2662,8 +2662,8 @@
           "ee435934-f4f1-4018-8261-5c812defffaa": {
             "type": "image",
             "settings": {
-              "image": "shopify:\/\/shop_images\/Gear_up_for_Halloween.png",
-              "imgurl": "https:\/\/candycatz.com\/collections\/all-halloween",
+              "image": "shopify:\/\/shop_images\/Skeleton.png",
+              "imgurl": "shopify:\/\/collections\/halloween-skeletons",
               "width": "50%",
               "alignment": "center"
             }
@@ -2671,8 +2671,8 @@
           "fac33d23-fac1-403c-aaad-85facbb413d5": {
             "type": "image",
             "settings": {
-              "image": "shopify:\/\/shop_images\/Best_Woman_s.png",
-              "imgurl": "shopify:\/\/collections\/best-womens",
+              "image": "shopify:\/\/shop_images\/UV_Reflective.png",
+              "imgurl": "shopify:\/\/collections\/uv-bodysuits",
               "width": "50%",
               "alignment": "center"
             }
@@ -2680,8 +2680,8 @@
           "8f0531b8-d53d-40ca-8bcd-28e9d3a21961": {
             "type": "image",
             "settings": {
-              "image": "shopify:\/\/shop_images\/Best_Man_s.png",
-              "imgurl": "shopify:\/\/collections\/male-most-wanted",
+              "image": "shopify:\/\/shop_images\/Alien_Zombie.png",
+              "imgurl": "shopify:\/\/collections\/halloween-zombies",
               "width": "50%",
               "alignment": "center"
             }
@@ -2689,8 +2689,8 @@
           "1642762893f9920420-1": {
             "type": "image",
             "settings": {
-              "image": "shopify:\/\/shop_images\/Neon_Faves.png",
-              "imgurl": "shopify:\/\/collections\/uv-bodysuits",
+              "image": "shopify:\/\/shop_images\/Fairy.png",
+              "imgurl": "shopify:\/\/collections\/fairy",
               "width": "50%",
               "alignment": "center"
             }
@@ -2698,8 +2698,8 @@
           "b027b04e-9126-4f5e-8e40-010e70f0298c": {
             "type": "image",
             "settings": {
-              "image": "shopify:\/\/shop_images\/Blitz_Pride.png",
-              "imgurl": "shopify:\/\/collections\/blitz",
+              "image": "shopify:\/\/shop_images\/Witch.png",
+              "imgurl": "shopify:\/\/collections\/witches",
               "width": "50%",
               "alignment": "center"
             }
