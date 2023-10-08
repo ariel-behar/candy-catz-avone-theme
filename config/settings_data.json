@@ -2858,7 +2858,7 @@
           "show_product_recommendations": true,
           "prbox_style": "style1",
           "recommended_title": "Recommended Products",
-          "recommended_sub_title": "You can stop autoplay, increase\/decrease aniamtion speed and number of grid to show and products from store admin.",
+          "recommended_sub_title": "",
           "grid": 4,
           "tablet-grid": 3,
           "mobile-grid": 2,
