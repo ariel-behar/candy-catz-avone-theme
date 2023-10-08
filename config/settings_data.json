@@ -2857,11 +2857,11 @@
         "settings": {
           "show_product_recommendations": true,
           "prbox_style": "style1",
-          "recommended_title": "Recommended Products",
+          "recommended_title": "RECOMMENDED PRODUCTS",
           "recommended_sub_title": "",
           "grid": 4,
           "tablet-grid": 3,
-          "mobile-grid": 2,
+          "mobile-grid": 1,
           "rows": "24",
           "pagination": "infinite"
         }
