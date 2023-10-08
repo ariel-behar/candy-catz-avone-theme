@@ -2863,7 +2863,7 @@
           "tablet-grid": 3,
           "mobile-grid": 2,
           "rows": "24",
-          "pagination": "button"
+          "pagination": "infinite"
         }
       }
     },
