@@ -1,0 +1,201 @@
+{%- if section.settings.show_product_recommendations -%}
+    {% paginate collections[collection.handle].products by limit %}
+
+        <div data-section-id="{{ section.id }}" id="{{ section.id }}" data-section-type="collection-template">
+            <div class="page-width{% if section.settings.fullwidth %} fullwidth {% endif %}" id="Collection">
+                <div class="productList">
+                    {%- liquid
+                    case section.settings.grid
+                        when 2
+                            assign grid_ds = 'large-up--one-half'
+                            assign image_size = '150,350,550,750,950'
+                        when 3 
+                            assign grid_ds = 'large-up--one-third'
+                            assign image_size = '150,350,550,750'
+                        when 4 
+                            assign grid_ds = 'large-up--one-quarter'
+                            assign image_size = '150,350,550,750'
+                        when 5 
+                            assign grid_ds = 'large-up--one-fifth'
+                            assign image_size = '150,350,550'
+                        when 6 
+                            assign grid_ds = 'large-up--one-sixth'
+                            assign image_size = '130,300,500'
+                        when 7
+                            assign grid_ds = 'large-up--one-seventh'
+                            assign image_size = '130,280,400'
+                    endcase
+                -%}
+                    {% case section.settings.tablet-grid %}
+                        {% when 2 %}{%- assign grid_tb = 'medium--one-half' -%}
+                        {% when 3 %}{%- assign grid_tb = 'medium--one-third' -%}
+                        {% when 4 %}{%- assign grid_tb = 'medium--one-quarter' -%}
+                        {% when 5 %}{%- assign grid_tb = 'medium--one-fifth' -%}
+                    {% endcase %}
+                    {% case section.settings.mobile-grid %}
+                        {% when 1 %}{%- assign grid_mb = 'small--one-whole' -%}
+                        {% when 2 %}{%- assign grid_mb = 'small--one-half' -%}
+                        {% when 3 %}{%- assign grid_mb = 'small--one-third' -%}
+                    {% endcase %}
+
+                    {%- if section.settings.recommanded_title != blank -%}
+                        <div class="sec-ttl {{ settings.title_align}}">
+                            <h3 class="h3">{{ section.settings.recommanded_title | escape }}</h3>
+                            {%- if section.settings.recommanded_sub_title != blank -%}
+                                <span>{{ section.settings.recommanded_sub_title }}</span>
+                            {%- endif -%}
+                        </div>
+                    {%- endif -%}
+
+                    <div class="grid grid--uniform grid-products{% if collection.products_count > 0 %} grid--view-items{% endif %}">
+                        {% for product in collection.products %}
+                            <div class="grid__item {{ grid_mb }} {{ grid_tb }} {{grid_ds}}">{% include 'product-card-grid', sizes: image_size %}</div>
+                        {% else %}
+
+                            {%- assign is_empty_collection = true -%}
+                        {% endfor %}
+                    </div>
+
+                    {% if is_empty_collection %}
+                        <div class="grid__item small--text-center">
+                            <p class="text-center">{{ 'collections.general.no_matches' | t }}</p>
+                        </div>
+                    {% endif %}
+                </div>
+
+                {% if paginate.pages > 1 %}
+                    {% if section.settings.pagination == "infinite" or section.settings.pagination == "button" %}
+                        {% if paginate.next %}
+                            <div class="infinitpaginOuter" data-type="{{section.settings.pagination}}">
+                                <div class="infinitpagin">
+                                    {% if section.settings.pagination == "infinite" %}
+                                        <a href="{{paginate.next.url}}" class="infinite"><img src="{{ 'ajax-loader.gif' | asset_url }}" alt="{{ 'general.pagination.loading' | t }}" /><p>{{ 'general.pagination.loading' | t }}</p>
+                                        </a>
+                                    {% else %}
+                                        <a href="{{paginate.next.url}}" class="btn loadMore">{{ 'general.pagination.loadmore' | t }}</a>
+                                    {% endif %}
+                                </div>
+                            </div>
+                        {% endif %}
+                    {% else %}
+                        <hr class="clear" />
+                        {% include 'pagination' %}
+                    {% endif %}
+                {% endif %}
+
+            </div>
+        </div>
+
+    {% endpaginate %}
+{% endif %}
+
+{% schema %}
+    {
+        "name": "Products-Infinite scroll",
+        "settings": [
+            {
+                "type": "checkbox",
+                "id": "show_product_recommendations",
+                "label": "Show recommendations",
+                "default": true
+            },
+            {
+                "type": "select",
+                "id": "prbox_style",
+                "label": "Products Grid Style",
+                "default": "style1",
+                "options": [
+                    {
+                        "value": "style1",
+                        "label": "Style 1 - Default Info Center"
+                    },
+                    {
+                        "value": "style2",
+                        "label": "Style 2 - Info Hover Image"
+                    },
+                    {
+                        "value": "style3",
+                        "label": "Style 3 - Info Below Image"
+                    },
+                    {
+                        "value": "style4",
+                        "label": "Style 4 - Default Info Left"
+                    },
+                    {
+                        "value": "style5",
+                        "label": "Style 5 - Display Text Button"
+                    }
+                ]
+            },
+            {
+                "id": "recommended_title",
+                "type": "text",
+                "label": "Section Title",
+                "default": "Recommended Products"
+            },
+            {
+                "id": "recommended_sub_title",
+                "type": "text",
+                "label": "Section Sub title",
+                "default": "You can stop autoplay, increase/decrease aniamtion speed and number of grid to show and products from store admin."
+            },
+            {
+                "type": "paragraph",
+                "content": "Products per row (grid only)"
+            },
+            {
+                "type": "range",
+                "id": "grid",
+                "label": "Desktop",
+                "default": 4,
+                "min": 2,
+                "max": 7,
+                "step": 1
+            },
+            {
+                "type": "range",
+                "id": "tablet-grid",
+                "label": "Tablet",
+                "default": 3,
+                "min": 2,
+                "max": 5,
+                "step": 1
+            },
+            {
+                "type": "range",
+                "id": "mobile-grid",
+                "label": "Mobile",
+                "default": 2,
+                "min": 1,
+                "max": 3,
+                "step": 1
+            },
+            {
+                "type": "text",
+                "id": "rows",
+                "label": "Products per page (grid only)",
+                "default": "24"
+            },
+            {
+                "type": "select",
+                "id": "pagination",
+                "label": "Pagination type",
+                "default": "button",
+                "options": [
+                    {
+                        "value": "default",
+                        "label": "Classic"
+                    },
+                    {
+                        "value": "infinite",
+                        "label": "Infinite Scroll"
+                    },
+                    {
+                        "value": "button",
+                        "label": "Load more button"
+                    }
+                ]
+            }
+        ]
+    }
+{% endschema %}
