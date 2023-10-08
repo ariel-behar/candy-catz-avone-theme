@@ -2859,9 +2859,10 @@
           "prbox_style": "style3",
           "recommended_title": "RECOMMENDED PRODUCTS",
           "recommended_sub_title": "",
+          "prlist_btn_show": true,
           "grid": 4,
           "tablet-grid": 3,
-          "mobile-grid": 1,
+          "mobile-grid": 2,
           "rows": "24",
           "pagination": "infinite"
         }
