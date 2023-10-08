@@ -302,7 +302,7 @@
     "sizechart_link": true,
     "sizechart_type": "default",
     "sizechart_page": "sizing-chart",
-    "enable_payment_button": false,
+    "enable_payment_button": true,
     "show_collection": false,
     "show_tags": false,
     "show_share_buttons_single": false,
@@ -2637,7 +2637,7 @@
       "1631971367f47c1aab": {
         "type": "loox-all-reviews",
         "settings": {
-          "title": "RAVE REVIEWS AND WICKED WORDS",
+          "title": "",
           "title_font_size_style": "h1",
           "only_photos": false,
           "hide_thumbnails": true,
