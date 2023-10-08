@@ -38,11 +38,11 @@
                         {% when 3 %}{%- assign grid_mb = 'small--one-third' -%}
                     {% endcase %}
 
-                    {%- if section.settings.recommanded_title != blank -%}
+                    {%- if section.settings.recommended_title != blank -%}
                         <div class="sec-ttl {{ settings.title_align}}">
-                            <h3 class="h3">{{ section.settings.recommanded_title | escape }}</h3>
-                            {%- if section.settings.recommanded_sub_title != blank -%}
-                                <span>{{ section.settings.recommanded_sub_title }}</span>
+                            <h3 class="h3">{{ section.settings.recommended_title | escape }}</h3>
+                            {%- if section.settings.recommended_sub_title != blank -%}
+                                <span>{{ section.settings.recommended_sub_title }}</span>
                             {%- endif -%}
                         </div>
                     {%- endif -%}
