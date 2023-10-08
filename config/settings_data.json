@@ -2856,7 +2856,7 @@
         "type": "product-recommendations-infinite-scroll",
         "settings": {
           "show_product_recommendations": true,
-          "prbox_style": "style1",
+          "prbox_style": "style3",
           "recommended_title": "RECOMMENDED PRODUCTS",
           "recommended_sub_title": "",
           "grid": 4,
