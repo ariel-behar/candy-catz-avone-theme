@@ -2688,6 +2688,7 @@
           },
           "1642762893f9920420-1": {
             "type": "image",
+            "disabled": true,
             "settings": {
               "image": "shopify:\/\/shop_images\/Fairy.png",
               "imgurl": "shopify:\/\/collections\/fairy",
@@ -2697,6 +2698,7 @@
           },
           "b027b04e-9126-4f5e-8e40-010e70f0298c": {
             "type": "image",
+            "disabled": true,
             "settings": {
               "image": "shopify:\/\/shop_images\/Witch.png",
               "imgurl": "shopify:\/\/collections\/witches",
