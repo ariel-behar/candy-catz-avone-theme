@@ -2735,9 +2735,9 @@
           "40694e75-4e5c-4716-ba4a-47a01e8a0a9b": {
             "type": "image",
             "settings": {
-              "image": "shopify:\/\/shop_images\/CC_Banner_Main_Obsidia.png",
-              "mb_image": "shopify:\/\/shop_images\/CC_Banner_MainMobile_Obsidia.png",
-              "link": "shopify:\/\/collections\/all-halloween",
+              "image": "shopify:\/\/shop_images\/web_page_banner_2022.jpg",
+              "mb_image": "shopify:\/\/shop_images\/Mobile_Banners_Webpage_Alternative_Size_2022.jpg",
+              "link": "https:\/\/candycatz.com\/collections\/shop-allLL HALLOWEEN",
               "newTab": false
             }
           },
