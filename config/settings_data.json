@@ -2735,8 +2735,8 @@
           "40694e75-4e5c-4716-ba4a-47a01e8a0a9b": {
             "type": "image",
             "settings": {
-              "image": "shopify:\/\/shop_images\/DesktopVersion_-_S_razmerite_copy_Updated.jpg",
-              "mb_image": "shopify:\/\/shop_images\/mobileVersion1_copy.png",
+              "image": "shopify:\/\/shop_images\/CC_Banner_Main_Obsidia.png",
+              "mb_image": "shopify:\/\/shop_images\/CC_Banner_MainMobile_Obsidia.png",
               "link": "shopify:\/\/collections\/all-halloween",
               "newTab": false
             }
