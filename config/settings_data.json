@@ -2785,7 +2785,6 @@
             "type": "banner",
             "settings": {
               "link_handle": "",
-              "image": "shopify:\/\/shop_images\/CC_banner_womensV2_340x100px.png",
               "url": "shopify:\/\/collections\/hw-candywoman",
               "candyman-or-candywoman": "candywoman",
               "banner-postion-level": "bottom"
@@ -2795,7 +2794,6 @@
             "type": "banner",
             "settings": {
               "link_handle": "",
-              "image": "shopify:\/\/shop_images\/CC_banner_mensV2_340x100px.png",
               "url": "shopify:\/\/collections\/hw-candyman",
               "candyman-or-candywoman": "candyman",
               "banner-postion-level": "bottom"
