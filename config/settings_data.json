@@ -2736,7 +2736,7 @@
             "type": "image",
             "settings": {
               "image": "shopify:\/\/shop_images\/bannerOhMyGothSkullDress.jpg",
-              "mb_image": "shopify:\/\/shop_images\/CC_Banner_MainMobile_BFCM2_free.png",
+              "mb_image": "shopify:\/\/shop_images\/bannerWebMobile.png",
               "link": "shopify:\/\/collections\/gothic",
               "newTab": false
             }
