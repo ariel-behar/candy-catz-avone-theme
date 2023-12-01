@@ -930,7 +930,7 @@
             "type": "megamenu1",
             "settings": {
               "title": "CYBER WEEK",
-              "url": "#",
+              "url": "shopify:\/\/collections\/shop-all",
               "newtab": false,
               "mm_linklist": "halloween-menu",
               "mmcolumns": 2,
