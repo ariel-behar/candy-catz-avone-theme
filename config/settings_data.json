@@ -929,8 +929,8 @@
           "b2ba7223-e1d1-4c54-87a2-efd3192daa75": {
             "type": "megamenu1",
             "settings": {
-              "title": "SALE",
-              "url": "shopify:\/\/collections\/shop-all",
+              "title": "HOLIDAY",
+              "url": "shopify:\/\/collections\/holiday",
               "newtab": false,
               "mm_linklist": "halloween-menu",
               "mmcolumns": 2,
