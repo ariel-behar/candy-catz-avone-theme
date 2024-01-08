@@ -1171,31 +1171,6 @@
               "url": "shopify:\/\/collections\/festival",
               "newtab": false
             }
-          },
-          "b2ba7223-e1d1-4c54-87a2-efd3192daa75": {
-            "type": "megamenu1",
-            "disabled": true,
-            "settings": {
-              "title": "COZY",
-              "url": "shopify:\/\/collections\/holiday",
-              "newtab": false,
-              "mm_linklist": "",
-              "mmcolumns": 1,
-              "imgcall": "right",
-              "columnWidth": 50,
-              "mmimgcolumns": 2,
-              "imageTtl1": "",
-              "imageurl": "shopify:\/\/collections\/festival-female",
-              "imageTtl2": "",
-              "Image2url": "shopify:\/\/collections\/body-male",
-              "imageTtl3": "",
-              "Image3url": "",
-              "imageTtl4": "",
-              "Image4url": "",
-              "custom_size": false,
-              "mm_size": "600",
-              "mm_align": "center"
-            }
           }
         },
         "block_order": [
@@ -1213,8 +1188,7 @@
           "763295c9-3bd1-477f-8484-b30feac19766",
           "99eb98d3-5401-4126-a1b8-44cd8b17f0da",
           "d0d65453-46b8-4a4c-92c5-dc859bfa67e1",
-          "12ec9726-d9ff-4f44-b105-99de80689051",
-          "b2ba7223-e1d1-4c54-87a2-efd3192daa75"
+          "12ec9726-d9ff-4f44-b105-99de80689051"
         ],
         "custom_css": [
 
