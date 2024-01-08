@@ -926,6 +926,15 @@
               "newtab": false
             }
           },
+          "12ec9726-d9ff-4f44-b105-99de80689051": {
+            "type": "single_link",
+            "disabled": true,
+            "settings": {
+              "title": "FESTIVAL",
+              "url": "shopify:\/\/collections\/festival",
+              "newtab": false
+            }
+          },
           "b2ba7223-e1d1-4c54-87a2-efd3192daa75": {
             "type": "megamenu1",
             "settings": {
@@ -933,7 +942,7 @@
               "url": "shopify:\/\/collections\/holiday",
               "newtab": false,
               "mm_linklist": "",
-              "mmcolumns": 2,
+              "mmcolumns": 1,
               "imgcall": "right",
               "columnWidth": 50,
               "mmimgcolumns": 2,
@@ -1029,15 +1038,6 @@
               "custom_size": false,
               "mm_size": "600",
               "mm_align": "center"
-            }
-          },
-          "12ec9726-d9ff-4f44-b105-99de80689051": {
-            "type": "single_link",
-            "disabled": true,
-            "settings": {
-              "title": "FESTIVAL",
-              "url": "shopify:\/\/collections\/festival",
-              "newtab": false
             }
           },
           "5951cd69-50fb-4fbf-8a37-22f6d7776d9a": {
@@ -1187,16 +1187,24 @@
               "url": "shopify:\/\/collections\/shop-all",
               "newtab": false
             }
+          },
+          "6210fe6d-f751-4141-8766-0ddb39304e46": {
+            "type": "single_link",
+            "settings": {
+              "title": "COZY",
+              "url": "shopify:\/\/collections\/holiday",
+              "newtab": false
+            }
           }
         },
         "block_order": [
           "3c361558-538e-47fc-8ce3-b1cf43968c58",
+          "12ec9726-d9ff-4f44-b105-99de80689051",
           "b2ba7223-e1d1-4c54-87a2-efd3192daa75",
           "d7d08f7b-dd79-49ba-9ea0-3ca1302ef2d6",
           "c749f12b-3454-40ca-814b-2fa39f30b48d",
           "014a2f74-b199-4c63-b5bb-606b02ac2f6f",
           "70b02093-5ba4-435e-a3fa-4481504ded5b",
-          "12ec9726-d9ff-4f44-b105-99de80689051",
           "5951cd69-50fb-4fbf-8a37-22f6d7776d9a",
           "94610f07-9efc-49f8-a0b2-cc7b5055dd4a",
           "cbddd032-1618-43cb-828d-1476f0f7583d",
@@ -1204,7 +1212,11 @@
           "1568181141028",
           "763295c9-3bd1-477f-8484-b30feac19766",
           "99eb98d3-5401-4126-a1b8-44cd8b17f0da",
-          "d0d65453-46b8-4a4c-92c5-dc859bfa67e1"
+          "d0d65453-46b8-4a4c-92c5-dc859bfa67e1",
+          "6210fe6d-f751-4141-8766-0ddb39304e46"
+        ],
+        "custom_css": [
+
         ],
         "settings": {
           "menuarrow": false,
