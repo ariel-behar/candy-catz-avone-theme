@@ -649,7 +649,7 @@
             "type": "by_color",
             "settings": {
               "title": "Filter by Color",
-              "filter_tags": "",
+              "filter_tags": "Purple, Red",
               "color_size": "small",
               "color_style": "rounded"
             }
