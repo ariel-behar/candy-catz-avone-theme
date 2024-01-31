@@ -648,7 +648,7 @@
           "by_color_3Bg984": {
             "type": "by_color",
             "settings": {
-              "title": "Filter by Color",
+              "title": "Color",
               "filter_tags": "Black, Purple, Red",
               "color_size": "small",
               "color_style": "rounded"
@@ -657,7 +657,7 @@
           "filter_by_KYjgQr": {
             "type": "filter_by",
             "settings": {
-              "title": "Filter By",
+              "title": "Size",
               "filter_tags": "Size",
               "twocall": true
             }
