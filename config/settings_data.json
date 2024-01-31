@@ -653,11 +653,20 @@
               "color_size": "small",
               "color_style": "rounded"
             }
+          },
+          "filter_by_KYjgQr": {
+            "type": "filter_by",
+            "settings": {
+              "title": "Filter By",
+              "filter_tags": "Size",
+              "twocall": false
+            }
           }
         },
         "block_order": [
           "filter_by_HNcR84",
-          "by_color_3Bg984"
+          "by_color_3Bg984",
+          "filter_by_KYjgQr"
         ],
         "settings": {
           "fullwidth": true,
