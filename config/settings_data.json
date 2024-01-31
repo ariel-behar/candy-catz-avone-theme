@@ -636,6 +636,29 @@
       },
       "collection-template": {
         "type": "collection-template",
+        "blocks": {
+          "filter_by_HNcR84": {
+            "type": "filter_by",
+            "settings": {
+              "title": "Price",
+              "filter_tags": "",
+              "twocall": false
+            }
+          },
+          "by_color_3Bg984": {
+            "type": "by_color",
+            "settings": {
+              "title": "Filter by Color",
+              "filter_tags": "",
+              "color_size": "small",
+              "color_style": "rounded"
+            }
+          }
+        },
+        "block_order": [
+          "filter_by_HNcR84",
+          "by_color_3Bg984"
+        ],
         "settings": {
           "fullwidth": true,
           "show_collection_name": false,
