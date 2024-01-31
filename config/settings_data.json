@@ -659,7 +659,7 @@
             "settings": {
               "title": "Filter By",
               "filter_tags": "Size",
-              "twocall": false
+              "twocall": true
             }
           }
         },
