@@ -961,8 +961,8 @@
           "6210fe6d-f751-4141-8766-0ddb39304e46": {
             "type": "single_link",
             "settings": {
-              "title": "SALE",
-              "url": "shopify:\/\/collections\/shop-all",
+              "title": "COZY",
+              "url": "shopify:\/\/collections\/holiday",
               "newtab": false
             }
           },
@@ -2754,9 +2754,9 @@
           "40694e75-4e5c-4716-ba4a-47a01e8a0a9b": {
             "type": "image",
             "settings": {
-              "image": "shopify:\/\/shop_images\/new-ohMyGothAIFace4.png",
-              "mb_image": "shopify:\/\/shop_images\/ohMyGothAIFace.mobile.png",
-              "link": "shopify:\/\/collections\/gothic",
+              "image": "shopify:\/\/shop_images\/superBowlWebsiteBannerDesktop3.jpg",
+              "mb_image": "shopify:\/\/shop_images\/superBowlWebsiteBannerMobile.jpg",
+              "link": "shopify:\/\/collections\/shop-all",
               "newTab": false
             }
           },
