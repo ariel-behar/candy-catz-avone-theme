@@ -961,8 +961,8 @@
           "6210fe6d-f751-4141-8766-0ddb39304e46": {
             "type": "single_link",
             "settings": {
-              "title": "COZY",
-              "url": "shopify:\/\/collections\/holiday",
+              "title": "SALE",
+              "url": "shopify:\/\/collections\/shop-all",
               "newtab": false
             }
           },
