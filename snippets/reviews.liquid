@@ -3,6 +3,7 @@
 
 
 {% elsif settings.reviews == 'loox' %}
+{% comment %}
 {% if product.metafields.loox.num_reviews %}
 <script id="looxSchemaJson" type="application/ld+json">
 {
@@ -18,6 +19,7 @@
 }
 </script>
 {% endif %}
+  {% endcomment %}
 <div id="looxReviews" data-product-id="{{product.id}}" class="loox-reviews-default">{{ product.metafields.loox.reviews }}</div>
 
 {% elsif settings.reviews == 'growave' %}
