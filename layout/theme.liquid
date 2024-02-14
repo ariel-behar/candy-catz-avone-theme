@@ -268,7 +268,7 @@
     "priceCurrency": "{{ shop.currency }}",
     "price": "{{ product.selected_or_first_available_variant.price | money_without_currency | remove: ',' }}",
     "priceValidUntil": "{{ "today" | date: '%s' | plus: days | date: "%Y-%m-%d" }}",
-    "availability": "{% if product.selected_or_first_available_variant.available %}InStock{% else %}OutOfStock{% endif %}",
+    "availability": "{% if product.selected_or_first_available_variant.inventory_quantity > 0 %}InStock{% else %}OutOfStock{% endif %}",
     "itemCondition": "http://schema.org/NewCondition",
     "seller": "{{ shop.name | escape }}",
     "url": "{{ shop.secure_url }}{{ product.selected_or_first_available_variant.url }}"
