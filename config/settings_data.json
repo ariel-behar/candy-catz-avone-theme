@@ -399,7 +399,7 @@
     "show_short_desc": true,
     "show_variant_swatches": true,
     "show_view_full_info": true,
-    "announcement": false,
+    "announcement": true,
     "announcement_mb": false,
     "announcement_txt": "BUY ONE, GET ONE 70% OFF SHOPWIDE: CODE XTRABOGO",
     "announcement_link": "shopify:\/\/products\/360-rotating-makeup-organizer",
