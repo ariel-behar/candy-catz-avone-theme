@@ -399,7 +399,7 @@
     "show_short_desc": true,
     "show_variant_swatches": true,
     "show_view_full_info": true,
-    "announcement": true,
+    "announcement": false,
     "announcement_mb": false,
     "announcement_txt": "UP TO 80% OFF ON THE ENTIRE STORE! hurry up!",
     "announcement_link": "shopify:\/\/products\/360-rotating-makeup-organizer",
