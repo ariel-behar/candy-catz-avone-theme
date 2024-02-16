@@ -744,7 +744,7 @@
           "mobile-grid": 2,
           "rows": "36",
           "pagination": "infinite",
-          "collection_sidebar": false,
+          "collection_sidebar": true,
           "sidebar_position": "left"
         }
       },
