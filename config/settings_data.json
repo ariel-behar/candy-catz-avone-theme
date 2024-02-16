@@ -637,36 +637,80 @@
       "collection-template": {
         "type": "collection-template",
         "blocks": {
-          "filter_by_HNcR84": {
+          "filter_by_CPpa6B": {
             "type": "filter_by",
             "settings": {
-              "title": "Price",
-              "filter_tags": "",
+              "title": "Gender",
+              "filter_tags": "Women, Men",
               "twocall": false
             }
           },
-          "by_color_3Bg984": {
-            "type": "by_color",
+          "filter_by_Ha6pRg": {
+            "type": "filter_by",
             "settings": {
-              "title": "Color",
-              "filter_tags": "Black, Purple, Red",
-              "color_size": "small",
-              "color_style": "rounded"
+              "title": "Product Type",
+              "filter_tags": "Full Bodysuit, Bodysuit, Catsuit, Set, Short Dress, Long Dress, Sleeveless Top, Long Sleeve Top, Short Sleeve Top, Shorts, Leggings, Pants, Short Skirt, Long Skirt, Hoodie, Onesie, Short Robe, Long Robe, Accessories",
+              "twocall": false
             }
           },
-          "filter_by_KYjgQr": {
+          "filter_by_hWTVWY": {
+            "type": "filter_by",
+            "settings": {
+              "title": "Style",
+              "filter_tags": "Rave, Psychedelic, Cyber, Animal, Boho, Pride, Gothic, Cozy",
+              "twocall": false
+            }
+          },
+          "filter_by_tCBae8": {
+            "type": "filter_by",
+            "settings": {
+              "title": "Occasion",
+              "filter_tags": "Festival, Club, Performance, Cosplay, Halloween, Holiday",
+              "twocall": false
+            }
+          },
+          "filter_by_3Uy8g6": {
+            "type": "filter_by",
+            "settings": {
+              "title": "Color",
+              "filter_tags": "Black, Green, Blue, White, Silver, Gold, Purple, Rainbow, Red, Pink, Yellow, Orange",
+              "twocall": false
+            }
+          },
+          "filter_by_hrKmxg": {
+            "type": "filter_by",
+            "settings": {
+              "title": "Fabric",
+              "filter_tags": "UV Reactive, Mesh, Latex Effect, Lycra, Cotton, Warm",
+              "twocall": false
+            }
+          },
+          "filter_by_pMTKMY": {
             "type": "filter_by",
             "settings": {
               "title": "Size",
-              "filter_tags": "Size",
+              "filter_tags": "XS, S, M, L, XL, XXL, 3XL, One Size",
+              "twocall": false
+            }
+          },
+          "filter_by_qadEVF": {
+            "type": "filter_by",
+            "settings": {
+              "title": "Price",
+              "filter_tags": "$14.99 - $44.99, $44.99 - $129.99, $129.99 - $169.99",
               "twocall": false
             }
           }
         },
         "block_order": [
-          "filter_by_HNcR84",
-          "by_color_3Bg984",
-          "filter_by_KYjgQr"
+          "filter_by_CPpa6B",
+          "filter_by_Ha6pRg",
+          "filter_by_hWTVWY",
+          "filter_by_tCBae8",
+          "filter_by_3Uy8g6",
+          "filter_by_hrKmxg",
+          "filter_by_pMTKMY",
+          "filter_by_qadEVF"
         ],
         "settings": {
           "fullwidth": true,
@@ -691,7 +735,7 @@
           "vr_bg_position": "50% 0",
           "color_size": "small",
           "color_style": "rounded",
-          "sort_enable": false,
+          "sort_enable": true,
           "dis_prod_cnt": false,
           "dis_grid_icn": false,
           "prbox_style": "style3",
@@ -700,7 +744,7 @@
           "mobile-grid": 2,
           "rows": "36",
           "pagination": "infinite",
-          "collection_sidebar": false,
+          "collection_sidebar": true,
           "sidebar_position": "left"
         }
       },
