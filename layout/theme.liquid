@@ -214,5 +214,68 @@
         {{ shop.metafields.loox["global_html_body"] }}
         {% if content_for_header contains 'bss-b2b-cp' %}
             {% include 'bss-b2b-jquery-341-js' %}{% include 'bss-b2b-js' %}{% endif %}
+<!--Structured data markup code added by Simprosys Infomedia - Start-->
+{% assign gtin_num = product.selected_or_first_available_variant.barcode | size %}
+<script type="application/ld+json">
+{
+  "@context":"http://schema.org",
+  "@type":"Product",
+  "@id":"{{ shop.url }}{{ product.url}}", 
+  "productId": "{{ product.id }}",
+  "name": {{ product.title | json }},
+  "description": {{ product.description | strip_html | truncatewords: 50 | json }},
+  "sku": {{ product.selected_or_first_available_variant.sku | json }},
+  "url": "{{ shop.secure_url }}{{ product.selected_or_first_available_variant.url }}",
+  "image": "https:{{ product.featured_image | product_img_url: 'grande' }}",
+  {% if gtin_num == 12 or gtin_num == 13 or gtin_num == 14  %}
+  "gtin{{gtin_num}}":"{{ product.selected_or_first_available_variant.barcode }}",
+  {% endif %}
+  "brand": {
+    "@type": "Brand",
+    "name": {{ product.vendor | json }},
+    "url": {{ jsonld_brand_url | json }}
+  },
+  {% if product.metafields.loox.num_reviews != blank and product.metafields.loox.num_reviews != "0" %}
+  "aggregateRating": [{
+  	"@type": "AggregateRating",
+    "ratingValue": "{{ product.metafields.loox.avg_rating }}",
+    "reviewCount": "{{ product.metafields.loox.num_reviews }}",
+    "bestRating": "5",
+    "worstRating": "1"
+  }],
+   	"review":[{
+    	"@type": "Review",
+		"itemReviewed":[{
+        	"@type": "Thing",
+			"name": {{ product.title | json }},
+            "image": "https:{{ product.featured_image | product_img_url: 'grande' }}",
+            "datePublished": "{{ product.metafields.simpReview.created_at }}"
+        }],
+        "author": [{
+        	"@type": "Person",
+			    "name": {{ shop.name | json }}
+        }],
+        "reviewRating": [{
+        	"@type": "Rating",
+            "ratingValue": "{{ product.metafields.loox.avg_rating }}",
+		    "bestRating": "5",
+		    "worstRating": "1"
+        }]
+    }],
+  {% endif %}
+  "offers": [{
+    "@type": "Offer",
+    "priceCurrency": "{{ shop.currency }}",
+    "price": "{{ product.selected_or_first_available_variant.price | money_without_currency | remove: ',' }}",
+    "priceValidUntil": "{{ "today" | date: '%s' | plus: days | date: "%Y-%m-%d" }}",
+    "availability": "{% if product.selected_or_first_available_variant.inventory_quantity > 0 %}InStock{% else %}OutOfStock{% endif %}",
+    "itemCondition": "http://schema.org/NewCondition",
+    "seller": "{{ shop.name | escape }}",
+    "url": "{{ shop.secure_url }}{{ product.selected_or_first_available_variant.url }}"
+  }]
+  
+}
+</script>
+<!--Structured data markup code added by Simprosys Infomedia - End-->
     </body>
 </html>

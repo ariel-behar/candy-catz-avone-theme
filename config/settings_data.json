@@ -215,7 +215,7 @@
     "logo_width_mbl": "160",
     "nav_below_logo": false,
     "hdTxt-block": "Welcome to our store. Signup now and get 20% off.",
-    "show_sticky_header": false,
+    "show_sticky_header": true,
     "sticky_logo_width": "160",
     "sticky_logo_height": "200",
     "sticky_header_height": "60",
@@ -302,7 +302,7 @@
     "sizechart_link": true,
     "sizechart_type": "default",
     "sizechart_page": "sizing-chart",
-    "enable_payment_button": false,
+    "enable_payment_button": true,
     "show_collection": false,
     "show_tags": false,
     "show_share_buttons_single": false,
@@ -399,14 +399,14 @@
     "show_short_desc": true,
     "show_variant_swatches": true,
     "show_view_full_info": true,
-    "announcement": false,
+    "announcement": true,
     "announcement_mb": false,
-    "announcement_txt": "UP TO 80% OFF ON THE ENTIRE STORE! hurry up!",
-    "announcement_link": "shopify:\/\/products\/360-rotating-makeup-organizer",
+    "announcement_txt": "BUY ONE, GET ONE 70% OFF SHOPWIDE: CODE XTRABOGO",
+    "announcement_link": "https:\/\/candycatz.com\/collections\/shop-all",
     "annouance_bg": "#f06543",
     "promotion_bg": "",
     "annouance_txt": "#ffffff",
-    "annouance_fs": 11,
+    "annouance_fs": 12,
     "annouance_pd": "style1",
     "mailChimp_url": "",
     "newsletter_code": "",
@@ -636,6 +636,82 @@
       },
       "collection-template": {
         "type": "collection-template",
+        "blocks": {
+          "filter_by_CPpa6B": {
+            "type": "filter_by",
+            "settings": {
+              "title": "Gender",
+              "filter_tags": "Women, Men",
+              "twocall": false
+            }
+          },
+          "filter_by_Ha6pRg": {
+            "type": "filter_by",
+            "settings": {
+              "title": "Product Type",
+              "filter_tags": "Full Bodysuit, Bodysuit, Catsuit, Set, Short Dress, Long Dress, Sleeveless Top, Long Sleeve Top, Short Sleeve Top, Shorts, Leggings, Pants, Short Skirt, Long Skirt, Hoodie, Onesie, Short Robe, Long Robe, Accessories",
+              "twocall": false
+            }
+          },
+          "filter_by_hWTVWY": {
+            "type": "filter_by",
+            "settings": {
+              "title": "Style",
+              "filter_tags": "Rave, Psychedelic, Cyber, Animal, Boho, Pride, Gothic, Cozy",
+              "twocall": false
+            }
+          },
+          "filter_by_tCBae8": {
+            "type": "filter_by",
+            "settings": {
+              "title": "Occasion",
+              "filter_tags": "Festival, Club, Performance, Cosplay, Halloween, Holiday",
+              "twocall": false
+            }
+          },
+          "filter_by_3Uy8g6": {
+            "type": "filter_by",
+            "settings": {
+              "title": "Color",
+              "filter_tags": "Black, Green, Blue, White, Silver, Gold, Purple, Rainbow, Red, Pink, Yellow, Orange",
+              "twocall": false
+            }
+          },
+          "filter_by_hrKmxg": {
+            "type": "filter_by",
+            "settings": {
+              "title": "Fabric",
+              "filter_tags": "UV Reactive, Mesh, Latex Effect, Lycra, Cotton, Warm",
+              "twocall": false
+            }
+          },
+          "filter_by_pMTKMY": {
+            "type": "filter_by",
+            "settings": {
+              "title": "Size",
+              "filter_tags": "XS, S, M, L, XL, XXL, 3XL, One Size",
+              "twocall": false
+            }
+          },
+          "filter_by_qadEVF": {
+            "type": "filter_by",
+            "settings": {
+              "title": "Price",
+              "filter_tags": "$14.99 - $44.99, $44.99 - $129.99, $129.99 - $169.99",
+              "twocall": false
+            }
+          }
+        },
+        "block_order": [
+          "filter_by_CPpa6B",
+          "filter_by_Ha6pRg",
+          "filter_by_hWTVWY",
+          "filter_by_tCBae8",
+          "filter_by_3Uy8g6",
+          "filter_by_hrKmxg",
+          "filter_by_pMTKMY",
+          "filter_by_qadEVF"
+        ],
         "settings": {
           "fullwidth": true,
           "show_collection_name": false,
@@ -659,7 +735,7 @@
           "vr_bg_position": "50% 0",
           "color_size": "small",
           "color_style": "rounded",
-          "sort_enable": false,
+          "sort_enable": true,
           "dis_prod_cnt": false,
           "dis_grid_icn": false,
           "prbox_style": "style3",
@@ -668,7 +744,7 @@
           "mobile-grid": 2,
           "rows": "36",
           "pagination": "infinite",
-          "collection_sidebar": false,
+          "collection_sidebar": true,
           "sidebar_position": "left"
         }
       },
@@ -922,34 +998,16 @@
             "type": "single_link",
             "settings": {
               "title": "WHAT'S NEW",
-              "url": "shopify:\/\/collections\/whats-new-hw",
+              "url": "shopify:\/\/collections\/imaginarium",
               "newtab": false
             }
           },
-          "b2ba7223-e1d1-4c54-87a2-efd3192daa75": {
-            "type": "megamenu1",
+          "6210fe6d-f751-4141-8766-0ddb39304e46": {
+            "type": "single_link",
             "settings": {
-              "title": "Halloween",
-              "url": "#",
-              "newtab": false,
-              "mm_linklist": "halloween-menu",
-              "mmcolumns": 2,
-              "imgcall": "right",
-              "columnWidth": 50,
-              "mmimgcolumns": 2,
-              "megamenu1_image": "shopify:\/\/shop_images\/CC_banner_womens_525x814px.png",
-              "imageTtl1": "",
-              "imageurl": "shopify:\/\/collections\/hw-candywoman",
-              "megamenu2_image": "shopify:\/\/shop_images\/CC_banner_mens_525x814px.png",
-              "imageTtl2": "",
-              "Image2url": "shopify:\/\/collections\/hw-candyman",
-              "imageTtl3": "",
-              "Image3url": "",
-              "imageTtl4": "",
-              "Image4url": "",
-              "custom_size": false,
-              "mm_size": "600",
-              "mm_align": "center"
+              "title": "SALE",
+              "url": "shopify:\/\/collections\/shop-all",
+              "newtab": false
             }
           },
           "d7d08f7b-dd79-49ba-9ea0-3ca1302ef2d6": {
@@ -988,7 +1046,7 @@
           "014a2f74-b199-4c63-b5bb-606b02ac2f6f": {
             "type": "megamenu1",
             "settings": {
-              "title": "CANDYWOMAN",
+              "title": "WOMEN",
               "url": "",
               "newtab": false,
               "mm_linklist": "woman",
@@ -1012,7 +1070,7 @@
           "70b02093-5ba4-435e-a3fa-4481504ded5b": {
             "type": "megamenu1",
             "settings": {
-              "title": "CANDYMAN",
+              "title": "MEN",
               "url": "",
               "newtab": false,
               "mm_linklist": "man",
@@ -1031,15 +1089,6 @@
               "custom_size": false,
               "mm_size": "600",
               "mm_align": "center"
-            }
-          },
-          "12ec9726-d9ff-4f44-b105-99de80689051": {
-            "type": "single_link",
-            "disabled": true,
-            "settings": {
-              "title": "FESTIVAL",
-              "url": "shopify:\/\/collections\/festival",
-              "newtab": false
             }
           },
           "5951cd69-50fb-4fbf-8a37-22f6d7776d9a": {
@@ -1189,16 +1238,24 @@
               "url": "shopify:\/\/collections\/shop-all",
               "newtab": false
             }
+          },
+          "12ec9726-d9ff-4f44-b105-99de80689051": {
+            "type": "single_link",
+            "disabled": true,
+            "settings": {
+              "title": "FESTIVAL",
+              "url": "shopify:\/\/collections\/festival",
+              "newtab": false
+            }
           }
         },
         "block_order": [
           "3c361558-538e-47fc-8ce3-b1cf43968c58",
-          "b2ba7223-e1d1-4c54-87a2-efd3192daa75",
+          "6210fe6d-f751-4141-8766-0ddb39304e46",
           "d7d08f7b-dd79-49ba-9ea0-3ca1302ef2d6",
           "c749f12b-3454-40ca-814b-2fa39f30b48d",
           "014a2f74-b199-4c63-b5bb-606b02ac2f6f",
           "70b02093-5ba4-435e-a3fa-4481504ded5b",
-          "12ec9726-d9ff-4f44-b105-99de80689051",
           "5951cd69-50fb-4fbf-8a37-22f6d7776d9a",
           "94610f07-9efc-49f8-a0b2-cc7b5055dd4a",
           "cbddd032-1618-43cb-828d-1476f0f7583d",
@@ -1206,7 +1263,11 @@
           "1568181141028",
           "763295c9-3bd1-477f-8484-b30feac19766",
           "99eb98d3-5401-4126-a1b8-44cd8b17f0da",
-          "d0d65453-46b8-4a4c-92c5-dc859bfa67e1"
+          "d0d65453-46b8-4a4c-92c5-dc859bfa67e1",
+          "12ec9726-d9ff-4f44-b105-99de80689051"
+        ],
+        "custom_css": [
+
         ],
         "settings": {
           "menuarrow": false,
@@ -2637,7 +2698,7 @@
       "1631971367f47c1aab": {
         "type": "loox-all-reviews",
         "settings": {
-          "title": "RAVE REVIEWS AND WICKED WORDS",
+          "title": "",
           "title_font_size_style": "h1",
           "only_photos": false,
           "hide_thumbnails": true,
@@ -2653,8 +2714,8 @@
           "b7edf9b5-f720-4145-bac3-a7af06a79ad6": {
             "type": "image",
             "settings": {
-              "image": "shopify:\/\/shop_images\/Cyber_1_5f66923f-aac9-45b8-accd-e3edbb5095e6.png",
-              "imgurl": "shopify:\/\/collections\/cyber",
+              "image": "shopify:\/\/shop_images\/Best_Woman_s.png",
+              "imgurl": "shopify:\/\/collections\/best-womens",
               "width": "50%",
               "alignment": "center"
             }
@@ -2662,8 +2723,8 @@
           "ee435934-f4f1-4018-8261-5c812defffaa": {
             "type": "image",
             "settings": {
-              "image": "shopify:\/\/shop_images\/Skeleton.png",
-              "imgurl": "shopify:\/\/collections\/halloween-skeletons",
+              "image": "shopify:\/\/shop_images\/Best_Man_s.png",
+              "imgurl": "shopify:\/\/collections\/male-most-wanted",
               "width": "50%",
               "alignment": "center"
             }
@@ -2671,8 +2732,8 @@
           "fac33d23-fac1-403c-aaad-85facbb413d5": {
             "type": "image",
             "settings": {
-              "image": "shopify:\/\/shop_images\/UV_Reflective.png",
-              "imgurl": "shopify:\/\/collections\/uv-bodysuits",
+              "image": "shopify:\/\/shop_images\/Cyber_1.png",
+              "imgurl": "shopify:\/\/collections\/cyber",
               "width": "50%",
               "alignment": "center"
             }
@@ -2680,14 +2741,15 @@
           "8f0531b8-d53d-40ca-8bcd-28e9d3a21961": {
             "type": "image",
             "settings": {
-              "image": "shopify:\/\/shop_images\/Alien_Zombie.png",
-              "imgurl": "shopify:\/\/collections\/halloween-zombies",
+              "image": "shopify:\/\/shop_images\/Neon_Faves.png",
+              "imgurl": "shopify:\/\/collections\/uv-bodysuits",
               "width": "50%",
               "alignment": "center"
             }
           },
           "1642762893f9920420-1": {
             "type": "image",
+            "disabled": true,
             "settings": {
               "image": "shopify:\/\/shop_images\/Fairy.png",
               "imgurl": "shopify:\/\/collections\/fairy",
@@ -2697,6 +2759,7 @@
           },
           "b027b04e-9126-4f5e-8e40-010e70f0298c": {
             "type": "image",
+            "disabled": true,
             "settings": {
               "image": "shopify:\/\/shop_images\/Witch.png",
               "imgurl": "shopify:\/\/collections\/witches",
@@ -2735,9 +2798,9 @@
           "40694e75-4e5c-4716-ba4a-47a01e8a0a9b": {
             "type": "image",
             "settings": {
-              "image": "shopify:\/\/shop_images\/DesktopVersion_-_S_razmerite_copy_Updated.jpg",
-              "mb_image": "shopify:\/\/shop_images\/mobileVersion1_copy.png",
-              "link": "shopify:\/\/collections\/all-halloween",
+              "image": "shopify:\/\/shop_images\/XTRABOGODesktopBanner_2.jpg",
+              "mb_image": "shopify:\/\/shop_images\/XTRABOGOMobileBanner_3.jpg",
+              "link": "shopify:\/\/collections\/shop-all",
               "newTab": false
             }
           },
@@ -2780,32 +2843,6 @@
       },
       "nav-mobile": {
         "type": "nav-mobile",
-        "blocks": {
-          "74cb68fe-f1f3-4e1d-9fb3-b130a373ae9b": {
-            "type": "banner",
-            "settings": {
-              "link_handle": "",
-              "image": "shopify:\/\/shop_images\/CC_banner_womensV2_340x100px.png",
-              "url": "shopify:\/\/collections\/hw-candywoman",
-              "candyman-or-candywoman": "candywoman",
-              "banner-postion-level": "bottom"
-            }
-          },
-          "d5bcab0c-1046-422f-8f32-2dde389290fc": {
-            "type": "banner",
-            "settings": {
-              "link_handle": "",
-              "image": "shopify:\/\/shop_images\/CC_banner_mensV2_340x100px.png",
-              "url": "shopify:\/\/collections\/hw-candyman",
-              "candyman-or-candywoman": "candyman",
-              "banner-postion-level": "bottom"
-            }
-          }
-        },
-        "block_order": [
-          "74cb68fe-f1f3-4e1d-9fb3-b130a373ae9b",
-          "d5bcab0c-1046-422f-8f32-2dde389290fc"
-        ],
         "settings": {
           "mobile_menu": "halloween-mobile-nav"
         }
@@ -2815,7 +2852,7 @@
         "settings": {
           "title": "",
           "subtitle": "",
-          "collection": "all-halloween",
+          "collection": "imaginarium",
           "secondary_image": true,
           "show_vendor": false,
           "prlist_btn_show": true,
