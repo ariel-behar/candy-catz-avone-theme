@@ -40,7 +40,7 @@
     "show_free_ship": false,
     "free_ship_cartpage": true,
     "show_estimate_ship": false,
-    "estimate_ship": "4\/10",
+    "estimate_ship": "8\/11",
     "estimate_shipping_msg": "Estimated delivery between [startdate] and [enddate].",
     "terms_checkbox": false,
     "terms_text": "I agree with the terms and conditions",
@@ -2561,7 +2561,7 @@
       "product-recommendations": {
         "type": "product-recommendations",
         "settings": {
-          "show_product_recommendations": true,
+          "show_product_recommendations": false,
           "recommanded_products_autoplay": false,
           "autoplay_speed": "3000",
           "recommanded_title": "RECOMMENDED PRODUCTS",
@@ -2887,6 +2887,22 @@
           "flex_direction": "row",
           "justify_content": "space-around",
           "align_items": "end"
+        }
+      },
+      "product-recommendations-infinite-scroll": {
+        "type": "product-recommendations-infinite-scroll",
+        "settings": {
+          "show_product_recommendations": true,
+          "prbox_style": "style3",
+          "recommended_title": "RECOMMENDED PRODUCTS",
+          "recommended_sub_title": "",
+          "prlist_btn_show": true,
+          "secondary_image": true,
+          "grid": 4,
+          "tablet-grid": 3,
+          "mobile-grid": 2,
+          "rows": "24",
+          "pagination": "infinite"
         }
       }
     },
