@@ -244,7 +244,7 @@
     "enable_quickshop": false,
     "prlist_btn_show": true,
     "btn_mobiles": true,
-    "price_style": "default",
+    "price_style": "p_range",
     "price_lbl": false,
     "price_lbl_txt": "From",
     "show_color_swatch": false,
