@@ -649,7 +649,7 @@
             "type": "filter_by",
             "settings": {
               "title": "Product Type",
-              "filter_tags": "Full Bodysuit, Bodysuit, Catsuit, Romper, Set, Short Dress, Long Dress, Sleeveless Top, Long Sleeve Top, Short Sleeve Top, Shorts, Leggings, Pants, Short Skirt, Long Skirt, Hoodie, Onesie, Short Robe, Long Robe, Accessories",
+              "filter_tags": "Full Bodysuit, Bodysuit, Catsuit, Romper, Set, Short Dress, Long Dress, Sleeveless Top, Long Sleeve Top, Short Sleeve Top, Shorts, Leggings, Pants, Chaps, Short Skirt, Long Skirt, Hoodie, Onesie, Short Robe, Long Robe, Accessories",
               "twocall": false
             }
           },
