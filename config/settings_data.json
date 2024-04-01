@@ -2724,7 +2724,7 @@
             "type": "image",
             "settings": {
               "image": "shopify:\/\/shop_images\/Best_Man_s.png",
-              "imgurl": "shopify:\/\/collections\/male-most-wanted",
+              "imgurl": "shopify:\/\/collections\/test-bestsellers-men",
               "width": "50%",
               "alignment": "center"
             }
