@@ -2724,7 +2724,7 @@
             "type": "image",
             "settings": {
               "image": "shopify://shop_images/Best_Woman_s.png",
-              "imgurl": "shopify://collections/test-bestsellers-women",
+              "imgurl": "shopify://collections/bestsellers-women",
               "width": "50%",
               "alignment": "center"
             }
