@@ -1253,7 +1253,7 @@
             "disabled": true,
             "settings": {
               "title": "FESTIVAL",
-              "url": "shopify://collections/festival",
+              "url": "shopify://collections/festival-old",
               "newtab": false
             }
           }
@@ -1275,9 +1275,7 @@
           "d0d65453-46b8-4a4c-92c5-dc859bfa67e1",
           "12ec9726-d9ff-4f44-b105-99de80689051"
         ],
-        "custom_css": [
-
-        ],
+        "custom_css": [],
         "settings": {
           "menuarrow": false,
           "menuAlign": "left",
@@ -2929,14 +2927,12 @@
       "855628211100114053": {
         "type": "shopify://apps/klaviyo-email-marketing-sms/blocks/klaviyo-onsite-embed/2632fe16-c075-4321-a88b-50b567f42507",
         "disabled": false,
-        "settings": {
-        }
+        "settings": {}
       },
       "7878088468538493966": {
         "type": "shopify://apps/wisepops-smart-popups-bars/blocks/app-embed/e7d7a4f7-0df4-4073-9375-5f36db513952",
         "disabled": false,
-        "settings": {
-        }
+        "settings": {}
       }
     }
   },
@@ -2967,39 +2963,33 @@
       "sections": {
         "hero": {
           "type": "hero",
-          "settings": {
-          }
+          "settings": {}
         },
         "slideshow": {
           "type": "slideshow",
           "blocks": {
             "slideshow-0": {
               "type": "image",
-              "settings": {
-              }
+              "settings": {}
             },
             "slideshow-1": {
               "type": "image",
-              "settings": {
-              }
+              "settings": {}
             }
           },
           "block_order": [
             "slideshow-0",
             "slideshow-1"
           ],
-          "settings": {
-          }
+          "settings": {}
         },
         "feature-row": {
           "type": "feature-row",
-          "settings": {
-          }
+          "settings": {}
         },
         "footer": {
           "type": "footer",
-          "settings": {
-          }
+          "settings": {}
         }
       },
       "content_for_index": [
