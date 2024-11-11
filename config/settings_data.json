@@ -1,3 +1,12 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "current": {
     "layout_style": "fullwidth",
@@ -34,13 +43,13 @@
     "br_bg": "#f9f9f9",
     "bf_text": "#111111",
     "free_ship": "free-shipping",
-    "free_ship_msg": "<b>GETTING CLOSER!<\/b> $ Away from FREE SHIPPING!",
-    "got_free_ship": "<b>Congratulations! <\/b>You have got <b>FREE Shipping<\/b>",
+    "free_ship_msg": "<b>GETTING CLOSER!</b> $ Away from FREE SHIPPING!",
+    "got_free_ship": "<b>Congratulations! </b>You have got <b>FREE Shipping</b>",
     "free_ship_minicart": true,
     "show_free_ship": false,
     "free_ship_cartpage": true,
     "show_estimate_ship": false,
-    "estimate_ship": "8\/11",
+    "estimate_ship": "8/11",
     "estimate_shipping_msg": "Estimated delivery between [startdate] and [enddate].",
     "terms_checkbox": false,
     "terms_text": "I agree with the terms and conditions",
@@ -195,9 +204,9 @@
     "snow_style": "style1",
     "topbar": false,
     "topbar_fullwidth": true,
-    "leftTxt": "<a href=\"tel:4400111044%20833\"><i class=\"ad ad-phone-l\"><\/i> +440 0(111) 044 833<\/a>\n<a href=\"mailto:sales@yourstorename.com\"><i class=\"ad ad-envelope-l\"><\/i> sales@yourstorename.com<\/a>",
+    "leftTxt": "<a href=\"tel:4400111044%20833\"><i class=\"ad ad-phone-l\"></i> +440 0(111) 044 833</a>\n<a href=\"mailto:sales@yourstorename.com\"><i class=\"ad ad-envelope-l\"></i> sales@yourstorename.com</a>",
     "leftTxt-mobile": true,
-    "centerTxt": "<i class=\"ad ad-telegram-plane\"><\/i> FREE SHIPPING on order above $99",
+    "centerTxt": "<i class=\"ad ad-telegram-plane\"></i> FREE SHIPPING on order above $99",
     "centerTxt-mobile": false,
     "rightTxt": "Follow Us: [social-icons]",
     "rightTxt-mobile": true,
@@ -206,7 +215,7 @@
     "top_header_clr": "#000000",
     "main_header_fullwidth": true,
     "logosvg": "",
-    "logo": "shopify:\/\/shop_images\/Candy_Catz_Final-0811.jpg",
+    "logo": "shopify://shop_images/Candy_Catz_Final-0811.jpg",
     "align_logo": "left",
     "logo_width": "160",
     "logo_height": "200",
@@ -402,7 +411,7 @@
     "announcement": true,
     "announcement_mb": false,
     "announcement_txt": "BUY ONE, GET ONE 70% OFF SHOPWIDE: CODE XTRABOGO",
-    "announcement_link": "https:\/\/candycatz.com\/collections\/shop-all",
+    "announcement_link": "https://candycatz.com/collections/shop-all",
     "annouance_bg": "#f06543",
     "promotion_bg": "",
     "annouance_txt": "#ffffff",
@@ -434,14 +443,14 @@
     "share_whatsapp": true,
     "share_email": true,
     "social_twitter_link": "",
-    "social_facebook_link": "https:\/\/www.facebook.com\/CandyCatzWear\/",
-    "social_pinterest_link": "https:\/\/www.pinterest.com\/CandyCatzWear\/",
-    "social_instagram_link": "https:\/\/www.instagram.com\/candycatz.wear\/",
+    "social_facebook_link": "https://www.facebook.com/CandyCatzWear/",
+    "social_pinterest_link": "https://www.pinterest.com/CandyCatzWear/",
+    "social_instagram_link": "https://www.instagram.com/candycatz.wear/",
     "social_tumblr_link": "",
     "social_youtube_link": "",
     "social_vimeo_link": "",
     "checkout_header_image": "",
-    "checkout_logo_image": "shopify:\/\/shop_images\/Candy_Catz_Final-05.jpg",
+    "checkout_logo_image": "shopify://shop_images/Candy_Catz_Final-05.jpg",
     "checkout_logo_position": "center",
     "checkout_logo_size": "large",
     "checkout_body_background_image": "",
@@ -462,18 +471,18 @@
     "spr_review_quick": true,
     "show_share_buttons": true,
     "show_product_review_cnt": false,
-    "share_image": "shopify:\/\/shop_images\/01_preview.png",
+    "share_image": "shopify://shop_images/01_preview.png",
     "feature_txt_bg": "#eee",
     "newsletter_popup_title_color": "#000000",
     "sections": {
       "404": {
         "type": "404",
         "settings": {
-          "image": "shopify:\/\/shop_images\/1_9b3df110-8f40-4195-affd-d5e0e07bce0c.jpg",
+          "image": "shopify://shop_images/1_9b3df110-8f40-4195-affd-d5e0e07bce0c.jpg",
           "title": "Page Not Found",
           "title2": "The page you requested does not exist.",
           "btntext": "Continue shopping",
-          "btntlnk": "\/"
+          "btntlnk": "/"
         }
       },
       "footer": {
@@ -483,7 +492,7 @@
             "type": "custom",
             "settings": {
               "title": "",
-              "logo": "shopify:\/\/shop_images\/LogoWebPage.jpg",
+              "logo": "shopify://shop_images/LogoWebPage.jpg",
               "logo-width": 130,
               "custom-text": "",
               "show_socials": true,
@@ -496,7 +505,7 @@
             "type": "menu",
             "disabled": true,
             "settings": {
-              "title": "<b>Quick Shop<\/b>",
+              "title": "<b>Quick Shop</b>",
               "menulinks": "footer",
               "width": "20%"
             }
@@ -504,7 +513,7 @@
           "1559218222806": {
             "type": "menu",
             "settings": {
-              "title": "<b>INFO<\/b>",
+              "title": "<b>INFO</b>",
               "menulinks": "info-footer",
               "width": "25%"
             }
@@ -520,7 +529,7 @@
           "3e6789c1-7f35-402b-bf6c-ef30ea63a955": {
             "type": "menu",
             "settings": {
-              "title": "<b>ABOUT<\/b>",
+              "title": "<b>ABOUT</b>",
               "menulinks": "footer",
               "width": "25%"
             }
@@ -530,7 +539,7 @@
             "disabled": true,
             "settings": {
               "newltr_align": false,
-              "title": "<b>Join the A-List and get 10% off<\/b>",
+              "title": "<b>Join the A-List and get 10% off</b>",
               "sub_title": "",
               "show_socials": false,
               "socials_ttl": "Stay Connected",
@@ -604,7 +613,7 @@
             "type": "custom",
             "settings": {
               "title": "SHIPPING",
-              "content": "<div style=\"text-align: left;\">We send orders on weekdays from Monday to Friday except on public holidays. <\/div>\n<br>\n<div style=\"text-align: left;\"><\/div>\n<div style=\"text-align: left;\">Most of our products are made to order and processing time is 5-7 business days.<\/div>\n<br>\n<div style=\"text-align: left;\"><\/div>\n<div style=\"text-align: left;\"><\/div>\n<div style=\"text-align: left;\">\n<strong>Standard Shipping ($9.99)<\/strong>:<\/div>\n<div style=\"text-align: left;\">\n<ul>\n<li>US - 7-10 business days<\/li>\n<li>Europe - 7 <span>business days<\/span>\n<\/li>\n<li>Rest of the World - 10 <span>business days<\/span>\n<\/li>\n<\/ul>\n<\/div>\n<div style=\"text-align: left;\">\n<strong>Express Shipping with DHL ($14.99)<\/strong>:<\/div>\n<div style=\"text-align: left;\">\n<ul>\n<li>US - 2-3 business days<\/li>\n<li>Europe - 1-2 <span>business days<\/span>\n<\/li>\n<li>Rest of the World - 2-5 <span>business days<\/span>\n<\/li>\n<\/ul>\n<\/div>\n<div style=\"text-align: left;\">Once when the package leaves our building it remains in the care of the shipping carrier and we are not responsible for delays, mistakes or any kind of damage or lost packages.<\/div>\n<div style=\"text-align: left;\"><\/div>\n<br>\n<div style=\"text-align: left;\">Opt in to live tracking information via text message from your shipping confirmation email.<\/div>\n<div style=\"text-align: left;\"><\/div>\n<br>\n<div style=\"text-align: left;\">Buyers are responsible for local duties, taxes and advancement fees at delivery in the countries where applicable (e.g. Canada).<\/div>"
+              "content": "<div style=\"text-align: left;\">We send orders on weekdays from Monday to Friday except on public holidays. </div>\n<br>\n<div style=\"text-align: left;\"></div>\n<div style=\"text-align: left;\">Most of our products are made to order and processing time is 5-7 business days.</div>\n<br>\n<div style=\"text-align: left;\"></div>\n<div style=\"text-align: left;\"></div>\n<div style=\"text-align: left;\">\n<strong>Standard Shipping ($9.99)</strong>:</div>\n<div style=\"text-align: left;\">\n<ul>\n<li>US - 7-10 business days</li>\n<li>Europe - 7 <span>business days</span>\n</li>\n<li>Rest of the World - 10 <span>business days</span>\n</li>\n</ul>\n</div>\n<div style=\"text-align: left;\">\n<strong>Express Shipping with DHL ($14.99)</strong>:</div>\n<div style=\"text-align: left;\">\n<ul>\n<li>US - 2-3 business days</li>\n<li>Europe - 1-2 <span>business days</span>\n</li>\n<li>Rest of the World - 2-5 <span>business days</span>\n</li>\n</ul>\n</div>\n<div style=\"text-align: left;\">Once when the package leaves our building it remains in the care of the shipping carrier and we are not responsible for delays, mistakes or any kind of damage or lost packages.</div>\n<div style=\"text-align: left;\"></div>\n<br>\n<div style=\"text-align: left;\">Opt in to live tracking information via text message from your shipping confirmation email.</div>\n<div style=\"text-align: left;\"></div>\n<br>\n<div style=\"text-align: left;\">Buyers are responsible for local duties, taxes and advancement fees at delivery in the countries where applicable (e.g. Canada).</div>"
             }
           },
           "1556802441189": {
@@ -761,11 +770,11 @@
           "show_subject": false,
           "store_opening_time": "",
           "cnt_title": "",
-          "store_address": "<strong>Customer Service: <\/strong>meow@candycatz.com <br> <br><strong>Press & Collabs:<\/strong> partnerships@candycatz.com<br> <br>",
+          "store_address": "<strong>Customer Service: </strong>meow@candycatz.com <br> <br><strong>Press & Collabs:</strong> partnerships@candycatz.com<br> <br>",
           "store_phone": "",
           "store_email": "",
           "show_socials": true,
-          "socials_ttl": "<b>STAY CONNECTED<\/b>",
+          "socials_ttl": "<b>STAY CONNECTED</b>",
           "form_bg": "#f8f8f8",
           "form_text": "#111111"
         }
@@ -850,7 +859,7 @@
         ],
         "settings": {
           "section_width": true,
-          "page_title": "<strong>COLLECTIONS<\/strong>",
+          "page_title": "<strong>COLLECTIONS</strong>",
           "display_type": "selected",
           "sort": "alphabetical",
           "product_count": true,
@@ -964,7 +973,7 @@
           "related_products_autoplay": true,
           "autoplay_speed": "3000",
           "related_title": "Related Products",
-          "related_sub_title": "You can stop autoplay, increase\/decrease aniamtion speed and number of grid to show and products from store admin.",
+          "related_sub_title": "You can stop autoplay, increase/decrease aniamtion speed and number of grid to show and products from store admin.",
           "grid": 4,
           "tablet-grid": 3,
           "mobile-grid": 2,
@@ -974,7 +983,7 @@
       "password-content": {
         "type": "password-content",
         "settings": {
-          "logo": "shopify:\/\/shop_images\/logo.png",
+          "logo": "shopify://shop_images/logo.png",
           "logo_max_width": "300",
           "header": "We will launch soon",
           "newsletter_enable": true,
@@ -998,7 +1007,7 @@
             "type": "single_link",
             "settings": {
               "title": "WHAT'S NEW",
-              "url": "shopify:\/\/collections\/imaginarium",
+              "url": "shopify://collections/imaginarium",
               "newtab": false
             }
           },
@@ -1006,7 +1015,7 @@
             "type": "single_link",
             "settings": {
               "title": "SALE",
-              "url": "shopify:\/\/collections\/shop-all",
+              "url": "shopify://collections/shop-all",
               "newtab": false
             }
           },
@@ -1103,14 +1112,14 @@
               "imgcall": "right",
               "columnWidth": 39,
               "mmimgcolumns": 2,
-              "megamenu1_image": "shopify:\/\/shop_images\/andr.png",
+              "megamenu1_image": "shopify://shop_images/andr.png",
               "imageTtl1": "",
-              "imageurl": "shopify:\/\/collections\/all-animal-prints",
+              "imageurl": "shopify://collections/all-animal-prints",
               "imageTtl2": "",
               "Image2url": "",
-              "megamenu3_image": "shopify:\/\/shop_images\/1.png",
+              "megamenu3_image": "shopify://shop_images/1.png",
               "imageTtl3": "",
-              "Image3url": "shopify:\/\/collections\/cyber",
+              "Image3url": "shopify://collections/cyber",
               "imageTtl4": "",
               "Image4url": "",
               "custom_size": true,
@@ -1135,24 +1144,24 @@
               "url": "",
               "newtab": false,
               "ttl1": "Psychedelic Fluid",
-              "megamenu1_image": "shopify:\/\/shop_images\/Psyche.jpg",
-              "ttlurl1": "shopify:\/\/collections\/psychedelic",
+              "megamenu1_image": "shopify://shop_images/Psyche.jpg",
+              "ttlurl1": "shopify://collections/psychedelic",
               "mm_linkcol1": "",
               "ttl2": "Cyber Intellect",
-              "megamenu2_image": "shopify:\/\/shop_images\/Cyber.jpg",
-              "ttlurl2": "shopify:\/\/collections\/cyber",
+              "megamenu2_image": "shopify://shop_images/Cyber.jpg",
+              "ttlurl2": "shopify://collections/cyber",
               "mm_linkcol2": "",
               "ttl3": "Animal Dreamwear",
-              "megamenu3_image": "shopify:\/\/shop_images\/Animal.jpg",
-              "ttlurl3": "shopify:\/\/collections\/all-animal-prints",
+              "megamenu3_image": "shopify://shop_images/Animal.jpg",
+              "ttlurl3": "shopify://collections/all-animal-prints",
               "mm_linkcol3": "",
               "ttl4": "Holographic",
-              "megamenu4_image": "shopify:\/\/shop_images\/Holographic.jpg",
-              "ttlurl4": "shopify:\/\/collections\/holographic",
+              "megamenu4_image": "shopify://shop_images/Holographic.jpg",
+              "ttlurl4": "shopify://collections/holographic",
               "mm_linkcol4": "",
               "ttl5": "Couples Outfits",
-              "megamenu5_image": "shopify:\/\/shop_images\/Matching.jpg",
-              "ttlurl5": "shopify:\/\/collections\/matching-couple-outfits",
+              "megamenu5_image": "shopify://shop_images/Matching.jpg",
+              "ttlurl5": "shopify://collections/matching-couple-outfits",
               "mm_linkcol5": "",
               "custom_size": true,
               "mm_size": "700",
@@ -1173,7 +1182,7 @@
             "disabled": true,
             "settings": {
               "title": "Buy Now",
-              "url": "https:\/\/1.envato.market\/KdyYx",
+              "url": "https://1.envato.market/KdyYx",
               "newtab": false
             }
           },
@@ -1213,16 +1222,16 @@
               "imgcall": "bottom",
               "columnWidth": 50,
               "mmimgcolumns": 4,
-              "megamenu1_image": "shopify:\/\/shop_images\/5_39b3e888-77a5-451e-bacb-7e99e509e3cc.png",
+              "megamenu1_image": "shopify://shop_images/5_39b3e888-77a5-451e-bacb-7e99e509e3cc.png",
               "imageTtl1": "WOMEN",
               "imageurl": "",
-              "megamenu2_image": "shopify:\/\/shop_images\/il_fullxfull.5218116059_3ohu.jpg",
+              "megamenu2_image": "shopify://shop_images/il_fullxfull.5218116059_3ohu.jpg",
               "imageTtl2": "MEN",
               "Image2url": "",
-              "megamenu3_image": "shopify:\/\/shop_images\/7_0b3c04ce-35b5-4254-a254-30a8df41879e.png",
+              "megamenu3_image": "shopify://shop_images/7_0b3c04ce-35b5-4254-a254-30a8df41879e.png",
               "imageTtl3": "WOMEN 2",
               "Image3url": "",
-              "megamenu4_image": "shopify:\/\/shop_images\/il_fullxfull.5218118143_jytp.jpg",
+              "megamenu4_image": "shopify://shop_images/il_fullxfull.5218118143_jytp.jpg",
               "imageTtl4": "MEN 2",
               "Image4url": "",
               "custom_size": false,
@@ -1235,7 +1244,7 @@
             "disabled": true,
             "settings": {
               "title": "SALE",
-              "url": "shopify:\/\/collections\/shop-all",
+              "url": "shopify://collections/shop-all",
               "newtab": false
             }
           },
@@ -1244,7 +1253,7 @@
             "disabled": true,
             "settings": {
               "title": "FESTIVAL",
-              "url": "shopify:\/\/collections\/festival",
+              "url": "shopify://collections/festival-old",
               "newtab": false
             }
           }
@@ -1266,9 +1275,7 @@
           "d0d65453-46b8-4a4c-92c5-dc859bfa67e1",
           "12ec9726-d9ff-4f44-b105-99de80689051"
         ],
-        "custom_css": [
-
-        ],
+        "custom_css": [],
         "settings": {
           "menuarrow": false,
           "menuAlign": "left",
@@ -1362,21 +1369,21 @@
           "1559896163041": {
             "type": "Color",
             "settings": {
-              "title": "Black\/Pink",
+              "title": "Black/Pink",
               "color": ""
             }
           },
           "1559896228518": {
             "type": "Color",
             "settings": {
-              "title": "Black\/Grey",
+              "title": "Black/Grey",
               "color": ""
             }
           },
           "1559896270918": {
             "type": "Color",
             "settings": {
-              "title": "Blue\/Red",
+              "title": "Blue/Red",
               "color": ""
             }
           }
@@ -1448,29 +1455,29 @@
           "1553578254469": {
             "type": "style2",
             "settings": {
-              "title1": "<h4><b>WHY WE<\/b><\/h4>",
-              "title1des": "<p>Avon comes with easy-to-use interface and outstanding support. You can implement your own design. You can easily change the store's appearance as per your requirements using our ready sections and options available.You can implement your own design. You can easily change the store's appearance as per your requirements using our ready sections and options available.<\/p>",
-              "title2": "<h4><b>OUR VISION<\/b><\/h4>",
-              "title2des": "<p>Vestibulum ultricies aliquam convallis. Maecenas ut tellus mi. Proin tincidunt, lectus eu volutpat mattis, ante metus lacinia tellus, vitae condimentum nulla enim bibendum nibh. Praesent turpis risus, interdum nec venenatis id, pretium sit amet purus. Interdum et malesuada fames ac ante ipsum primis in faucibus.<\/p>",
-              "title3": "<h4><b>OUR MISSION<\/b><\/h4>",
-              "title3des": "<p>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. sunt in culpa qui officia deserunt mollit anim id est laborum. sunt in culpa qui officia deserunt mollit anim id est laborum.<\/p>",
-              "title4": "<h4><b>CONTACT US<\/b><\/h4>",
-              "title4des": "<p><strong>55 Gallaxy Enque,<\/strong><br>2568 steet, 23568 NY<\/p>\n<p><strong>Phone<\/strong> : (440) 000 000 0000 <br><strong>Email<\/strong>: sales@yousite.com<\/p>",
-              "title5": "<h4><b>OUR \nTEAM<\/b><\/h4>",
-              "team1bio": "<p><strong>STIVE SMITH<\/strong><\/p>\n<p>FOUNDER & CEO<\/p>",
-              "socialurl1": "<a href=\"#\"><i class=\"ad ad-facebook-f\"><\/i><\/a>\n<a href=\"#\"><i class=\"ad ad-pinterest-p\"><\/i><\/a>\n<a href=\"#\"><i class=\"ad  ad-twitter \"><\/i><\/a>",
-              "team2bio": "<p><strong>STIVE SMITH<\/strong><\/p>\n<p>CREATIVE DIRECTOR<\/p>",
-              "socialurl2": "<a href=\"#\"><i class=\"ad ad-facebook-f\"><\/i><\/a>\n<a href=\"#\"><i class=\"ad ad-pinterest-p\"><\/i><\/a>\n<a href=\"#\"><i class=\"ad  ad-twitter \"><\/i><\/a>",
-              "team3bio": "<p><strong>STIVE SMITH<\/strong><\/p>\n<p>SALES DIRECTOR<\/p>",
-              "socialurl3": "<a href=\"#\"><i class=\"ad ad-facebook-f\"><\/i><\/a>\n<a href=\"#\"><i class=\"ad ad-pinterest-p\"><\/i><\/a>\n<a href=\"#\"><i class=\"ad  ad-twitter \"><\/i><\/a>"
+              "title1": "<h4><b>WHY WE</b></h4>",
+              "title1des": "<p>Avon comes with easy-to-use interface and outstanding support. You can implement your own design. You can easily change the store's appearance as per your requirements using our ready sections and options available.You can implement your own design. You can easily change the store's appearance as per your requirements using our ready sections and options available.</p>",
+              "title2": "<h4><b>OUR VISION</b></h4>",
+              "title2des": "<p>Vestibulum ultricies aliquam convallis. Maecenas ut tellus mi. Proin tincidunt, lectus eu volutpat mattis, ante metus lacinia tellus, vitae condimentum nulla enim bibendum nibh. Praesent turpis risus, interdum nec venenatis id, pretium sit amet purus. Interdum et malesuada fames ac ante ipsum primis in faucibus.</p>",
+              "title3": "<h4><b>OUR MISSION</b></h4>",
+              "title3des": "<p>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. sunt in culpa qui officia deserunt mollit anim id est laborum. sunt in culpa qui officia deserunt mollit anim id est laborum.</p>",
+              "title4": "<h4><b>CONTACT US</b></h4>",
+              "title4des": "<p><strong>55 Gallaxy Enque,</strong><br>2568 steet, 23568 NY</p>\n<p><strong>Phone</strong> : (440) 000 000 0000 <br><strong>Email</strong>: sales@yousite.com</p>",
+              "title5": "<h4><b>OUR \nTEAM</b></h4>",
+              "team1bio": "<p><strong>STIVE SMITH</strong></p>\n<p>FOUNDER & CEO</p>",
+              "socialurl1": "<a href=\"#\"><i class=\"ad ad-facebook-f\"></i></a>\n<a href=\"#\"><i class=\"ad ad-pinterest-p\"></i></a>\n<a href=\"#\"><i class=\"ad  ad-twitter \"></i></a>",
+              "team2bio": "<p><strong>STIVE SMITH</strong></p>\n<p>CREATIVE DIRECTOR</p>",
+              "socialurl2": "<a href=\"#\"><i class=\"ad ad-facebook-f\"></i></a>\n<a href=\"#\"><i class=\"ad ad-pinterest-p\"></i></a>\n<a href=\"#\"><i class=\"ad  ad-twitter \"></i></a>",
+              "team3bio": "<p><strong>STIVE SMITH</strong></p>\n<p>SALES DIRECTOR</p>",
+              "socialurl3": "<a href=\"#\"><i class=\"ad ad-facebook-f\"></i></a>\n<a href=\"#\"><i class=\"ad ad-pinterest-p\"></i></a>\n<a href=\"#\"><i class=\"ad  ad-twitter \"></i></a>"
             }
           },
           "1553589884401": {
             "type": "image_with_text",
             "settings": {
               "layout": "left",
-              "title": "<h4><b>Our Mission<\/b><\/h4>",
-              "text": "<p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.<\/p>",
+              "title": "<h4><b>Our Mission</b></h4>",
+              "text": "<p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>",
               "button_label": "",
               "button_link": ""
             }
@@ -1479,8 +1486,8 @@
             "type": "image_with_text",
             "settings": {
               "layout": "right",
-              "title": "<h4><b>Our Vision<\/b><\/h4>",
-              "text": "<p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.<\/p>",
+              "title": "<h4><b>Our Vision</b></h4>",
+              "text": "<p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>",
               "button_label": "",
               "button_link": ""
             }
@@ -1489,8 +1496,8 @@
             "type": "image_with_text",
             "settings": {
               "layout": "left",
-              "title": "<h4><b>The Founder<\/b><\/h4>",
-              "text": "<p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.<\/p>",
+              "title": "<h4><b>The Founder</b></h4>",
+              "text": "<p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>",
               "button_label": "Read More",
               "button_link": "#"
             }
@@ -1503,7 +1510,7 @@
           "1553590025679"
         ],
         "settings": {
-          "top-text": "<p>Quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.<\/p>",
+          "top-text": "<p>Quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>",
           "pagestyle": "style1",
           "btn-size-desk": "btn-sm",
           "btn-size-mob": "mob-btn-sm"
@@ -1518,19 +1525,19 @@
               "ds_height": 500,
               "tb_height": 350,
               "mb_height": 250,
-              "image": "shopify:\/\/shop_images\/banner-3_4fc2c36d-0765-4af0-958b-c70743743121.jpg",
+              "image": "shopify://shop_images/banner-3_4fc2c36d-0765-4af0-958b-c70743743121.jpg",
               "alignment": "center",
               "textalign": "rightcenter",
               "pretext": "ARE YOU READY?",
-              "title": "<b> Start Selling Online Successfully<\/b>",
-              "text": "<p>Creative, Flexible and High Performance shopify theme!<\/p>",
+              "title": "<b> Start Selling Online Successfully</b>",
+              "text": "<p>Creative, Flexible and High Performance shopify theme!</p>",
               "button_label": "Purchase Now",
               "button_link": "#",
               "txt_clr": "#ffffff",
               "bg_clr": "rgba(0,0,0,0)",
               "bg_opacity": 1,
               "hero_dealtimer": false,
-              "cnt_date": "12\/03\/2021",
+              "cnt_date": "12/03/2021",
               "cnt_bg": "#000000",
               "cnt_text": "#eeeeee",
               "cnt_bdr": "#000000"
@@ -1570,8 +1577,8 @@
           "4b9b4070-884a-42b3-a090-44233a642846": {
             "type": "text",
             "settings": {
-              "title": "<h2>Capture the Unseen in the Everyday<\/h2><h3>108MP + 13MP + 2MP + 2MP <\/h3><br>",
-              "text": "<p>Introducing the <strong>highest resolution camera<\/strong> on a smartphone ever. Capture the unseen in every scene with the 108MP sensor. <br\/>Get more control over each image with the RAW mode built into the camera app. Shoot incredible ultra-wide landscapes. <br\/>Try out macro photography or get the perfect bokeh effect for all your portraits. A mighty quad camera setup loaded with professional camera.<\/p>",
+              "title": "<h2>Capture the Unseen in the Everyday</h2><h3>108MP + 13MP + 2MP + 2MP </h3><br>",
+              "text": "<p>Introducing the <strong>highest resolution camera</strong> on a smartphone ever. Capture the unseen in every scene with the 108MP sensor. <br/>Get more control over each image with the RAW mode built into the camera app. Shoot incredible ultra-wide landscapes. <br/>Try out macro photography or get the perfect bokeh effect for all your portraits. A mighty quad camera setup loaded with professional camera.</p>",
               "btntxt": "Read More",
               "width": "100%",
               "alignment": "center",
@@ -1600,8 +1607,8 @@
           "842317f0-ce3b-4a7e-8a43-3b180cf2f682": {
             "type": "text",
             "settings": {
-              "title": "<h3>LOG Mode<\/h3>",
-              "text": "<p>Add a splash of colour to your photos at the edit table. Add a splash of colour to your photos at the edit table.<\/p>",
+              "title": "<h3>LOG Mode</h3>",
+              "text": "<p>Add a splash of colour to your photos at the edit table. Add a splash of colour to your photos at the edit table.</p>",
               "btntxt": "Read More",
               "width": "25%",
               "alignment": "center",
@@ -1611,8 +1618,8 @@
           "b91c0706-7929-4db7-9a64-050b4c9e7724": {
             "type": "text",
             "settings": {
-              "title": "<h3>RAW Mode<\/h3>",
-              "text": "<p>Create the perfect shot even under the toughest lighting conditions. Create the perfect shot even under the toughest lighting conditions.<\/p>",
+              "title": "<h3>RAW Mode</h3>",
+              "text": "<p>Create the perfect shot even under the toughest lighting conditions. Create the perfect shot even under the toughest lighting conditions.</p>",
               "btntxt": "Read More",
               "width": "25%",
               "alignment": "center",
@@ -1641,7 +1648,7 @@
           "117cce40-70ae-40f3-8ea2-d43a1a60dd3e": {
             "type": "text",
             "settings": {
-              "image": "shopify:\/\/shop_images\/banner-3.jpg",
+              "image": "shopify://shop_images/banner-3.jpg",
               "title": "",
               "text": "",
               "btntxt": "Read More",
@@ -1653,7 +1660,7 @@
           "2d5a5246-7d41-4bac-8b58-563070100c84": {
             "type": "text",
             "settings": {
-              "title": "<h3>ACCESSORIES<\/h3>",
+              "title": "<h3>ACCESSORIES</h3>",
               "text": "",
               "btntxt": "Read More",
               "width": "100%",
@@ -1693,11 +1700,11 @@
             "type": "video",
             "settings": {
               "video_url": "",
-              "mp4url": "https:\/\/cdn.shopify.com\/s\/files\/1\/0036\/7306\/3491\/files\/miview.mp4?v=1609674779",
+              "mp4url": "https://cdn.shopify.com/s/files/1/0036/7306/3491/files/miview.mp4?v=1609674779",
               "enable_cntrl": false,
               "is_autoplay": true,
               "enable_sound": false,
-              "title": "<b>A Lens for Every Style<\/b>",
+              "title": "<b>A Lens for Every Style</b>",
               "text_align": "bottomcenter",
               "color_ttl": "#ffffff",
               "width": "100%",
@@ -1715,8 +1722,8 @@
           "faaa739e-6096-40b8-ad32-c904fe9b33d5": {
             "type": "text",
             "settings": {
-              "title": "<h2>All-New Camera Setup<\/h2>",
-              "text": "<p>A mighty quad camera setup loaded with professional camera features like RAW mode<br\/>that elevate the smartphone camera experience.<\/p>",
+              "title": "<h2>All-New Camera Setup</h2>",
+              "text": "<p>A mighty quad camera setup loaded with professional camera features like RAW mode<br/>that elevate the smartphone camera experience.</p>",
               "btntxt": "Read More",
               "width": "100%",
               "alignment": "center",
@@ -1726,8 +1733,8 @@
           "aac27b80-3b81-4305-a336-c760261a85e7": {
             "type": "text",
             "settings": {
-              "title": "<h3>7P Lens<\/h3>",
-              "text": "<p>Impressive light gathering unlocks the full potential of the 108MP camera setup. Try out macro photography or get the perfect bokeh effect for all your portraits.<\/p>",
+              "title": "<h3>7P Lens</h3>",
+              "text": "<p>Impressive light gathering unlocks the full potential of the 108MP camera setup. Try out macro photography or get the perfect bokeh effect for all your portraits.</p>",
               "btntxt": "Read More",
               "width": "33%",
               "alignment": "center",
@@ -1737,8 +1744,8 @@
           "fe5d787e-8dc7-4a90-bba9-be0e702db08d": {
             "type": "text",
             "settings": {
-              "title": "<h2>HEIF<\/h2>",
-              "text": "<p>A JPEG equivalent which takes approximately 50% lesser storage space without losing out on image quality. Try something new every day!<\/p>",
+              "title": "<h2>HEIF</h2>",
+              "text": "<p>A JPEG equivalent which takes approximately 50% lesser storage space without losing out on image quality. Try something new every day!</p>",
               "btntxt": "Read More",
               "width": "33%",
               "alignment": "center",
@@ -1748,8 +1755,8 @@
           "aa8c3b5a-731e-49d9-812f-8ba42b64cc55": {
             "type": "text",
             "settings": {
-              "title": "<h2>AI Pixel<\/h2>",
-              "text": "<p>Comprehensive pixel optimization for vibrant pictures. All of this made possible with one mighty quad camera setup<\/p>",
+              "title": "<h2>AI Pixel</h2>",
+              "text": "<p>Comprehensive pixel optimization for vibrant pictures. All of this made possible with one mighty quad camera setup</p>",
               "btntxt": "Read More",
               "width": "33%",
               "alignment": "center",
@@ -1767,9 +1774,9 @@
           "17d7a71d-7bbd-4b00-afb6-b1db55383692": {
             "type": "text",
             "settings": {
-              "image": "shopify:\/\/shop_images\/3E10CADA-AA5C-5C9D-F4B9-864028375CC6.jpg",
+              "image": "shopify://shop_images/3E10CADA-AA5C-5C9D-F4B9-864028375CC6.jpg",
               "title": "",
-              "text": "<p>Before AI Pixel Optimization<\/p>",
+              "text": "<p>Before AI Pixel Optimization</p>",
               "btntxt": "Read More",
               "width": "50%",
               "alignment": "center",
@@ -1779,9 +1786,9 @@
           "112b48cf-70f8-4a0b-b696-41c3f2f695f0": {
             "type": "text",
             "settings": {
-              "image": "shopify:\/\/shop_images\/682E99CA-3A10-AEFC-5981-46E76C224511.jpg",
+              "image": "shopify://shop_images/682E99CA-3A10-AEFC-5981-46E76C224511.jpg",
               "title": "",
-              "text": "<p>After AI Pixel Optimization<\/p>",
+              "text": "<p>After AI Pixel Optimization</p>",
               "btntxt": "Read More",
               "width": "50%",
               "alignment": "center",
@@ -1836,7 +1843,7 @@
             "type": "text",
             "settings": {
               "title": "",
-              "text": "<p><strong>Shopify<\/strong> is a commerce platform that allows anyone to set up an online store and sell their products. Merchants can also sell their products in person with Shopify POS.<br\/><\/p><p><em>Shopify started over ten years ago<\/em> when our founder Tobi wanted to sell snowboards with his company at that time called Snowdevil. He quickly realized it was incredibly challenging to sell snowboards online without an easy to use <strong>ecommerce platform<\/strong>. So he decided to create it himself, and Shopify was born.<br\/><\/p><p>Shopify is now the leading commerce platform designed for businesses of all sizes. Whether you sell online, on social media, in store, or out of the trunk of your car, Shopify has you covered. The first Shopify store was our own, and it’s been our mission to make commerce better for everyone ever since.<br\/><\/p><p><\/p>",
+              "text": "<p><strong>Shopify</strong> is a commerce platform that allows anyone to set up an online store and sell their products. Merchants can also sell their products in person with Shopify POS.<br/></p><p><em>Shopify started over ten years ago</em> when our founder Tobi wanted to sell snowboards with his company at that time called Snowdevil. He quickly realized it was incredibly challenging to sell snowboards online without an easy to use <strong>ecommerce platform</strong>. So he decided to create it himself, and Shopify was born.<br/></p><p>Shopify is now the leading commerce platform designed for businesses of all sizes. Whether you sell online, on social media, in store, or out of the trunk of your car, Shopify has you covered. The first Shopify store was our own, and it’s been our mission to make commerce better for everyone ever since.<br/></p><p></p>",
               "btntxt": "Read More",
               "width": "50%",
               "alignment": "center",
@@ -1847,7 +1854,7 @@
             "type": "text",
             "settings": {
               "title": "",
-              "text": "<p>Whether you’re a budding jewelry designer and want to start selling your products, or a musician and want to sell your latest mixtape, or if you have an established business and want to grow, Shopify can help you. <strong>Hundreds of thousands of entrepreneurs from over 175 countries trust Shopify to help sell their product<\/strong>s.<br\/><\/p><p>Below you’ll find the different products or services that you can sell on Shopify. Even if you know what you’re selling already, it may give you some ideas for other services you could sell to grow your business.<\/p>",
+              "text": "<p>Whether you’re a budding jewelry designer and want to start selling your products, or a musician and want to sell your latest mixtape, or if you have an established business and want to grow, Shopify can help you. <strong>Hundreds of thousands of entrepreneurs from over 175 countries trust Shopify to help sell their product</strong>s.<br/></p><p>Below you’ll find the different products or services that you can sell on Shopify. Even if you know what you’re selling already, it may give you some ideas for other services you could sell to grow your business.</p>",
               "btntxt": "",
               "width": "50%",
               "alignment": "top-middle",
@@ -1865,8 +1872,8 @@
           "b81c6b73-8321-418f-b7f1-1402d7591b2e": {
             "type": "text",
             "settings": {
-              "title": "<h3>Our Mission<\/h3>",
-              "text": "<p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.<\/p>",
+              "title": "<h3>Our Mission</h3>",
+              "text": "<p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>",
               "btntxt": "Read More",
               "width": "50%",
               "alignment": "center",
@@ -1877,7 +1884,7 @@
             "type": "video",
             "settings": {
               "video_url": "",
-              "mp4url": "https:\/\/cdn.shopify.com\/s\/files\/1\/0036\/7306\/3491\/files\/about-new.mp4?v=1609242230",
+              "mp4url": "https://cdn.shopify.com/s/files/1/0036/7306/3491/files/about-new.mp4?v=1609242230",
               "enable_cntrl": false,
               "is_autoplay": true,
               "enable_sound": false,
@@ -1891,7 +1898,7 @@
           "6892d992-fbc6-475e-b4f8-df92b369cb33": {
             "type": "image_with_text",
             "settings": {
-              "image": "shopify:\/\/shop_images\/about.jpg",
+              "image": "shopify://shop_images/about.jpg",
               "layout": "left",
               "title2": "Why we?",
               "text2": "Avon comes with easy-to-use interface and outstanding support. You can implement your own design. You can easily change the store's appearance as per your requirements using our ready sections and options available.",
@@ -1906,7 +1913,7 @@
           "0be77821-e6b6-4e9b-82e2-1fdd736590e8": {
             "type": "image_with_text",
             "settings": {
-              "image": "shopify:\/\/shop_images\/our-vision.jpg",
+              "image": "shopify://shop_images/our-vision.jpg",
               "layout": "right",
               "title2": "Our Vision",
               "text2": "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
@@ -1928,8 +1935,8 @@
           "c4faf458-222a-4ef3-aae3-15c7629df052": {
             "type": "text",
             "settings": {
-              "title": "<h4>FOUNDERS<\/h4>",
-              "text": "<p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.<br\/><\/p><p><\/p>",
+              "title": "<h4>FOUNDERS</h4>",
+              "text": "<p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.<br/></p><p></p>",
               "btntxt": "Read More",
               "width": "25%",
               "alignment": "top-middle",
@@ -1939,9 +1946,9 @@
           "a3b5944d-823a-4c93-8730-f4d87bb45d19": {
             "type": "text",
             "settings": {
-              "image": "shopify:\/\/shop_images\/demo2-about-2.jpg",
+              "image": "shopify://shop_images/demo2-about-2.jpg",
               "title": "",
-              "text": "<p><strong>ANDREA SWIFT<br\/><\/strong>DIRECTOR <\/p><p><\/p>",
+              "text": "<p><strong>ANDREA SWIFT<br/></strong>DIRECTOR </p><p></p>",
               "btntxt": "Read More",
               "width": "25%",
               "alignment": "top-middle",
@@ -1951,9 +1958,9 @@
           "02152604-ace8-47fb-ae54-2b184b075167": {
             "type": "text",
             "settings": {
-              "image": "shopify:\/\/shop_images\/demo2-about-1.jpg",
+              "image": "shopify://shop_images/demo2-about-1.jpg",
               "title": "",
-              "text": "<p><strong>SIMONA HALEP<\/strong><br\/>FOUNDER &amp; CEO<\/p>",
+              "text": "<p><strong>SIMONA HALEP</strong><br/>FOUNDER &amp; CEO</p>",
               "btntxt": "Read More",
               "width": "25%",
               "alignment": "top-middle",
@@ -1963,9 +1970,9 @@
           "dba82dd7-1cad-4ef2-8f75-ecf5c1a4349d": {
             "type": "text",
             "settings": {
-              "image": "shopify:\/\/shop_images\/demo2-about-3.jpg",
+              "image": "shopify://shop_images/demo2-about-3.jpg",
               "title": "",
-              "text": "<p><strong>STIVE SMITH<br\/><\/strong>CO FOUNDER <br\/><\/p>",
+              "text": "<p><strong>STIVE SMITH<br/></strong>CO FOUNDER <br/></p>",
               "btntxt": "Read More",
               "width": "25%",
               "alignment": "top-middle",
@@ -2006,9 +2013,9 @@
           "643ebc0d-e11c-477c-83e2-1dcfb96f3475": {
             "type": "text",
             "settings": {
-              "image": "shopify:\/\/shop_images\/custom-banner.png",
-              "title": "<h3>We are Shopify experts. Need help growing your Shopify sales?<\/h3>",
-              "text": "<p>We provide innovative solutions to expand your business. Let us take your online shop to new dimension in success! Boost your store sales and define your brands with Avone.<\/p>",
+              "image": "shopify://shop_images/custom-banner.png",
+              "title": "<h3>We are Shopify experts. Need help growing your Shopify sales?</h3>",
+              "text": "<p>We provide innovative solutions to expand your business. Let us take your online shop to new dimension in success! Boost your store sales and define your brands with Avone.</p>",
               "btntxt": "Read More",
               "width": "50%",
               "alignment": "top-middle",
@@ -2019,7 +2026,7 @@
             "type": "text",
             "settings": {
               "title": "",
-              "text": "<p><strong>Design Quality<\/strong><\/p><p>First impressions of online store is 94% design related. Quality web design establishes trust and credibility. We provide high quality shopify themes. <br\/><br\/><br\/><strong>One Click Demo Installation<\/strong><\/p><p>It&#x27;s very easy to install the demo just by a single click. It’s totally automatic and save your time.<br\/><br\/><br\/><strong>Top Quality Documentation<br\/><\/strong><br\/>Extensive documentation where each section of the theme and its features are described in a easy way to understand.<\/p><p><br\/><\/p>",
+              "text": "<p><strong>Design Quality</strong></p><p>First impressions of online store is 94% design related. Quality web design establishes trust and credibility. We provide high quality shopify themes. <br/><br/><br/><strong>One Click Demo Installation</strong></p><p>It&#x27;s very easy to install the demo just by a single click. It’s totally automatic and save your time.<br/><br/><br/><strong>Top Quality Documentation<br/></strong><br/>Extensive documentation where each section of the theme and its features are described in a easy way to understand.</p><p><br/></p>",
               "btntxt": "Read More",
               "width": "25%",
               "alignment": "top-middle",
@@ -2030,7 +2037,7 @@
             "type": "text",
             "settings": {
               "title": "",
-              "text": "<p><strong>Unlimited power and<br\/> customization possibilities<\/strong><\/p><p>Save time and frustration by visually editing your site. Build professional layouts in just a few minutes.<br\/><br\/><br\/><strong>High Speed &amp; Performance<\/strong><\/p><p>Performance matters the most for your online shop ! We leverage the strategy and help you earn maximum ROI.<br\/><br\/><br\/><strong>Top Notch Support <\/strong><\/p><p>Get the best technical support in 24 hours. If you have questions or problems, we are glad to help you<\/p>",
+              "text": "<p><strong>Unlimited power and<br/> customization possibilities</strong></p><p>Save time and frustration by visually editing your site. Build professional layouts in just a few minutes.<br/><br/><br/><strong>High Speed &amp; Performance</strong></p><p>Performance matters the most for your online shop ! We leverage the strategy and help you earn maximum ROI.<br/><br/><br/><strong>Top Notch Support </strong></p><p>Get the best technical support in 24 hours. If you have questions or problems, we are glad to help you</p>",
               "btntxt": "Read More",
               "width": "25%",
               "alignment": "top-middle",
@@ -2048,8 +2055,8 @@
           "36afb72d-593c-4347-9eeb-00e103dfe63f": {
             "type": "text",
             "settings": {
-              "title": "<h3>FEATURED COLLECTION<\/h3>",
-              "text": "<p>Top Rated Shopify themes and Services from certified Shopify Experts<\/p>",
+              "title": "<h3>FEATURED COLLECTION</h3>",
+              "text": "<p>Top Rated Shopify themes and Services from certified Shopify Experts</p>",
               "btntxt": "Read More",
               "width": "100%",
               "alignment": "center",
@@ -2107,8 +2114,8 @@
           "57daff52-d354-4469-98c7-c88d2e4ffdf5": {
             "type": "text",
             "settings": {
-              "title": "<h3>WHY BUY FROM US?<\/h3>",
-              "text": "<p>Use this text to share information about your brand with your customers. <\/p>",
+              "title": "<h3>WHY BUY FROM US?</h3>",
+              "text": "<p>Use this text to share information about your brand with your customers. </p>",
               "btntxt": "Read More",
               "width": "100%",
               "alignment": "center",
@@ -2126,9 +2133,9 @@
           "a7267749-7cd9-4eb6-b574-4d5d95b1df9d": {
             "type": "text",
             "settings": {
-              "image": "shopify:\/\/shop_images\/truck.jpg",
-              "title": "<h4>FREE SHIPPING<\/h4>",
-              "text": "<p>Lorem Ipsum hasbeen standard daand scrambled.<\/p>",
+              "image": "shopify://shop_images/truck.jpg",
+              "title": "<h4>FREE SHIPPING</h4>",
+              "text": "<p>Lorem Ipsum hasbeen standard daand scrambled.</p>",
               "btntxt": "Read More",
               "width": "25%",
               "alignment": "top-middle",
@@ -2138,9 +2145,9 @@
           "f5ed9cc8-5f01-4138-9358-865138ffa983": {
             "type": "text",
             "settings": {
-              "image": "shopify:\/\/shop_images\/support.jpg",
-              "title": "<h4>24\/7 SUPPORT<\/h4>",
-              "text": "<p>Lorem Ipsum hasbeen standard daand scrambled.<\/p>",
+              "image": "shopify://shop_images/support.jpg",
+              "title": "<h4>24/7 SUPPORT</h4>",
+              "text": "<p>Lorem Ipsum hasbeen standard daand scrambled.</p>",
               "btntxt": "Read More",
               "width": "25%",
               "alignment": "top-middle",
@@ -2150,9 +2157,9 @@
           "56065bf5-14f9-419f-a7d7-5e462dc0d392": {
             "type": "text",
             "settings": {
-              "image": "shopify:\/\/shop_images\/SECURE.jpg",
-              "title": "<h4>SECURE PAYMENT<\/h4>",
-              "text": "<p>Lorem Ipsum hasbeen standard daand scrambled.<\/p>",
+              "image": "shopify://shop_images/SECURE.jpg",
+              "title": "<h4>SECURE PAYMENT</h4>",
+              "text": "<p>Lorem Ipsum hasbeen standard daand scrambled.</p>",
               "btntxt": "Read More",
               "width": "25%",
               "alignment": "top-middle",
@@ -2162,9 +2169,9 @@
           "db521d26-6451-421c-9ed4-26e8d738252f": {
             "type": "text",
             "settings": {
-              "image": "shopify:\/\/shop_images\/money.jpg",
-              "title": "<h4>MONEY GAURNTEE<\/h4>",
-              "text": "<p>Lorem Ipsum hasbeen standard daand scrambled.<\/p>",
+              "image": "shopify://shop_images/money.jpg",
+              "title": "<h4>MONEY GAURNTEE</h4>",
+              "text": "<p>Lorem Ipsum hasbeen standard daand scrambled.</p>",
               "btntxt": "Read More",
               "width": "25%",
               "alignment": "top-middle",
@@ -2307,21 +2314,21 @@
           "1590669262380": {
             "type": "style2",
             "settings": {
-              "title1": "<h4>WHY WE<\/h4>",
-              "title1des": "<p>Avon comes with easy-to-use interface and outstanding support. You can implement your own design. You can easily change the store's appearance as per your requirements using our ready sections and options available.<\/p>",
-              "title2": "<h4>OUR VISION<\/h4>",
-              "title2des": "<p>Vestibulum ultricies aliquam convallis. Maecenas ut tellus mi. Proin tincidunt, lectus eu volutpat mattis, ante metus lacinia tellus, vitae condimentum nulla enim bibendum nibh. Praesent turpis risus, interdum nec venenatis id, pretium sit amet purus. Interdum et malesuada fames ac ante ipsum primis in faucibus.<\/p>",
-              "title3": "<h4>OUR MISSION<\/h4>",
-              "title3des": "<p>Vestibulum ultricies aliquam convallis. Maecenas ut tellus mi. Proin tincidunt, lectus eu volutpat mattis, ante metus lacinia tellus, vitae condimentum nulla enim bibendum nibh. Praesent turpis risus, interdum nec venenatis id, pretium sit amet purus. Interdum et malesuada fames ac ante ipsum primis in faucibus.<\/p>",
-              "title4": "<h4>CONTACT US<\/h4>",
-              "title4des": "<p><strong>55 Gallaxy Enque,<\/strong><br\/>2568 steet, 23568 NY<\/p><p><strong>Phone<\/strong> : (440) 000 000 0000 <br\/><strong>Email<\/strong>: sales@yousite.com<\/p>",
-              "title5": "<h4>OUR TEAM<\/h4>",
-              "team1bio": "<p><strong>STIVE SMITH<\/strong><\/p>\n<p>FOUNDER & CEO<\/p>",
-              "socialurl1": "<a href=\"#\"><i class=\"ad ad-facebook-f\"><\/i><\/a>\n<a href=\"#\"><i class=\"ad ad-pinterest-p\"><\/i><\/a>\n<a href=\"#\"><i class=\"ad ad-twitter \"><\/i><\/a>",
-              "team2bio": "<p><strong>STIVE SMITH<\/strong><\/p>\n<p>FOUNDER & CEO<\/p>",
-              "socialurl2": "<a href=\"#\"><i class=\"ad ad-facebook-f\"><\/i><\/a>\n<a href=\"#\"><i class=\"ad ad-pinterest-p\"><\/i><\/a>\n<a href=\"#\"><i class=\"ad ad-twitter \"><\/i><\/a>",
-              "team3bio": "<p><strong>STIVE SMITH<\/strong><\/p>\n<p>FOUNDER & CEO<\/p>",
-              "socialurl3": "<a href=\"#\"><i class=\"ad ad-facebook-f\"><\/i><\/a>\n<a href=\"#\"><i class=\"ad ad-pinterest-p\"><\/i><\/a>\n<a href=\"#\"><i class=\"ad ad-twitter \"><\/i><\/a>"
+              "title1": "<h4>WHY WE</h4>",
+              "title1des": "<p>Avon comes with easy-to-use interface and outstanding support. You can implement your own design. You can easily change the store's appearance as per your requirements using our ready sections and options available.</p>",
+              "title2": "<h4>OUR VISION</h4>",
+              "title2des": "<p>Vestibulum ultricies aliquam convallis. Maecenas ut tellus mi. Proin tincidunt, lectus eu volutpat mattis, ante metus lacinia tellus, vitae condimentum nulla enim bibendum nibh. Praesent turpis risus, interdum nec venenatis id, pretium sit amet purus. Interdum et malesuada fames ac ante ipsum primis in faucibus.</p>",
+              "title3": "<h4>OUR MISSION</h4>",
+              "title3des": "<p>Vestibulum ultricies aliquam convallis. Maecenas ut tellus mi. Proin tincidunt, lectus eu volutpat mattis, ante metus lacinia tellus, vitae condimentum nulla enim bibendum nibh. Praesent turpis risus, interdum nec venenatis id, pretium sit amet purus. Interdum et malesuada fames ac ante ipsum primis in faucibus.</p>",
+              "title4": "<h4>CONTACT US</h4>",
+              "title4des": "<p><strong>55 Gallaxy Enque,</strong><br/>2568 steet, 23568 NY</p><p><strong>Phone</strong> : (440) 000 000 0000 <br/><strong>Email</strong>: sales@yousite.com</p>",
+              "title5": "<h4>OUR TEAM</h4>",
+              "team1bio": "<p><strong>STIVE SMITH</strong></p>\n<p>FOUNDER & CEO</p>",
+              "socialurl1": "<a href=\"#\"><i class=\"ad ad-facebook-f\"></i></a>\n<a href=\"#\"><i class=\"ad ad-pinterest-p\"></i></a>\n<a href=\"#\"><i class=\"ad ad-twitter \"></i></a>",
+              "team2bio": "<p><strong>STIVE SMITH</strong></p>\n<p>FOUNDER & CEO</p>",
+              "socialurl2": "<a href=\"#\"><i class=\"ad ad-facebook-f\"></i></a>\n<a href=\"#\"><i class=\"ad ad-pinterest-p\"></i></a>\n<a href=\"#\"><i class=\"ad ad-twitter \"></i></a>",
+              "team3bio": "<p><strong>STIVE SMITH</strong></p>\n<p>FOUNDER & CEO</p>",
+              "socialurl3": "<a href=\"#\"><i class=\"ad ad-facebook-f\"></i></a>\n<a href=\"#\"><i class=\"ad ad-pinterest-p\"></i></a>\n<a href=\"#\"><i class=\"ad ad-twitter \"></i></a>"
             }
           }
         },
@@ -2329,7 +2336,7 @@
           "1590669262380"
         ],
         "settings": {
-          "top-text": "<p>Quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.<\/p>",
+          "top-text": "<p>Quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>",
           "pagestyle": "style2",
           "btn-size-desk": "btn-sm",
           "btn-size-mob": "mob-btn-sm"
@@ -2439,7 +2446,7 @@
             "type": "lookbook1",
             "settings": {
               "image": "",
-              "url": "shopify:\/\/collections\/accesories",
+              "url": "shopify://collections/accesories",
               "title": "dfsds",
               "title2": "sds",
               "width": "50%",
@@ -2465,7 +2472,7 @@
             "type": "lookbook1",
             "settings": {
               "image": "",
-              "url": "shopify:\/\/collections\/accesories",
+              "url": "shopify://collections/accesories",
               "title": "sds",
               "title2": "dsd",
               "width": "25%",
@@ -2578,9 +2585,9 @@
           "162954047516b006d4-0": {
             "type": "image",
             "settings": {
-              "image": "shopify:\/\/shop_images\/banner_CANDyCATz_SHOPIFY-landingzzz.jpg",
-              "mb_image": "shopify:\/\/shop_images\/banner_CANDyCATz_SHOPIFY-landing-mobile.gif",
-              "link": "shopify:\/\/collections\/full-bodysuits",
+              "image": "shopify://shop_images/banner_CANDyCATz_SHOPIFY-landingzzz.jpg",
+              "mb_image": "shopify://shop_images/banner_CANDyCATz_SHOPIFY-landing-mobile.gif",
+              "link": "shopify://collections/full-bodysuits",
               "newTab": false
             }
           },
@@ -2615,8 +2622,8 @@
           "163065425019e6986e-1": {
             "type": "image",
             "settings": {
-              "image": "shopify:\/\/shop_images\/2.png",
-              "imgurl": "https:\/\/candycatz.com\/collections\/catsuits-costumes",
+              "image": "shopify://shop_images/2.png",
+              "imgurl": "https://candycatz.com/collections/catsuits-costumes",
               "width": "50%",
               "alignment": "center"
             }
@@ -2624,8 +2631,8 @@
           "74903de4-ebdb-4b0f-aaf8-209e460abb4a": {
             "type": "image",
             "settings": {
-              "image": "shopify:\/\/shop_images\/1.png",
-              "imgurl": "shopify:\/\/collections\/all-robot-prints",
+              "image": "shopify://shop_images/1.png",
+              "imgurl": "shopify://collections/all-robot-prints",
               "width": "50%",
               "alignment": "center"
             }
@@ -2658,8 +2665,8 @@
           "163065510357a0858b-1": {
             "type": "image",
             "settings": {
-              "image": "shopify:\/\/shop_images\/4.png",
-              "imgurl": "shopify:\/\/collections\/sets",
+              "image": "shopify://shop_images/4.png",
+              "imgurl": "shopify://collections/sets",
               "width": "50%",
               "alignment": "middle-left"
             }
@@ -2667,8 +2674,8 @@
           "688a5d9d-16b9-4bb7-8314-03447a71c15e": {
             "type": "image",
             "settings": {
-              "image": "shopify:\/\/shop_images\/3.png",
-              "imgurl": "shopify:\/\/collections\/all-animal-prints",
+              "image": "shopify://shop_images/3.png",
+              "imgurl": "shopify://collections/all-animal-prints",
               "width": "50%",
               "alignment": "center"
             }
@@ -2714,8 +2721,8 @@
           "b7edf9b5-f720-4145-bac3-a7af06a79ad6": {
             "type": "image",
             "settings": {
-              "image": "shopify:\/\/shop_images\/Best_Woman_s.png",
-              "imgurl": "shopify:\/\/collections\/best-womens",
+              "image": "shopify://shop_images/Best_Woman_s.png",
+              "imgurl": "shopify://collections/best-womens",
               "width": "50%",
               "alignment": "center"
             }
@@ -2723,8 +2730,8 @@
           "ee435934-f4f1-4018-8261-5c812defffaa": {
             "type": "image",
             "settings": {
-              "image": "shopify:\/\/shop_images\/Best_Man_s.png",
-              "imgurl": "shopify:\/\/collections\/male-most-wanted",
+              "image": "shopify://shop_images/Best_Man_s.png",
+              "imgurl": "shopify://collections/male-most-wanted",
               "width": "50%",
               "alignment": "center"
             }
@@ -2732,8 +2739,8 @@
           "fac33d23-fac1-403c-aaad-85facbb413d5": {
             "type": "image",
             "settings": {
-              "image": "shopify:\/\/shop_images\/Cyber_1.png",
-              "imgurl": "shopify:\/\/collections\/cyber",
+              "image": "shopify://shop_images/Cyber_1.png",
+              "imgurl": "shopify://collections/cyber",
               "width": "50%",
               "alignment": "center"
             }
@@ -2741,8 +2748,8 @@
           "8f0531b8-d53d-40ca-8bcd-28e9d3a21961": {
             "type": "image",
             "settings": {
-              "image": "shopify:\/\/shop_images\/Neon_Faves.png",
-              "imgurl": "shopify:\/\/collections\/uv-bodysuits",
+              "image": "shopify://shop_images/Neon_Faves.png",
+              "imgurl": "shopify://collections/uv-bodysuits",
               "width": "50%",
               "alignment": "center"
             }
@@ -2751,8 +2758,8 @@
             "type": "image",
             "disabled": true,
             "settings": {
-              "image": "shopify:\/\/shop_images\/Fairy.png",
-              "imgurl": "shopify:\/\/collections\/fairy",
+              "image": "shopify://shop_images/Fairy.png",
+              "imgurl": "shopify://collections/fairy",
               "width": "50%",
               "alignment": "center"
             }
@@ -2761,8 +2768,8 @@
             "type": "image",
             "disabled": true,
             "settings": {
-              "image": "shopify:\/\/shop_images\/Witch.png",
-              "imgurl": "shopify:\/\/collections\/witches",
+              "image": "shopify://shop_images/Witch.png",
+              "imgurl": "shopify://collections/witches",
               "width": "50%",
               "alignment": "center"
             }
@@ -2798,9 +2805,9 @@
           "40694e75-4e5c-4716-ba4a-47a01e8a0a9b": {
             "type": "image",
             "settings": {
-              "image": "shopify:\/\/shop_images\/XTRABOGODesktopBanner_2.jpg",
-              "mb_image": "shopify:\/\/shop_images\/XTRABOGOMobileBanner_3.jpg",
-              "link": "shopify:\/\/collections\/shop-all",
+              "image": "shopify://shop_images/XTRABOGODesktopBanner_2.jpg",
+              "mb_image": "shopify://shop_images/XTRABOGOMobileBanner_3.jpg",
+              "link": "shopify://collections/shop-all",
               "newTab": false
             }
           },
@@ -2808,9 +2815,9 @@
             "type": "image",
             "disabled": true,
             "settings": {
-              "image": "shopify:\/\/shop_images\/desert-desktop-banner.png",
-              "mb_image": "shopify:\/\/shop_images\/desert-mobile-4.png",
-              "link": "https:\/\/candycatz.com\/collections\/whats-new",
+              "image": "shopify://shop_images/desert-desktop-banner.png",
+              "mb_image": "shopify://shop_images/desert-mobile-4.png",
+              "link": "https://candycatz.com/collections/whats-new",
               "newTab": false
             }
           },
@@ -2818,9 +2825,9 @@
             "type": "image",
             "disabled": true,
             "settings": {
-              "image": "shopify:\/\/shop_images\/CC_Banner_Main_END_OF_SZN__Phoenix_1.png",
-              "mb_image": "shopify:\/\/shop_images\/CC_Banner_MainMobile_END_OF_SZN__Phoenix_1.png",
-              "link": "shopify:\/\/collections\/shop-all",
+              "image": "shopify://shop_images/CC_Banner_Main_END_OF_SZN__Phoenix_1.png",
+              "mb_image": "shopify://shop_images/CC_Banner_MainMobile_END_OF_SZN__Phoenix_1.png",
+              "link": "shopify://collections/shop-all",
               "newTab": false
             }
           }
@@ -2918,16 +2925,14 @@
     ],
     "blocks": {
       "855628211100114053": {
-        "type": "shopify:\/\/apps\/klaviyo-email-marketing-sms\/blocks\/klaviyo-onsite-embed\/2632fe16-c075-4321-a88b-50b567f42507",
+        "type": "shopify://apps/klaviyo-email-marketing-sms/blocks/klaviyo-onsite-embed/2632fe16-c075-4321-a88b-50b567f42507",
         "disabled": false,
-        "settings": {
-        }
+        "settings": {}
       },
       "7878088468538493966": {
-        "type": "shopify:\/\/apps\/wisepops-smart-popups-bars\/blocks\/app-embed\/e7d7a4f7-0df4-4073-9375-5f36db513952",
+        "type": "shopify://apps/wisepops-smart-popups-bars/blocks/app-embed/e7d7a4f7-0df4-4073-9375-5f36db513952",
         "disabled": false,
-        "settings": {
-        }
+        "settings": {}
       }
     }
   },
@@ -2958,39 +2963,33 @@
       "sections": {
         "hero": {
           "type": "hero",
-          "settings": {
-          }
+          "settings": {}
         },
         "slideshow": {
           "type": "slideshow",
           "blocks": {
             "slideshow-0": {
               "type": "image",
-              "settings": {
-              }
+              "settings": {}
             },
             "slideshow-1": {
               "type": "image",
-              "settings": {
-              }
+              "settings": {}
             }
           },
           "block_order": [
             "slideshow-0",
             "slideshow-1"
           ],
-          "settings": {
-          }
+          "settings": {}
         },
         "feature-row": {
           "type": "feature-row",
-          "settings": {
-          }
+          "settings": {}
         },
         "footer": {
           "type": "footer",
-          "settings": {
-          }
+          "settings": {}
         }
       },
       "content_for_index": [
